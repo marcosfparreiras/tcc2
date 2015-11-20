@@ -1,0 +1,39 @@
+%
+% Documento: Trabalhos Relacionados
+%
+
+\chapter{Trabalhos Relacionados}
+
+Na literatura, diversos são os exemplos de sistemas não lineares para os quais se desenvolvem diferentes tipos de controladores. Dentre estes tipos, encontramos os PD (Proporcional-Derivativo), PID (Proporcional-Integral-Derivativo), LQ (Linear-Quadrático), Fuzzy e ANFIS dentre outros sendo que este último tem se mostrado bastante presente para tentar atuar sobre diferentes tipos de sistemas.
+%Controle Adaptativo L1
+
+A grande quantidade de materiais propondo a implementação de controladores neuro-fuzzy se deve, em parte, ao fato de geralmente, para efetuar tal controle, não ser necessário se fazer uma modelagem matemática aprofundada do sistema que, em diversos casos, é de grande complexidade e, por isso, demandaria um grande esforço sendo que em muitos casos os resultados não seriam tão bons quanto os desejados além de oferecer ainda uma boa robustez ao controle.
+
+Além do próprio controle de estabilidade de helicópteros quadrotores, podem-se encontrar exemplos de diversos sistemas que implementam controladores neuro-fuzzy. É o caso da implementação de um controlador para \textit{see and avoid\footnote{Ver e evitar, tradução nossa}} (referente ao desvio de ocasionais obstáculos) de um \textit{drone}, como se pode encontrar em \citeonline{Olivares-Mendez2012}.
+
+Já \citeonline{Guo2003}, propõem a implementação de um controlador neuro-fuzzy para controlar a estabilidade sobre o balanço de um barco. Os autores mostraram, ainda, que o controlador neuro-fuzzy obteve melhor resultado do que um controlador PID, chegando à conclusão de que controladores neuro-fuzzy são promissores para efetuar tal controle.
+
+A grande gama de opções de controle sobre quadrotores pode ser dividida em dois grupos principais: o controle \textit{tradicional} e o controle \textit{inteligente}. O primeiro diz respeito ao uso de técnicas consolidadas para controle baseado na atuação sobre eles a partir do conhecimento de sua modelagem, ao passo que o segundo se refere às técnicas de controle que envolvem componentes de Inteligência Computacional, agregando, por exemplo, representação de estados através de variáveis linguísticas e capacidade de aprendizagem.
+
+%\section{Controle de Estabilidade de um Pêndulo Invertido}
+%\label{sec:trab-rel-pendulo-invetido}
+%
+%\input{./02-elementos-textuais/trab-relacionados-pendulo}
+%\subsection{Métodos de Controle Tradicional de Helicópteros Quadrotores}
+%\label{sec:trab-rel-quadrotores-sub-trad}
+\section{Controle Tradicional de Quadrotores}
+\label{sec:trab-rel-tradicional}
+
+\input{./02-elementos-textuais/trab-relacionados-quadrotor-tradicional}
+
+%\subsection{Métodos de Controle Inteligente de Helicópteros Quadrotores}
+%\label{sec:trab-rel-quadrotores-sub-ia}
+\section{Controle Inteligente de Quadrotores}
+\label{sec:trab-rel-inteligenge}
+
+\input{./02-elementos-textuais/trab-relacionados-quadrotor-inteligente}
+
+%\section{Controle de Estabilidade de Helicópteros Quadrotores}
+%\label{sec:trab-rel-quadrotores}
+%
+%Há também inúmeros trabalhos relacionados ao controle de estabilidade de quadrotores a partir dos mais diversos métodos. Os trabalhos propõem controladores usando métodos tradicionais de controle (e.g.\ PD, PID, LQR), métodos de Inteligência Artificial/ Inteligência Computacional (e.g.\ Fuzzy, Neuro-Fuzzy, PSO) ou, ainda, métodos híbridos, combinando elementos do controle tradicional às técnicas de controle inteligente.

@@ -1,0 +1,34 @@
+%
+% Documento: Conclusão
+%
+
+\chapter{Conclusão}
+\label{chap:conclusao}
+
+Ao longo deste trabalho, discorreu-se sobre o crescente uso de estratégias da Inteligência Computacional para implementar controladores de sistemas não lineares. Além disto, como foi mostrado pelos experimentos realizados, o uso de controladores devidamente projetados é fundamental para fazer com que esses sistemas instáveis atuem da forma planejada e possam ser estabilizados.
+
+No contexto deste trabalho, o sistema controlado é um quadrotor e as variáveis são referentes à sua atitude e altitude, representando portanto um controle multivariável. As alternativas propostas como controladores foram o fuzzy e o neuro-fuzzy. A opção pelo primeiro se deveu ao fato de ele permitir a modelagem a partir de variáveis e termos linguísticos além de acrescer robustez ao sistema. Já a opção pelo segundo, neuro-fuzzy, foi devido ao fato de este agregar as características de RNAs aos sistemas fuzzy, possuindo um poder de generalização e aprendizado capaz de melhorar sua performance.
+
+De fato, os resultados mostram que o controlador neuro-fuzzy realmente obteve melhor desempenho. No controle de altitude, reduziu o tempo de convergência em 29\% e a variação do sistema em 31\% além de eliminar a sobrelevação apresentada pelo fuzzy. O controle neuro-fuzzy de atitude também apresentou melhoras, apesar de não tão significativas quanto essas: reduziu o tempo de convergência em 2\% e a variação do sistema em 13\%.
+
+Além disto, num teste para verificar a robustez dos controladores, a massa do sistema foi acrescida em 117\%, passando de 2 kg para 5 kg. Neste novo contexto, o controlador de atitude neuro-fuzzy mais uma vez foi superior ao fuzzy, reduzindo o tempo de convergência em 3\% e da variação em 14\%. Já no controle de altitude, o único fator melhorado pelo neuro-fuzzy foi a variação do sistema, sendo reduzida em 20\%, ao passo que seu tempo de convergência cresceu 57\%, além de ter sido inserida uma sobrelevação na resposta.
+
+Apesar das diferenças de desempenho, os controladores fuzzy e neuro-fuzzy tanto para atitude quanto para altitude do sistema foram capazes de estabilizá-lo, mesmo quando submetido a uma variação substancial de parâmetros, que foi representada pelo aumento da massa em mais de 100\%, mostrando assim a robustez intrínseca a ambos os controladores.
+
+%tendo em vista que, em praticamente todos os casos testados, foi ele que ofereceu menor perturbação do sistema, menor sobrelevação, e melhor tempo de convergência embora ambos os controladores tenham se mostrado eficientes, estabilizando o sistema em todos os casos testados e permitindo que, após perturbações, possa-se retornar ao estado de equilíbrio, com o drone estagnado na posição horizontal, sem nenhum tipo de movimento latitudinal ou angular. Além disto mostrou-se que os controladores conferem robustez ao sistema, permitindo que mesmo para casos extremos, como foi simulado pelo aumento significativo de carga, possa-se alcançar a estabilidade.
+
+%De fato, os resultados mostram que o controlador neuro-fuzzy realmente obteve melhor desempenho tendo em vista que, em praticamente todos os casos testados, foi ele que ofereceu menor perturbação do sistema, menor sobrelevação, e melhor tempo de convergência embora ambos os controladores tenham se mostrado eficientes, estabilizando o sistema em todos os casos testados e permitindo que, após perturbações, possa-se retornar ao estado de equilíbrio, com o drone estagnado na posição horizontal, sem nenhum tipo de movimento latitudinal ou angular. Além disto mostrou-se que os controladores conferem robustez ao sistema, permitindo que mesmo para casos extremos, como foi simulado pelo aumento significativo de carga, possa-se alcançar a estabilidade.
+
+Desta forma, mostra-se que se podem usar técnicas de IC para controlar, de forma robusta e eficiente, sistemas não-lineares complexos e, além disso, que controladores neuro-fuzzy podem ser utilizados para melhorar o desempenho de controladores fuzzy apesar de, em algumas situações, piorar a resposta se comparado a estes.
+
+\section{Trabalhos futuros}
+\label{sec:conclusao-trabalhosFuturos}
+
+Os resultados obtidos neste trabalho abrem espaço para  se projetarem controladores equivalentes aos construídos ao longo dele para controlar um quadrotor real, extrapolando o cenário de simulações.
+
+
+%A escolha de projetar controladores neuro-fuzzy foi baseada na suposição de que, devido à sua capacidade de aprendizado e generalização, poderiam melhorar a resposta obtida pelos controladores Fuzzy. De fato, isto foi o que ocorreu em dois dos três casos observados.
+%
+%Todos os controladores projetados alcançaram os resultados esperados, atuando de forma a, de fato, estabilizar a atitude (variáveis $\phi$ e $\theta$) e altitude (variável $z$) do sistema. O uso do controlador Neuro-Fuzzy sobre a variável $\phi$ aumentou a sobrelevação em quase quatro vezes apesar de não ter afetado de forma considerável no tempo de assentamento. Já sobre as variáveis $\theta$ e $z$, o controlador Neuro-Fuzzy apresentou uma ligeira redução na sobrelevação do sistema e também no tempo de assentamento.
+%
+%Estes resultados indicam que as características apresentadas pelos controladores Neuro-Fuzzy podem realmente melhorar o desempenho de sistemas que possuem controladores Fuzzy. Entretanto, os resultados também mostram que esta melhora não é observada em todos os casos e que um controlador Neuro-Fuzzy pode também levar à piora num controle.

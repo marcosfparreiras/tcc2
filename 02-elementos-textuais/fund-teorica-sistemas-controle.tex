@@ -1,0 +1,46 @@
+%Professor, a seção de Sistemas de Controle ainda não finalizada e, portanto, seu conteúdo não é exibido aqui.
+Um sistema de controle é, segundo \citeonline[p.~2]{Dorf2011}, uma interconexão de componentes formando uma configuração de sistema que vai fornecer uma resposta desejada. Todo sistema de controle tem, como objetivo, atuar sobre um determinado processo, o qual pode ser representado por um bloco que representa a relação entre entrada e saída do sistema, como mostrado na Figura \ref{fig:process}.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama representando um processo}
+    \includegraphics[width=0.7\textwidth]{./04-figuras/fund_teorica/process}
+    \fonte{Adaptado de \citeonline[p.~2]{Dorf2011}}
+    \label{fig:process}
+\end{figure}
+
+O controle sobre um processo pode assumir duas formas distintas: malha aberta ou malha fechada sendo que um sistema de controle em malha aberta é composto, além do processo, por um controlador e um atuador para se obter a resposta desejada sem o uso de realimentação \cite[p.~2]{Dorf2011}. Um exemplo de sistema deste tipo é mostrado na Figura \ref{fig:open_loop_control_system}.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama representando um sistema de controle em malha aberta}
+    \includegraphics[width=0.95\textwidth]{./04-figuras/fund_teorica/open_loop_control_system}
+    \fonte{Adaptado de \citeonline[p.~2]{Dorf2011}}
+    \label{fig:open_loop_control_system}
+\end{figure}
+
+Em oposição a um sistema de controle em malha aberta, um em malha fechada encorpora, além dos componentes que aquele inclui, uma medição da saída atual para ser comparada com a saída desejada para o processo. Um exemplo de um sistema de controle em malha fechada simples é mostrado na Figura \ref{fig:closed_loop_control_system}. Os sistemas em malha fechada possuem várias vantagens sobre os em malha aberta como, por exemplo, a capacidade de rejeitar distúrbios externos e melhorar a atenuação de ruídos nas medições, componentes estes que são inevitáveis em aplicações no mundo real \cite[p.~3]{Dorf2011}.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama representando um sistema de controle em malha fechada}
+    \includegraphics[width=0.95\textwidth]{./04-figuras/fund_teorica/closed_loop_control_system}
+    \fonte{Adaptado de \citeonline[p.~3]{Dorf2011}}
+    \label{fig:closed_loop_control_system}
+\end{figure}
+
+Como já foi visto, um processo representa a relação entre a entrada e a saída de um sistema sendo que há diferentes formas de fazê-lo. As próximas seções discutem as principais delas: as funções de transferência e a representação no espaço de estados.
+
+\subsection{Funções de Transferência}
+\label{subsec:fundamentacaoTeorica-tfs}
+
+\input{./02-elementos-textuais/fund-teorica-sistemas-controle-tfs}
+
+\subsection{Espaço de Estados}
+\label{subsec:fundamentacaoTeorica-ss}
+
+\input{./02-elementos-textuais/fund-teorica-sistemas-controle-ss}
+
+%No contexto deste trabalho, utilizou-se um sistema de controle em malha fechada no qual o processo a ser controlado diz respeito a um quadrotor. Além disto, os controladores utilizados foram de tipos bastante específicos: fuzzy e neuro-fuzzy, temas que são tratados nas próximas seções.
+
+%Desacoplamento: Dorf pag 182 do pdf

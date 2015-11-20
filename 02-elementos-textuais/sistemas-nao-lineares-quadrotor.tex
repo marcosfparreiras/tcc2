@@ -1,0 +1,53 @@
+Como definido no Capítulo \ref{chap:introducao}, um quadrotor é uma aeronave cuja propulsão é obtida a partir do uso de quatro rotores e um diagrama o representando é mostrado na Figura \ref{fig:drone_diagram}. 
+
+%\begin{figure}[!htb]
+%    \centering
+%    \caption{Diagrama de um quadrotor}
+%    \includegraphics[width=0.6\textwidth]{./04-figuras/drone_diagram/drone_gray_separate1_white}
+%    \fonte{Adaptado de \citeonline[p.~1]{Ariffanan2014}}
+%    \label{fig:drone_diagram}
+%\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama de um quadrotor}
+%    \includegraphics[width=0.6\textwidth]{./04-figuras/drone_diagram/drone_ref19_black_white}
+    \includegraphics[width=0.7\textwidth]{./04-figuras/drone_diagram/drone_test_sep-1}
+    \fonte{Adaptado de \citeonline{Gao2014Stability}}
+    \label{fig:drone_diagram}
+\end{figure}
+
+Neste diagrama, $x$, $y$ e $z$ indicam a orientação dos eixos, $F_1$, $F_2$, $F_3$ e $F_4$ são as forças geradas pela propulsão de cada um dos motores. As variáveis $\phi$, $\theta$, e $\psi$ são os ângulos de rotação do quadricóptero em relação aos eixos $x$, $y$ e $z$ respectivamente. Estes ângulos são também chamados ângulos de \textit{roll} (arfagem), \textit{pitch} (rolamento) e \textit{yaw} (guinada), respectivamente. Além disto, o diagrama mostra ainda o sentido de rotação de cada um dos quatro rotores. Como se pode ver, os rotores dispostos sobre um mesmo eixo possuem um mesmo sentido de rotação. Desta forma, os rotores 1 e 3 (dispostos sobre o eixo $x$), giram no sentido horário. Já os rotores 2 e 4 (dispostos sobre o eixo $y$) giram no sentido anti-horário. Esta disposição dos rotores permite que os empuxos horizontais se anulem, possibilitando a estabilidade do quadricóptero quando submetido a uma ação de controle devida \cite[p.~1]{Ariffanan2014}.
+
+A estabilidade de um quadrotor, entretanto, assume mais de uma forma, sendo dividida em dois aspectos principais: altitude e atitude. O primeiro diz respeito ao posicionamento do quadrotor sobre o eixo $z$ e seu controle é necessário tanto para possibilitar que ele se mantenha num estado estacionário quanto para fazer movimentações no plano XY numa altitude fixa, o que pode ser crucial se ele estiver sendo operado num ambiente limitado inferior e/ou superiormente por alguma espécie de barreira. Já o segundo aspecto, a atitude, se refere à estabilidade angular do quadrotor, permitindo que sua orientação, representada pelos ângulos $\phi$, $\theta$, e $\psi$ seja controlada.
+
+Uma vez descrito o comportamento geral do sistema, pode-se partir para a sua modelagem matemática. A modelagem retratada é a que foi desenvolvida por \citeonline{Balas2007} e é representada pela Figura \ref{fig:diagrama-quadrotor-balas}
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama do sistema representando um quadrotor modelado por \citeonline{Balas2007}}
+    \includegraphics[width=1\textwidth]{./04-figuras/sistemas-nao-lineares/diagrama-quadrotor}
+    \fonte{\citeonline[p.~49]{Balas2007}}
+    \label{fig:diagrama-quadrotor-balas}
+\end{figure}
+
+\subsection{Modelagem Matemática}
+\label{subsec:dinamica-rotores}
+
+\input{./02-elementos-textuais/sistemas-nao-lineares-quadrotor-modelagem}
+
+\subsection{Desacoplamento das Entradas}
+\label{subsec:desacoplamento}
+
+\input{./02-elementos-textuais/sistemas-nao-lineares-quadrotor-desacoplamento}
+
+%\subsection{Funções de Transferência}
+%\label{subsec:quadrotor-tfs}
+%
+%\input{./02-elementos-textuais/sistemas-nao-lineares-quadrotor-tfs}
+
+
+\subsection{Representação no Espaço de Estados}
+\label{subsec:quadrotor-ss}
+
+\input{./02-elementos-textuais/sistemas-nao-lineares-quadrotor-ss}

@@ -1,0 +1,30 @@
+A partir da modelagem feita e já aplicando o desacoplamento implementado, o comportamento geral do quadrotor pode ser representado a partir de três funções de transferência distintas: uma sendo referente ao empuxo vertical; uma segunda, aos momentos de \textit{roll} e \textit{pitch}; e uma terceira, ao momento de \textit{yaw}.
+
+Para se chegar a essas funções de transferência, o primeiro aspecto a ser considerado é que a relação entre a tensão e o torque é dado por uma aproximação feita a partir de \cite[p.~25]{Balas2007}:
+\begin{equation}
+H(s)=\frac{K}{1+\tau s}
+\end{equation}
+em que $\tau$ é uma constante de tempo $\tau = 0,314$ e que $K$ é o ganho CC do rotor definido como $K=0.045$N.m/V para exemplificar o sistema.
+
+Desta forma, tem-se:
+\begin{equation}
+\frac{u_4}{V_1-V_2+V_3-V_4} = \frac{0,045}{0,314s + 1}
+\end{equation}
+
+%Assumindo um quadricóptero com massa $m$ igual a 2,354 g e uma aceleração $g$ igual a 9,81 N.
+A partir dessas relações, a função de transferência obtida por \citeonline[p.~35]{Balas2007} para representar o empuxo vertical gerado pelos quatro rotores do quadrotor foi:
+\begin{equation}
+H(s) = \frac{u_1}{V_1+V_2+V_3-V_4} = \frac{2,105s-0,0425}{0,4895s^2+1,873s+1} N/V
+\end{equation}
+
+Já a função de transferência obtida para representar os momentos de \textit{roll} e de \textit{pitch} foi \cite[p.~35]{Balas2007}:
+\begin{equation}
+H(s) = \frac{u_2}{V_4-V_2} = \frac{u_3}{V_1-V_3} = l\frac{1,155s}{0,8696s^2+0,401s+1} Nm/V
+\end{equation}
+
+Por fim, a função de transferência obtida para representar o momento de \textit{yaw} foi \cite[p.~35]{Balas2007}:
+\begin{equation}
+H(s) =  \frac{u_4}{V_1-V_2+V_3-V_4} = \frac{0,045}{0,314s+1} Nm/V
+\end{equation}
+
+Uma forma alternativa à representação por funções de transferência é a representação no espaço de estados, que é mostrada na seção a seguir.

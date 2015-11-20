@@ -1,0 +1,39 @@
+Para obter uma resposta isolada das variáveis do sistema a partir dos sinais de entrada dele, um bloco de desacoplamento foi modelado em \cite[p.~62]{Balas2007}. Neste caso, foram considerados os acoplamentos entre $\phi$, $\theta$, $\psi$ e $u_2$, $u_3$, $u_4$, relacionados da seguinte maneira:
+\begin{align}
+u_{2_{\textunderscore decoupled}} &= cos(\psi_{0})u_2 - \frac{I_{xx}sen(\psi_{0})}{I_{yy}}u_3 = I_{xx}\ddot{\phi} \\
+u_{3_{\textunderscore decoupled}} &= \frac{sen(\psi_{0})I_{yy}}{cos(\phi_{0})I_{xx}}u_2 + \frac{cos(\psi_{0})}{cos(\phi_{0})}u_3 = I_{yy}\ddot{\theta} \\
+u_{4_{\textunderscore decoupled}} &= \frac{I_{zz}sen(\psi_0)tan(\phi_0)}{I_{xx}}u_2 + \frac{I_{zz}cos(\psi_0)tan(\phi_0)}{I_{zz}}u_3 + u_4 = I_{zz}\ddot{\psi} 
+%u_{2_{\textunderscore decoupled}} &= cos_{\psi_{0}}u_2 - \frac{I_{xx}sen_{\psi_{0}}}{I_{yy}}u_3 = I_{xx}\ddot{\phi} \\
+\end{align}
+
+Como se pode ver pelas equações, aplicando esse desacoplamento obtêm-se as variáveis $u_{2_{\textunderscore decoupled}}$, $u_{3_{\textunderscore decoupled}}$ e $u_{4_{\textunderscore decoupled}}$ relacionadas aos ângulos $\phi$, $\theta$ e $\psi$ respectivamente e considerando o momento de inércia sobre os respectivos eixos, isolando assim a resposta das diferentes variáveis do sistema.
+
+Além disso, a partir destas equações, podem-se representar essas transformações utilizando o formato matricial da seguinte maneira \cite[p.~62]{Balas2007}:
+%Nesta estrutura, $u_1$ representa o empuxo total sobre o quadricóptero, $u_2$ representa o momento de \textit{roll} (em torno do eixo $x$), $u_3$ representa o momento de \textit{pitch} (em torno do eixo $y$) e $u_4$ representa o momento de \textit{yaw} (em torno do eixo $z$). $u_{2\textunderscore decoupled}$, $u_{3\textunderscore decoupled}$ e $u_{4\textunderscore decoupled}$ são combinações de $u_2$, $u_3$ e $u_4$ de tal forma que as entradas $u_{2\textunderscore decoupled}$, $u_{3\textunderscore decoupled}$ e $u_{4\textunderscore decoupled}$ tenham as mesmas direções que os ângulos de Euler, $\phi$, $\theta$ e $\psi$, respectivamente. A relação entre estas entradas é dada, em \cite[p.~49]{Balas2007} por:
+\[
+	\begin{bmatrix}
+		u_{2} \\
+		u_{3} \\
+		u_{4}
+	\end{bmatrix} = 
+	\begin{bmatrix}
+		cos(\psi_0) & sen(\psi_0)cos_(\phi_0)\frac{I_{xx}}{I_{yy}} & 
+		0 \\
+		
+		-sen(\psi_{0})\frac{I_{yy}}{I_{xx}} &
+		cos(\psi_{0})cos(\phi_{0}) &
+		0 \\
+		
+		0 &
+		-sen(\phi_{0})\frac{I_{zz}}{I_{yy}} &
+		1
+	\end{bmatrix}
+	\begin{bmatrix}
+		u_{2\textunderscore decoupled} \\
+		u_{3\textunderscore decoupled} \\
+		u_{4\textunderscore decoupled}
+	\end{bmatrix}
+\]
+
+Após os processos de modelagem matemática do sistema e o devido desacoplamento de suas entradas, pode-se representar seu comportamento geral a partir dos espaços de estado, prática comum para descrever sistemas dinâmicos.
+%$I_{xx}$, $I_{yy}$ e $I_{zz}$ representam o momento de inércia do quadricóptero ao longo dos eixos $x$, $y$ e $z$, respectivamente.

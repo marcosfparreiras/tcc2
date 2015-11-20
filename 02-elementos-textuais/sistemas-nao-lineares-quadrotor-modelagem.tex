@@ -1,0 +1,57 @@
+O quadrotor é controlado a partir da variação da velocidade dos seus quatro rotores, que são completamente independentes entre si. Desta forma, sendo $l$ o comprimento de cada haste a partir do centro geométrico do quadrotor e considerando $v_i$ e $\tau_i$ respectivamente como o torque e o impulso do \textit{i}-ésimo rotor, podem-se considerar as entradas do sistema como sendo \cite[p.~4]{Balas2007}:
+\begin{align}
+u_1 &= \tau_1+\tau_2+\tau_3+\tau_4 \\
+u_2 &= l(\tau_3-\tau_4) \\
+u_3 &= l(\tau_1-\tau_2) \\
+u_4 &= v_1+v_2+v_3+v_4
+\end{align}
+em que $u_1$ é o impulso total, $u_2$ é o momento de \textit{roll}, $u_3$ é o momento de \textit{pitch} e $u_4$ é o momento de \textit{yaw}.
+
+Além disso, a aceleração em cada deixo pode ser representada por \cite[p.~5]{Balas2007}:
+\begin{align}
+\ddot{x} &= -\frac{sen(\theta)cos(\phi)}{m}u_1  \\
+\ddot{y} &= \frac{sen(\phi)}{m}u_1  \\
+\ddot{z} &= - \frac{cos(\theta)cos(\phi)}{m}u_1 +g
+\end{align}
+em que $\phi$ e $\theta$ são os ângulos em torno dos eixos $x$ e $y$ respectivamente, $m$ é a massa do quadrotor e $g$ é a gravidade à qual ele é submetido.
+
+Além das acelerações em cada eixo, é também necessário se definir a aceleração \textit{em torno} de cada eixo, ou seja, as acelerações angulares em torno de $x$, $y$ e $z$. Para tanto, assumindo que a estrutura do quadrotor seja rígida, sendo $I_{xx}$, $I_{yy}$ e $I_{zz}$ o momento de inércia do quadrotor ao longo dos eixos $x$, $y$ e $z$ respectivamente e considerando que os momentos de inércia ao longo de $x$ e $y$ se equivalem, as acelerações angulares podem ser representadas a partir das seguintes equações \cite[p.~6]{Balas2007}:
+\begin{align}
+\ddot{\phi} = -\dot{\psi}\dot{\theta}cos(\phi) + 
+\frac{cos(\psi)}{I_{xx}}u_2 - 
+\frac{sen(\psi)}{I_{yy}}u_3 + 
+\frac{I_{yy}-I_{zz}}{I_{xx}}(\dot{\psi}-\dot{\theta}sen(\phi))\dot{\theta}cos(\phi)
+\end{align}
+
+\begin{align}
+\begin{split}
+\ddot{\theta} = \frac{\dot{\psi}\dot{\phi}}{cos(\phi)} +
+\dot{\phi}\dot{\theta}tan(\phi) + 
+\frac{sen(\psi)}{cos(\phi)I_{xx}}u_2 &+ 
+\frac{cos(\psi)}{cos(\phi)I_{yy}}u_3 \\ 
+&-\frac{I_{yy}-I_{zz}}{I_{xx}}(\psi-\dot{\theta}sen(\phi))\frac{\dot{\phi}}{cos(\phi)}
+\end{split}
+\end{align}
+
+\begin{align}
+\begin{split}
+\ddot{\psi} = \dot{\phi}\dot{\psi}tan(\phi) +
+\frac{\dot{\phi}\dot{\theta}}{cos(\phi)} + 
+\frac{sen(\psi)tan(\phi)}{I_{xx}}u_2 &+ 
+\frac{cos(\phi)tan(\psi)}{I_{yy}}u_3 + 
+\frac{1}{I_{zz}}u_4 \\
+&-\frac{I_{yy}I_{zz}}{I_{xx}} 
+(\dot{\psi}-\dot{\theta}sen(\phi))\dot{\phi}tan(\phi)
+\end{split}
+\end{align}
+
+Por fim, deve-se relacionar a velocidade de cada rotor \textit{i} ao impulso e torque sobre ele. Esta relação é dada por \cite[p.~7]{Balas2007}:
+\begin{equation}
+%v_i = \frac{\tau_i(V_c+v_i)+0.125\rho bcR_p^4\omega_{m\textunderscore i}^3C_d}{\omega_{m\textunderscore i}}
+v_i = \tau_i(V_c+v_i)+0.125\rho bcR_p^4\omega_{m\textunderscore i}^2C_d
+\end{equation}
+sendo $v_i$ o torque sobre o rotor, $\tau_i$ o impulso atuando sobre ele, $V_c$ a velocidade vertical, $v_i$ a velocidade induzida no motor, $\rho$ a densidade do ar, $b$ o número de pás, $c$ o comprimento delas, $R_p$ o raio da hélice, $C_d$ o coeficiente de arrasto e $\omega_{m\textunderscore i}$ a velocidade angular do rotor.
+
+Após a modelagem de um sistema complexo como este, é de se desejar que se possa isolar a resposta de determinadas variáveis às entradas. Para tanto, pode-se utilizar o processo de desacoplamento de entradas.
+%A relação entre a velocidade angular em torno de cada eixo e a velocidade angular de 
+%Os quatro rotores de um quadrotor são completamente independentes entre si

@@ -1,0 +1,53 @@
+\begin{quadro}[!htb]
+    \centering
+    \caption{Regras fuzzy para modelagem do controle de atitude\label{qua:regras_fuzzy_u2_u3_mamdani}}
+    \begin{tabular}{|c|c|c|}
+    % \begin{tabular}{>{\centering\bfseries}m{1in} >{\centering}m{1in}
+        \hline
+        \textbf{{$\phi/\theta$}} & 
+        \textbf{{$\dot{\phi}/\dot{\theta}$}} &
+        \textbf{{$u_2/u_3$}} \\
+        \hline %01
+            P &
+            P &
+            N \\
+        \hline %02
+            P &
+            Z &
+            N \\
+        \hline %03
+            P &
+            N &
+            Z \\
+        \hline %04
+            N &
+            N &
+            P \\
+        \hline %05
+            N &
+            Z &
+            P \\
+        \hline %06
+            N &
+            P &
+            Z \\
+        \hline %07
+            Z &
+            Z &
+            Z \\
+        \hline %08
+            Z &
+            N &
+            P \\
+        \hline %09
+            Z &
+            P &
+            N \\
+        \hline
+    \end{tabular}
+    % \begin{TAB}(r,1cm,2cm)[5pt]{|c|c|}{|c|c|c|}% (rows,min,max)[tabcolsep]{columns}{rows}
+    %     hi & tall one    \\
+    %     hi & medium one  \\
+    %     hi & standard one\\
+    % \end{TAB}
+\end{quadro}

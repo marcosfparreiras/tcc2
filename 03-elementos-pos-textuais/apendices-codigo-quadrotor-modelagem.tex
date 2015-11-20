@@ -1,0 +1,76 @@
+\begin{lstlisting}[inputencoding=latin1]
+close all;		% Fecha todas as figuras abertas
+% Definição de parâmetros
+m=2.353598;
+g=9.81;
+Ix=0.1676;
+Iy=0.1686;
+Iz=0.29743;
+l=0.5;
+% Definição do estado inicial do posicionamento do quadrotor
+phi=0;
+theta=0;
+psi=0;
+u1=m*g;
+% Definição da representação no espaço de estados
+Amoving=[0 0 0 1 0 0 0 0 0 0 0 0 ; 
+    	0 0 0 0 1 0 0 0 0 0 0 0 ; 
+    	0 0 0 0 0 1 0 0 0 0 0 0 ;
+		0 0 0 0 0 0 0 -u1/m 0 0 0 0 ; 
+		0 0 0 0 0 0 u1/m 0 0 0 0 0 ; 
+		0 0 0 0 0 0 0 0 0 0 0 0 ;
+		0 0 0 0 0 0 0 0 0 1 0 0 ; 
+		0 0 0 0 0 0 0 0 0 0 1 0 ;
+		0 0 0 0 0 0 0 0 0 0 0 1 ;
+		0 0 0 0 0 0 0 0 0 0 0 0 ; 
+		0 0 0 0 0 0 0 0 0 0 0 0 ;
+		0 0 0 0 0 0 0 0 0 0 0 0 ];
+    
+  Bmoving=[0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		-1/m 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 cos(psi)/Ix -sin(psi)/Iy 0 ; 
+		0 sin(psi)/(cos(phi)*Ix) cos(psi)/(cos(phi)*Iy) 0 ; 
+		0 sin(psi)*tan(phi)/Ix cos(psi)*tan(phi)/Iy 1/Iz ];
+   
+Cmoving=[1 0 0 0 0 0 0 0 0 0 0 0 ; 
+		0 1 0 0 0 0 0 0 0 0 0 0 ; 
+		0 0 1 0 0 0 0 0 0 0 0 0 ; 
+		0 0 0 1 0 0 0 0 0 0 0 0 ; 
+		0 0 0 0 1 0 0 0 0 0 0 0 ; 
+		0 0 0 0 0 1 0 0 0 0 0 0 ; 
+		0 0 0 0 0 0 1 0 0 0 0 0 ; 
+		0 0 0 0 0 0 0 1 0 0 0 0 ; 
+		0 0 0 0 0 0 0 0 1 0 0 0 ; 
+		0 0 0 0 0 0 0 0 0 1 0 0 ; 
+		0 0 0 0 0 0 0 0 0 0 1 0 ; 
+		0 0 0 0 0 0 0 0 0 0 0 1 ];
+
+Dmoving=[0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ;
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ; 
+		0 0 0 0 ];
+    
+Bmoving=Bmoving*[1 0 0 0 ; 
+		0 cos(psi) sin(psi)*cos(phi)*Ix/Iy 0 ; 
+		0 -sin(psi)*Iy/Ix cos(psi)*cos(phi) 0 ; 
+		0 0 -sin(phi)*Iz/Iy 1];
+
+% Gera sistema 
+Smoving=tf(ss(Amoving,Bmoving,Cmoving,Dmoving));
+
+\end{lstlisting}

@@ -1,0 +1,78 @@
+%
+% Documento: Introdução
+%
+
+\chapter{Introdução}\label{chap:introducao}
+
+Quadricópteros ou \textit{drones} são aeronaves cuja propulsão é obtida a partir do uso de quatro rotores. Apesar de não possuir ampla aplicação comercial atualmente para transporte de pessoas, este modelo de aeronave foi um dos primeiros com rotores a obter sucesso em um voo. O primeiro teste de que se tem registro ocorreu em 1921, quando o quadricóptero De Bothezat conseguiu fazer um voo com duração de dois minutos e quarenta e cinco segundos \cite{Orsag2012}.
+
+Os quadricópteros são divididos em duas categorias principais: os do tipo \textit{Indoor} são aqueles projetados para serem utilizados em ambientes controlados\footnote{e.g.\ sem a presença de vento.}, ao passo que os \textit{Outdoor} são aqueles projetados de forma a estarem aptos à utilização mesmo em ambientes externos e, portanto, sujeitos a fatores naturais não controlados. Quadricóptero de ambas as categorias vêm sendo utilizados para diversas finalidades \cite{Rezazadeh2013}.
+
+%p2 -Aplicações:\\
+Na última década, quadricópteros vêm recebendo cada vez mais atenção devido a suas aplicações civis e relacionadas à pesquisa científica \cite{Al-Younes2008}, além do uso militar \cite{Senkul2013}. Um dos motivos para isto é o princípio de voo usado por eles. Os quadricóptero se enquadram na categoria das aeronaves VTOL (\textit{Vertical Take-Off and Landing}\footnote{Decolagem e Aterrissagem Verticais (tradução nossa).}), possuindo portanto propulsão vertical e tanto decolagem quanto aterrissagem são praticadas em baixa velocidade. Por possuir esta característica, as aeronaves desta categoria se mostram úteis nas mais diversas situações, tendo em vista que apenas uma mínima área em terra firme é exigida para permitir que elas decolem ou aterrissem, possibilitando a execução de tarefas que seriam difíceis ou até mesmo impossíveis de outra forma \cite{Rezazadeh2013}.
+
+Ainda pouco usado para transporte de pessoas ou cargas pesadas, a grande maioria das aplicações com quadricópteros envolvem modelos pequenos não tripulados para transporte de equipamentos mais leves ou mesmo para apenas obtenção de informações sobre o terreno, como em caso de aplicações militares, por exemplo. Esses quadricópteros não tripulados se enquadram na classe dos \textit{UAVs (Unmanned Aerial Vehicles)}\footnote{Veículos Aéreos não Tripulados (tradução nossa).}. Apesar da enorme variedade de aplicações, o uso deles também envolve diferentes desafios.
+
+%p3- Desafios \\
+Apesar da grande gama de possibilidades que os quadricópteros oferecem, o controle necessário para mantê-los estáticos ou em movimento no ar não é trivial, principalmente  se tratando dos modelos \textit{Outdoor}. A complexidade do controle a ser implementado deve-se ao fato de que ele deve atuar sobre mais de uma variável, caracterizando, portanto, um problema de controle multivariável. As múltiplas variáveis a serem controladas são referentes às diferentes movimentações que os quadricópteros podem realizar, que são em três dimensões. Com isto, têm-se seis variáveis de configuração do sistema: três delas são referentes à posição do quadricóptero em cada dimensão: $x$, $y$ e $z$ e as outras três representam o ângulo do quadricóptero em relação a cada um dos eixos: ao eixo $x$ é chamado de ângulo de \textit{roll} (ou de rolamento); ao eixo $y$, de ângulo de \textit{pitch} (ou de arfagem); e ao eixo $z$, de ângulo de \textit{yaw} (ou de guinada).
+
+A proposta deste trabalho é implementar diferentes controladores baseados em duas técnicas da Inteligência Computacional (IC), fuzzy e neuro-fuzzy, para permitir a estabilidade em altitude e atitude de um quadricóptero. Um controlador neuro-fuzzy vai além de um sistema baseado na lógica fuzzy puramente, tendo em vista que o primeiro alia a capacidade de aprendizado de uma RNA à teoria de conjuntos fuzzy.
+
+\section{Relevância}
+\label{sec:relevancia}
+
+Muitos dos quadricópteros disponíveis atualmente no mercado são dotados de câmeras filmadoras, para auxiliar em um controle efetuado a longa distância ou mesmo para capturar informações do local sobrevoado por eles. Desta forma, o desenvolvimento de um controlador eficaz para quadricópteros poderá possuir diferentes aplicações. Este poderia ser, por exemplo, um meio eficiente para transporte de mantimentos e/ou medicamentos para pessoas que se encontram em áreas de difícil acesso (e.g.\ após alguma catástrofe natural). Do ponto de vista militar, o uso de quadricópteros pode ser aplicado para reconhecimento aéreo de áreas de difícil ou perigoso acesso.
+
+As aplicações dos quadricópteros vão além das já alcançadas hoje pelos de pequeno porte. Segundo \citeonline{Orsag2012}, alguns modelos, como \textit{Bell Boeing Quad TiltRotor}, estão sendo projetados para operações de carga pesada. Com isto, novas possibilidades surgiriam como, por exemplo, o próprio transporte de pessoas.
+
+%\section{Objetivo Geral}
+\section{Objetivo}
+\label{sec:introducao-objetivos-gerais}
+
+Este trabalho tem, como objetivo, primeiramente contextualizar a necessidade do desenvolvimento de controladores apropriados para diferentes sistemas não lineares intrinsecamente instáveis e, então, investigar diferentes abordagens de Inteligência Computacional para controlar de forma eficiente a estabilidade de atitude e altitude de um quadricóptero.
+
+\subsection{Objetivos Específicos}
+\label{subsec:introducao-objetivos-específicos}
+
+Os objetivos específicos deste trabalho são:
+\begin{itemize}
+\item Modelar controladores fuzzy e neuro-fuzzy para a estabilização em altitude de um quadricóptero;
+\item Modelar controladores fuzzy e neuro-fuzzy para a estabilização em atitude de um quadricóptero;
+\item Comparar os resultados obtidos pelos diferentes controladores com basem em diferentes métricas quando o sistema é submetido a distúrbios:
+\begin{itemize}
+	\item Variação apresentada;
+	\item Tempo necessário para a estabilização;
+	\item Oscilação;
+	\item Sobrelevação apresentada;
+	\item Gasto enérgico apresentado pelos controladores.
+\end{itemize}
+\end{itemize}
+
+% Passar para capítulo 4 (trabalhos relacionados)
+%Este controle vem sendo objetivo de extensivas pesquisas no campo de sistemas de controle autônomos. Vários algoritmos para estabilização e controle utilizando diferentes paradigmas vêm sendo propostos. \citeonline{Bouabdallah2004} faz uma comparação entre controladores PID (Proporcional-Integral-Diferencial) e LQ (Linear-Quadrático) aplicados ao controle de quadricópteros e conclui que o controlador PID alcança resultados mais robustos. Ainda, \citeonline{Adigbli2007} mostra que o controle PID não é eficaz como controlador de rastreamento de \textit{check point}. Paralelamente às técnicas convencionais de controle, as inteligentes também têm sido alvo de diversos estudos.
+%
+%A IA (Inteligência Artificial) e a IC (Inteligência Computacional) vêm ganhando espaço na construção de controladores para quadricópteros, como é feito em \citeonline{Boudjedir2012}, em que é usada uma RNA (Rede Neural Artificial) para que o quadricóptero lide de forma eficaz contra distúrbios e turbulências, como os gerados pela presença de vento.
+
+
+
+
+%\section{Objetivos Específicos}
+%\label{sec:introducao-objetivos-especificos}
+%
+%Os objetivos específicos que se desejam alcançar neste trabalho são:
+%
+%\begin{itemize}
+%  \item Contextualização do controle de sistemas dinâmicos não lineares:
+%  \begin{itemize}
+%	\item Representação matemática do sistema de pêndulo invertido;
+%  	\item Implementação de um modelo computacional deste sistema;
+%  	\item Simulação do sistema sem ação de controle e com ação de controle;
+%  \end{itemize}
+%  \item Escolha de um modelo computacional adequado para a simulação de um quadrotor;
+%  \item Implementação do modelo computacional e realização de simulações para verificar o comportamento do quadrotor quando sujeito a perturbações;
+%  \item Projeto de controladores Fuzzy para a estabilização de atitude e altitude de um quadrotor;
+%  \item Projeto de controladores Neuro-Fuzzy a partir dos Fuzzy para os mesmos propósitos;
+%  \item Comparação entre os controladores Fuzzy e Neuro-Fuzzy.
+%\end{itemize}
+
+

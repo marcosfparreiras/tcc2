@@ -1,0 +1,37 @@
+\begin{quadro}[!htb]
+    \centering
+    \caption{Regras fuzzy para modelagem do controle de altitude\label{qua:regras_fuzzy_u1_mamdani}}
+    \begin{tabular}{|c|c|c|}
+    % \begin{tabular}{>{\centering\bfseries}m{1in} >{\centering}m{1in}
+        \hline
+        \textbf{{$z$}} & 
+        \textbf{{$\dot{z}$}} &
+        \textbf{{$u_1$}} \\
+        \hline %01
+            N &
+            - &
+            N \\
+        \hline %02
+            P &
+            - &
+            P \\
+        \hline %03
+            Z &
+            N &
+            N \\
+        \hline %04
+            Z &
+            Z &
+            Z \\
+        \hline %05
+            Z &
+            P &
+            P \\
+        \hline
+    \end{tabular}
+    % \begin{TAB}(r,1cm,2cm)[5pt]{|c|c|}{|c|c|c|}% (rows,min,max)[tabcolsep]{columns}{rows}
+    %     hi & tall one    \\
+    %     hi & medium one  \\
+    %     hi & standard one\\
+    % \end{TAB}
+\end{quadro}
