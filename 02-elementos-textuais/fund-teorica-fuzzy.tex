@@ -1,35 +1,35 @@
-A lógica fuzzy é uma alternativa à lógica convencional\footnote{lógica binária}, que permite uma abordagem diferente relacionada à pertinência de elementos a conjuntos implementando a possibilidade de se obter uma pertinência parcial para a definição desses conjuntos. A principal aplicação da lógica fuzzy são os sistemas de inferência fuzzy, tema que será abordado na seção \ref{sec:sistema_inferencai_fuzzy}. As seções \ref{sec:cojuntos_fuzzy}, \ref{sec:regras_fuzzy} e \ref{sec:raciocinio_fuzzy} referentes a conjuntos, regras e raciocínio fuzzy respectivamente tratam dos diferentes componentes utilizados nestes sistemas. 
+A lógica \textit{fuzzy} é uma alternativa à lógica convencional\footnote{lógica aristotélica.}, que permite uma abordagem diferente relacionada à pertinência de elementos a conjuntos implementando a possibilidade de se obter uma pertinência parcial para a definição desses conjuntos. A principal aplicação da lógica \textit{fuzzy} são os sistemas de inferência \textit{fuzzy}, tema que será abordado na Seção \ref{sec:sistema_inferencai_fuzzy}. As Seções \ref{sec:cojuntos_fuzzy}, \ref{sec:regras_fuzzy} e \ref{sec:raciocinio_fuzzy} referentes a conjuntos, regras e raciocínio \textit{fuzzy} respectivamente tratam dos diferentes componentes utilizados nestes sistemas. 
 %e fazendo ainda uso de variáveis e termos linguísticos 
 
-\subsection{Conjuntos Fuzzy}
+\subsection{Conjuntos \textit{Fuzzy}}
 \label{sec:cojuntos_fuzzy}
 
-Os conjunto fuzzy são os componentes elementares dos sistema de inferência fuzzy e se contrapõem àqueles definidos pela lógica tradicional, que restringe, aos valores 0 e 1, o grau de pertinência $\mu$ de um elemento $u$ a um conjunto $A$. Na lógica tradicional, este grau é definido da seguinte forma:
+Os conjunto \textit{fuzzy} são os componentes elementares dos sistema de inferência \textit{fuzzy} e se contrapõem àqueles definidos pela lógica tradicional, que restringe, aos valores 0 e 1, o grau de pertinência $\mu$ de um elemento $u$ a um conjunto $A$. Na lógica tradicional, este grau é definido da seguinte forma:
 \begin{align*}
-&\mu A(u) = 1, \mbox{ se } u \mbox{ é um elemento do conjunto } A, \mbox{ e }\\
-&\mu A(u) = 0, \mbox{ se } u \mbox{ não é um elemento do conjunto } A
+&\mu_A(u) = 1, \mbox{ se } u \mbox{ é um elemento do conjunto } A, \mbox{ e }\\
+&\mu_A(u) = 0, \mbox{ se } u \mbox{ não é um elemento do conjunto } A
 \end{align*}
 
-Com isto, ou um elemento pertence a um conjunto ou não. Já os conjuntos fuzzy permitem um grau de flexibilidade acerca do grau pertinência de cada elemento ao conjunto, sendo este grau definido por uma \textit{função de pertinência}. A definição formal de conjuntos fuzzy e funções de pertinência é dada por \citeonline[p.~14]{Jang1997} como:
+Com isto, ou um elemento pertence a um conjunto ou não. Já os conjuntos \textit{fuzzy} permitem um grau de flexibilidade acerca do grau pertinência de cada elemento ao conjunto, sendo este grau definido por uma \textit{função de pertinência}. A definição formal de conjuntos \textit{fuzzy} e funções de pertinência é dada por \citeonline[p.~14]{Jang1997} como:
 \begin{align*}
 	A = \{(x,\mu_A(x)) \vert x \in X\}
 \end{align*}
 
-Nesta definição, um conjunto fuzzy $A$ é composto pelos pares $(x,\mu_A(x))$ de cada elemento $x$ pertencente a um conjunto $X$, em que $x$ é o elemento em si e $\mu_A(x)$ é o grau de pertinência de $x$ ao conjunto $A$, que pode assumir qualquer valor entre 0 e 1, em que 0 representa a não-pertinência total do elemento ao conjunto e 1 representa a pertinência total a ele.
+Nesta definição, um conjunto \textit{fuzzy} $A$ é composto pelos pares $(x,\mu_A(x))$ de cada elemento $x$ pertencente a um conjunto $X$, em que $x$ é o elemento em si e $\mu_A(x)$ é o grau de pertinência de $x$ ao conjunto $A$, que pode assumir qualquer valor entre 0 e 1, em que 0 representa a não-pertinência total do elemento ao conjunto e 1 representa a pertinência total a ele.
 
-Como se pode perceber, a definição de um conjunto fuzzy é uma simples extensão da referente a um conjunto clássico, no qual a função de pertinência (ou função característica) apenas pode assumir os valores 0 e 1. Se uma função de pertinência $\mu_A(x)$ de um conjunto fuzzy $A$ é restrita a assumir os valores 0 ou 1, então ele é reduzido a um conjunto clássico\footnote{conjunto \textit{crisp}} \cite[p.~14]{Jang1997}.
+Como se pode perceber, a definição de um conjunto \textit{fuzzy} é uma simples extensão da referente a um conjunto clássico, no qual a função de pertinência (ou função característica) apenas pode assumir os valores 0 e 1. Se uma função de pertinência $\mu_A(x)$ de um conjunto \textit{fuzzy} $A$ é restrita a assumir os valores 0 ou 1, então ele é reduzido a um conjunto clássico \cite[p.~14]{Jang1997}.
 
-Para melhor exemplificar a definição de conjuntos fuzzy, tome como exemplo a Figura \ref{fig:fuzzy_sets_jang}. Neste caso, a variável idade (\textit{age}) é dividida em três subconjuntos fuzzy, \textit{young, middle aged} e \textit{old}\footnote{jovem, meia idade e velho, respectivamente, tradução nossa}, representados pelas funções de pertinência que os descrevem. Cada idade não precisa possuir necessariamente grau de pertinência 1 para algum conjunto e pode ainda pertencer simultaneamente a mais de um. A idade 30, por exemplo pertence ao conjunto jovem com grau de pertinência de 0,5 e também pertence ao conjunto meia idade com o mesmo grau.
+Para melhor exemplificar a definição de conjuntos \textit{fuzzy}, tome como exemplo a Figura \ref{fig:fuzzy_sets_jang}. Neste caso, a variável idade (\textit{age}) é dividida em três subconjuntos \textit{fuzzy}, \textit{young, middle aged} e \textit{old}\footnote{jovem, meia idade e velho, respectivamente (tradução nossa).}, representados pelas funções de pertinência que os descrevem. Cada idade não precisa possuir necessariamente grau de pertinência 1 para algum conjunto e pode ainda pertencer simultaneamente a mais de um. A idade 30, por exemplo pertence ao conjunto jovem com grau de pertinência de 0,5 e também pertence ao conjunto meia idade com o mesmo grau.
 
 \begin{figure}[!htb]
     \centering
-    \caption{Funções de pertinência representando três conjuntos fuzzy para a variável idade}
+    \caption{Funções de pertinência representando três conjuntos \textit{fuzzy} para a variável idade}
     \includegraphics[width=0.8\textwidth]{./04-figuras/fund_teorica/fuzzy_sets_jang}
     \fonte{\citeonline[p.~17]{Jang1997}}
     \label{fig:fuzzy_sets_jang}
 \end{figure}
 
-Além dos conjuntos fuzzy, há outro aspecto fundamental para o funcionamento desta lógica alternativa e poderosa: as regras fuzzy.
+Além dos conjuntos \textit{fuzzy}, há outro aspecto fundamental para o funcionamento desta lógica alternativa e poderosa: as regras \textit{fuzzy}.
 
 %--revisao--
 \subsection{Regras Fuzzy}

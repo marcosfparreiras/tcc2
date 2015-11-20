@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  19 NOV 2015 22:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  19 NOV 2015 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1447,7 +1447,7 @@ ate ignored
                                                   \fi \fi 
 l.3 
      <./04-figuras/fund_teorica/rna.png>] [6]
-<./04-figuras/fund_teorica/fuzzy_sets_jang.png, id=127, 538.01pt x 209.78375pt>
+<./04-figuras/fund_teorica/fuzzy_sets_jang.png, id=126, 538.01pt x 209.78375pt>
 File: ./04-figuras/fund_teorica/fuzzy_sets_jang.png Graphic file (type png)
 <use ./04-figuras/fund_teorica/fuzzy_sets_jang.png>
 Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_sets_jang.png used on 
@@ -1458,9 +1458,9 @@ input line 27.
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.47 \begin{align*}
-                    <./04-figuras/fund_teorica/fuzzy_sets_jang.png>]
-<./04-figuras/fund_teorica/fuzzy_rules_jang.png, id=144, 713.66624pt x 260.975p
+l.52 \end{align*}
+                  <./04-figuras/fund_teorica/fuzzy_sets_jang.png>]
+<./04-figuras/fund_teorica/fuzzy_rules_jang.png, id=142, 713.66624pt x 260.975p
 t>
 File: ./04-figuras/fund_teorica/fuzzy_rules_jang.png Graphic file (type png)
  <use ./04-figuras/fund_teorica/fuzzy_rules_jang.png>
@@ -1475,7 +1475,7 @@ Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_rules_jang.png used on
 l.76 
       <./04-figuras/fund_teorica/fuzzy_rules_jang.png>] [9] [10])
 (./02-elementos-textuais/fund-teorica-anfis.tex [11]
-<./04-figuras/fund_teorica/anfis.png, id=191, 739.76375pt x 508.90125pt>
+<./04-figuras/fund_teorica/anfis.png, id=190, 739.76375pt x 508.90125pt>
 File: ./04-figuras/fund_teorica/anfis.png Graphic file (type png)
 
 <use ./04-figuras/fund_teorica/anfis.png>
@@ -1487,8 +1487,8 @@ Package pdftex.def Info: ./04-figuras/fund_teorica/anfis.png used on input line
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.35 \end{align*}
-                  <./04-figuras/fund_teorica/anfis.png>] [13] [14])) [15]
+l.38 
+      <./04-figuras/fund_teorica/anfis.png>] [13] [14])) [15]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -1547,7 +1547,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 029216E3CEDBEA89B09F5FD91CF12C7C;1721.
+(rerunfilecheck)             Checksum: 271CD6D720345489D8335F16AC900C38;1721.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1555,11 +1555,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 18116 strings out of 493304
- 261955 string characters out of 6139871
- 517683 words of memory out of 5000000
- 20889 multiletter control sequences out of 15000+600000
- 43126 words of font info for 220 fonts, out of 8000000 for 9000
+ 18128 strings out of 493304
+ 262091 string characters out of 6139871
+ 517633 words of memory out of 5000000
+ 20891 multiletter control sequences out of 15000+600000
+ 45220 words of font info for 229 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,14n,42p,1301b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1576,10 +1576,10 @@ are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (19 pages, 354722 bytes).
+Output written on main.pdf (19 pages, 356502 bytes).
 PDF statistics:
- 477 PDF objects out of 1000 (max. 8388607)
- 422 compressed objects within 5 object streams
- 133 named destinations out of 1000 (max. 500000)
- 36019 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 473 PDF objects out of 1000 (max. 8388607)
+ 418 compressed objects within 5 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 36531 words of extra memory for PDF output out of 42996 (max. 10000000)
 
