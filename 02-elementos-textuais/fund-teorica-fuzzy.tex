@@ -94,19 +94,18 @@ Uma vez definidos os conjuntos, regras e raciocínio \textit{fuzzy}, pode-se mos
 \subsection{Sistema de Inferência \textit{Fuzzy}}
 \label{sec:sistema_inferencai_fuzzy}
 
-Um sistema de inferência fuzzy (FIS, do nome em inglês \textit{Fuzzy Inference System}) é uma ferramenta computacional popular e poderosa baseada nos conceitos de teoria de conjuntos fuzzy, regras fuzzy e raciocínio fuzzy. Há uma grande variedade de aplicações para sistemas de inferências fuzzy tais como controle automatizado, classificação de dados, análise de decisão, sistemas especialistas, predição de séries temporais, robótica e reconhecimento de padrões \cite[p.~73]{Jang1997}.
+Um sistema de inferência \textit{fuzzy} (FIS, do nome em inglês \textit{Fuzzy Inference System}) é uma ferramenta computacional popular e poderosa baseada nos conceitos de teoria de conjuntos \textit{fuzzy}, regras \textit{fuzzy} e raciocínio \textit{fuzzy}. Há uma grande variedade de aplicações para sistemas de inferências \textit{fuzzy} tais como controle automatizado, classificação de dados, análise de decisão, sistemas especialistas, predição de séries temporais, robótica e reconhecimento de padrões \cite[p.~73]{Jang1997}.
 
-A estrutura básica de um FIS consiste de três componentes conceituais: uma base de regras, que contém uma seleção de regras fuzzy; um dicionário (ou base de dados), que define as funções de pertinência usadas nas regras fuzzy; e o mecanismo de raciocínio, que realiza o procedimento de inferência (geralmente o raciocínio fuzzy) sobre as regras e fatos dados para obter uma saída ou conclusão razoável \cite[p.~73]{Jang1997}. Sistemas de inferência fuzzy diferentes implementam estruturas ligeiramente diferentes entre si, havendo entretanto, três tipos principais de sistemas que podem ser aplicados aos mais diversos casos.
+A estrutura básica de um FIS consiste de três componentes conceituais: uma base de regras, que contém uma seleção de regras \textit{fuzzy}; um dicionário (ou base de dados), que define as funções de pertinência usadas nas regras \textit{fuzzy}; e o mecanismo de raciocínio, que realiza o procedimento de inferência (geralmente o raciocínio \textit{fuzzy}) sobre as regras e fatos dados para obter uma saída ou conclusão razoável \cite[p.~73]{Jang1997}. Sistemas de inferência \textit{fuzzy} diferentes implementam estruturas ligeiramente diferentes entre si, havendo, dois tipos principais de sistemas que podem ser aplicados aos mais diversos casos.
 
 % corte 01
-Os três principais tipos de FIS são os Mamdani, Tsukamoto e Sugeno e a diferença entre eles reside basicamente no consequente de suas regras fuzzy \cite[p.~74]{Jang1997}.
+Os dois principais tipos de FIS são os Mamdani e Sugeno e a diferença entre eles reside basicamente no consequente de suas regras \textit{fuzzy} \cite[p.~74]{Jang1997}.
 
-No sistema de inferência fuzzy Mamdani, o consequente das regras \textit{se-então} são conjuntos fuzzy. Desta forma, um sistema de inferências fuzzy Mamdani possui regras do seguinte tipo para um sistema com duas entradas e uma saída:
+No sistema de inferência \textit{fuzzy} Mamdani, o consequente das regras \textit{se-então} são conjuntos \textit{fuzzy}. Desta forma, um sistema de inferências \textit{fuzzy} Mamdani possui regras do seguinte tipo para um sistema com duas entradas e uma saída:
 \begin{center}
 se $x$ é $A$ e $y$ é $B$, então $z$ é $C$
 \end{center}
-
-Em que $x$, $y$ e $z$ são variáveis linguísticas nos universos de discurso $X$, $Y$ e $Z$, respectivamente e $A$, $B$ e $C$ são valores (termos) linguísticos. Com isto, um exemplo de sistema de inferências fuzzy Mamdani é formado pelas seguintes regras fuzzy:
+em que $x$, $y$ e $z$ são variáveis linguísticas nos universos de discurso $X$, $Y$ e $Z$, respectivamente e $A$, $B$ e $C$ são valores (termos) linguísticos. Com isto, um exemplo de sistema de inferências \textit{fuzzy} Mamdani é formado pelas seguintes regras \textit{fuzzy}:
 \begin{align*}
 \begin{cases}
 &\mbox{Se }X  \mbox{é pequeno e } Y \mbox{é pequeno então } Z \mbox{ é muito negativo} \\
@@ -116,21 +115,11 @@ Em que $x$, $y$ e $z$ são variáveis linguísticas nos universos de discurso $X
 \end{cases}
 \end{align*}
 
-No caso do sistema de inferência fuzzy Tsukamoto, o consequente de cada regra fuzzy \textit{se-então} é representada por um conjunto fuzzy com uma função de pertinência monotônica\footnote{Uma função sempre crescente ou sempre decresente; uma função cuja derivada nunca muda de sinal}. Um exemplo de modelo fuzzy Tsukamoto de entrada única pode ser expressa como:
-\begin{align*}
-\begin{cases}
-&\mbox{Se }X  \mbox{é pequeno então } Y \mbox{ é } C_1\\
-&\mbox{Se }X  \mbox{é médio então } Y \mbox{ é } C_2\\
-&\mbox{Se }X  \mbox{é grande então } Y \mbox{ é } C_3
-\end{cases}
-\end{align*}
-
-No sistema de inferência fuzzy Sugeno, também conhecido como TSK (Takagi-Sugeno-Kang), o consequente é um função envolvendo as variáveis de entrada. Com isto, uma regra fuzzy típica de um modelo fuzzy Sugeno possui a seguinte forma:
+Já no sistema de inferência \textit{fuzzy} Sugeno, também conhecido como TSK (Takagi-Sugeno-Kang), o consequente é uma função envolvendo as variáveis de entrada. Com isto, uma regra \textit{fuzzy} típica de um modelo \textit{fuzzy} Sugeno apresenta a seguinte forma:
 \begin{center}
 se $x$ é $A$ e $y$ é $B$, então $z = f(x,y)$,
 \end{center}
-
-Em que $A$ e $B$ são conjuntos fuzzy do antecedente, enquanto $z = f(x,y)$ é uma função no consequente. Geralmente, $f(x,y)$ é uma função polinomial sobre as variáveis $x$ e $y$, mas pode ser qualquer função, contanto que seja capaz de descrever apropriadamente a saída do modelo dentro da região fuzzy especificada pelo antecedente da regra. Um exemplo de sistema de inferências fuzzy TSK com duas entradas e uma saída é formado pelas seguintes regras fuzzy:
+em que $A$ e $B$ são conjuntos \textit{fuzzy} do antecedente, enquanto $z = f(x,y)$ é uma função no consequente. Geralmente, $f(x,y)$ é uma função polinomial sobre as variáveis $x$ e $y$, mas pode ser qualquer função, contanto que seja capaz de descrever apropriadamente a saída do modelo dentro da região \textit{fuzzy} especificada pelo antecedente da regra. Um exemplo de sistema de inferências \textit{fuzzy} TSK com duas entradas e uma saída é formado pelas seguintes regras \textit{fuzzy}:
 \begin{align*}
 \begin{cases}
 &\mbox{Se }X  \mbox{é pequeno e } Y \mbox{é pequeno então } z=-x+y+1 \\
@@ -140,11 +129,4 @@ Em que $A$ e $B$ são conjuntos fuzzy do antecedente, enquanto $z = f(x,y)$ é u
 \end{cases}
 \end{align*}
 
-Esta propriedade dos sistemas de inferência fuzzy Sugeno de possuírem, como consequente, funções paramétricas que relacionam as premissas abre várias possibilidades para sua aplicação. Uma delas é implementada por uma técnica que alia o poder das RNAs ao do FIS: o sistema de inferência neuro-fuzzy.
-
-%Esta propriedade dos sistemas de inferência fuzzy Sugeno de possuírem, como consequente, uma função que relaciona as premissas abre várias possibilidades para sua aplicação. Uma delas é implementada por uma técnica que alia o poder de aprendizado e generalização das RNAs ao uso de variáveis linguísticas, definições de pertinência parciais e raciocínios aproximados da lógica fuzzy: o sistema de inferência neuro-fuzzy.
-
-% corte 01
-%Um sistema de inferência fuzzy pode tomar entradas fuzzy ou \textit{crisp}, mas as saídas que ele produz são sempre conjuntos fuzzy. Algumas vezes, é necessário se obter uma saída \textit{crisp}, principalmente quando o sistema de inferência fuzzy é usado como um controlador. Desta forma, se faz necessário um método de defuzzificação para extrair um valor \textit{crisp} que melhor represente um conjunto fuzzy.
-
-%Com entradas e saídas \textit{crisp}, um sistema de inferência fuzzy implementa um mapeamento não linear do espaço de entrada para o espaço de saída. Este mapeamento é realizado por um número de regras fuzzy \textit{se-então}, cada qual descrevendo o comportamento local do mapeamento. Em particular, o antecedente de uma regra define a região fuzzy no espaço de entrada, enquanto o consequente especifica a saída na região fuzzy \cite[p.~73]{Jang1997}.
+Esta propriedade dos sistemas de inferência \textit{fuzzy} Sugeno de possuírem, como consequente, funções paramétricas que relacionam as premissas resulta em várias possibilidades para sua aplicação. Uma delas é implementada por uma técnica que alia o poder das RNAs ao do FIS: o sistema de inferência neuro-\textit{fuzzy}.
