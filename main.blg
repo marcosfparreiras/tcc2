@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
+A level-1 auxiliary file: ./02-elementos-textuais/introducao.aux
 A level-1 auxiliary file: ./02-elementos-textuais/fund-teorica.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
@@ -25,44 +26,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 12 entries,
             6711 wiz_defined-function locations,
-            1236 strings with 10063 characters,
-and the built_in function-call counts, 4489 in all, are:
-= -- 435
-> -- 92
-< -- 5
-+ -- 80
-- -- 30
-* -- 247
-:= -- 628
-add.period$ -- 18
-call.type$ -- 9
-change.case$ -- 45
-chr.to.int$ -- 23
-cite$ -- 4
-duplicate$ -- 182
-empty$ -- 424
-format.name$ -- 130
-if$ -- 1117
+            1267 strings with 11001 characters,
+and the built_in function-call counts, 8287 in all, are:
+= -- 737
+> -- 230
+< -- 9
++ -- 132
+- -- 72
+* -- 522
+:= -- 1103
+add.period$ -- 36
+call.type$ -- 13
+change.case$ -- 92
+chr.to.int$ -- 27
+cite$ -- 8
+duplicate$ -- 364
+empty$ -- 724
+format.name$ -- 332
+if$ -- 2052
 int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 121
-newline$ -- 28
-num.names$ -- 20
-pop$ -- 133
+missing$ -- 194
+newline$ -- 45
+num.names$ -- 40
+pop$ -- 229
 preamble$ -- 1
-purify$ -- 26
+purify$ -- 43
 quote$ -- 0
-skip$ -- 377
+skip$ -- 589
 stack$ -- 1
-substring$ -- 134
-swap$ -- 77
-text.length$ -- 0
+substring$ -- 313
+swap$ -- 174
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 3
 warning$ -- 0
-while$ -- 26
+while$ -- 59
 width$ -- 0
-write$ -- 70
+write$ -- 133
