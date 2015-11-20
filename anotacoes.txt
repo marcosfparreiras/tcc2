@@ -1,0 +1,148 @@
+
+Anotações depois da defesa
+
+
+A ser corrigido:
+
+[OK] Capa
+[OK] Folha de Rosto
+[OK] Agradecimentos
+[OK] Resumo
+[OK] Abstract
+----- versão 14 -----
+
+[OK] Lista de Símbolos
+[OK] Introdução
+
+----- versão 15 -----
+
+[OK] Fundamentação Teórica 
+
+----- versão 16 - em aberto -----
+
+Trabalhos Relacionados
+Metodologia
+Desenvolvimento
+Resultados
+Conclusões
+Trabalhos Futuros
+
+
+
+v14- primeira versão revisada depois do TCC.
+	foco: revisar tudo áté final do capítulo 1 - Introdução
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------
+
+Anotações antes da defesa:
+
+
+
+Referencia: TCC1 - v00 do TCC2
+	Refazer figura 17
+	Refazer figura 19
+
+Código em uma linha:
+	{\ttfamily make}
+
+
+Código em múltiplas linhas:
+	\begin{lstlisting}
+		mamFIS = readfis('mam-filename.fis')
+		sugFIS = mam2sug(mamFIS)
+		writefis(sugFIS,'sug-filename.fis')
+	\end{lstlisting}
+
+
+Imagens: priorizar usar imagens grandes
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama de blocos do sistema de representação de um quadricóptero}
+    \includegraphics[width=0.5\textwidth]{./04-figuras/imagens/sistema_pendulo_invertido_img_grande}
+    \label{fig:teste08e9}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Diagrama de blocos do sistema de representação de um quadricóptero}
+    \includegraphics[width=0.5\textwidth]{./04-figuras/imagens/sistema_pendulo_invertido_img_media}
+    \label{fig:testev9e87}
+\end{figure}
+
+
+---------------- Versões ---------------------
+
+v00 - cópia da versão final do TCC1 (v06)
+
+v01 - inclusão apenas de folha de aprovação alterações feitas na seção de metodologia
+
+v02
+	- divisão da seção metodologia criando novos os arquivos metodologia-pendulo e metodologia-drone
+	- divisão da seção resultados criando novos os arquivos resultados-pendulo e resultados-drone
+	- edição a partir do zero da seção de resultados do drone
+		- inclui quadros com tfs parciais
+		- modelo no Simulink 
+		- subsistema do modelo no simulink
+		- sistema de malha aberta das 4 entradas
+
+		** A incluir **
+		- resposta dos sistemas em malha aberta
+		- imagem do sistema controlado (excitação de ruído)
+			- pra phi, theta e z
+		- imagem das funções de pertinência Fuzzy para cada controlador
+		- quadro de regras fuzzy para cada controlador
+		- superfície de regras para cada controlador
+		- gráficos de resposta para cada controlador
+
+
+
+v04 - primeira versão final. inclui todas as seções (mas precisa ser MUITO revista)
+
+v05 - revisão completa dos capítulos 1 e 2 do texto (focando aumento da coesão e melhor embasamento teórico)
+
+v06 - escrita do capítulo de sistemas não lineares (analogia ao pêndulo + quadrotor, com modelagem e desacoplamento)
+
+v07 - revisão do capítulo 4
+
+v08 - revisão final do capítulo 4
+	- ATENÇAO! A figura do sistema controlado para altitude está errado! Refazer figura e capturar ainda gráficos mostrando a divergência do sistema
+	- Adicionar:
+		metodologia: 
+			- controlador fuzzy foi baseado em %\cite{Maj2013}, porem simplificado (3 termos linguísticos no lugar de 5)
+			- verificar comportamento trapezoidal nos extremos (isso é usado por Maj)
+
+			- \cite{Gao2014Stability} usa 7 termos linguísticos (negativo grande, medio,pequeno ...)
+
+			-\cite{Gao2014Stability} resultados x e z melhores e y pior (pode ser bom comparar nos meus resultados tbm)
+
+
+
+
+
+---------------
+Marcador de revisão: 
+%--revisao--
+
+
+Imagens a pegar:
+
+	Diagrama do sistema controlado para u1
+
+
+
+
