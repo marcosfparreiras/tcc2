@@ -5,55 +5,23 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
-\bibitem[Al-Younes e Jarrah 2008]{Al-Younes2008}
-\abntrefinfo{Al-Younes e Jarrah}{AL-YOUNES; JARRAH}{2008}
-{AL-YOUNES, Y.; JARRAH, M. Attitude stabilization of quadrotor uav using
-  backstepping fuzzy logic \& backstepping least-mean-square controllers. In:
-  \textbf{Mechatronics and Its Applications, 2008. ISMA 2008. 5th International
-  Symposium on}. [S.l.: s.n.], 2008. p. 1--11.}
+\bibitem[Balas 2007]{Balas2007}
+\abntrefinfo{Balas}{BALAS}{2007}
+{BALAS, C.
+\textbf{{Modeling and Linear Control of a Quadrotor}}.
+Disserta\c{c}\~{a}o (Mestrado) --- Cranfield University, Reino Unido, 2007.}
 
-\bibitem[Dorf 2011]{Dorf2011}
-\abntrefinfo{Dorf}{DORF}{2011}
-{DORF, R. \textbf{Modern control systems}. 12. ed. Upper Saddle River, N.J:
-  Pearson Prentice Hall, 2011.
-ISBN 978-0136024583.}
+\bibitem[Basri et al. 2014]{Ariffanan2014}
+\abntrefinfo{Basri et al.}{BASRI et al.}{2014}
+{BASRI, M.; HUSAIN, A.; DANAPALASINGAM, K. Fuzzy supervisory backstepping
+  controller for stabilization of quadrotor unmanned aerial vehicle. In:
+  \textbf{Intelligent and Advanced Systems (ICIAS), 2014 5th International
+  Conference on}. [S.l.: s.n.], 2014. p.~1--5.}
 
-\bibitem[Haykin 1998]{Haykin1998}
-\abntrefinfo{Haykin}{HAYKIN}{1998}
-{HAYKIN, S. \textbf{{Neural Networks: A Comprehensive Foundation}}. NJ, USA:
-  Prentice Hall PTR Upper Saddle River, 1998.
-ISBN 0132733501.}
-
-\bibitem[Jang et al. 1997]{Jang1997}
-\abntrefinfo{Jang et al.}{JANG et al.}{1997}
-{JANG, J.; SUN, C.; MIZUTANI, E. \textbf{Neuro-fuzzy and Soft Computing: A
-  Computational Approach to Learning and Machine Intelligence}. [S.l.]:
-  Prentice Hall, 1997.
-ISBN 9780132610667.}
-
-\bibitem[Ogata 2010]{Ogata2010}
-\abntrefinfo{Ogata}{OGATA}{2010}
-{OGATA, K. \textbf{Modern Control Engineering}. 5. ed. [S.l.]: Prentice Hall,
-  2010.
-ISBN 978-0136156734.}
-
-\bibitem[Orsag e Bogdan 2012]{Orsag2012}
-\abntrefinfo{Orsag e Bogdan}{ORSAG; BOGDAN}{2012}
-{ORSAG, M.; BOGDAN, S. {Influence of Forward and Descent Flight on Quadrotor
-  Dynamics}.
-\textbf{Recent Advances in Aircraft Technology}, p. 141--156, 2012.}
-
-\bibitem[Rezazadeh et al. 2013]{Rezazadeh2013}
-\abntrefinfo{Rezazadeh et al.}{REZAZADEH et al.}{2013}
-{REZAZADEH, S.; ARDESTANI, M.; SADEGHI, P. Optimal attitude control of a
-  quadrotor uav using adaptive neuro-fuzzy inference system (anfis). In:
-  \textbf{Control, Instrumentation, and Automation (ICCIA), 2013 3rd
-  International Conference on}. [S.l.: s.n.], 2013. p. 219--223.}
-
-\bibitem[Senkul e Altug 2013]{Senkul2013}
-\abntrefinfo{Senkul e Altug}{SENKUL; ALTUG}{2013}
-{SENKUL, F.; ALTUG, E. Modeling and control of a novel tilt - roll rotor
-  quadrotor uav. In:  \textbf{Unmanned Aircraft Systems (ICUAS), 2013
-  International Conference on}. [S.l.: s.n.], 2013. p. 1071--1076.}
+\bibitem[Gao et al. 2014]{Gao2014Stability}
+\abntrefinfo{Gao et al.}{GAO et al.}{2014}
+{GAO, Q.; YUE, F.; HU, D. Research of stability augmentation hybrid controller
+  for quadrotor uav. In:  \textbf{Control and Decision Conference (2014 CCDC),
+  The 26th Chinese}. [S.l.: s.n.], 2014. p. 5224--5229.}
 
 \end{thebibliography}
