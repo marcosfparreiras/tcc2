@@ -18,9 +18,12 @@ A ser corrigido:
 
 [OK] Fundamentação Teórica 
 
------ versão 16 - em aberto -----
+----- versão 16 -----
 
-Trabalhos Relacionados
+[em processo] Trabalhos Relacionados
+
+----- versão 17 - em aberto -----
+
 Metodologia
 Desenvolvimento
 Resultados
