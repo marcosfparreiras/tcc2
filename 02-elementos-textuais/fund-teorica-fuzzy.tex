@@ -32,16 +32,16 @@ Para melhor exemplificar a definição de conjuntos \textit{fuzzy}, tome como ex
 Além dos conjuntos \textit{fuzzy}, há outro aspecto fundamental para o funcionamento desta lógica alternativa e poderosa: as regras \textit{fuzzy}.
 
 %--revisao--
-\subsection{Regras Fuzzy}
+\subsection{Regras \textit{Fuzzy}}
 \label{sec:regras_fuzzy}
 
-As regras fuzzy são os componentes de um sistema de inferência fuzzy responsáveis por definir as relações entre as entradas do sistema e suas saídas e assumem a forma
+As regras \textit{fuzzy} são os componentes de um sistema de inferência \textit{fuzzy} responsáveis por definir as relações entre as entradas do sistema e suas saídas e assumem a forma
 \begin{center}
 se $x$ é $A$ então $y$ é $B$
 \end{center}
 sendo ``$x$ é $A$'' denominada premissa  e ``$y$ é $B$'', consequente da regra em que $x$ e $y$ são \textit{variáveis linguísticas} de entrada e saída respectivamente  e $A$ e $B$ são os valores que elas assumem, representados por \textit{termos linguísticos}.
 
-Uma variável linguística, segundo \citeonline[p.~54]{Jang1997}, é caracterizada por uma quíntupla $(x,T(x),X,G,M)$ em que $x$ é o nome da variável; $T(x)$ é o conjunto de termos de $x$, que é o conjunto de seus valores linguísticos ou termos linguísticos; $X$ é o universo de discurso; $G$ é uma regra sintática que gera os termos em $T(x)$; e $M$ é uma regra semântica que associa a cada termo linguístico A seu respectivo $M(A)$, em que $M(A)$ denota um conjunto fuzzy em $X$.
+Uma variável linguística, segundo \citeonline[p.~54]{Jang1997}, é caracterizada por uma quíntupla $(x,T(x),X,G,M)$ em que $x$ é o nome da variável; $T(x)$ é o conjunto de termos de $x$, que é o conjunto de seus valores linguísticos ou termos linguísticos; $X$ é o universo de discurso; $G$ é uma regra sintática que gera os termos em $T(x)$; e $M$ é uma regra semântica que associa a cada termo linguístico A seu respectivo $M(A)$, em que $M(A)$ denota um conjunto \textit{fuzzy} em $X$.
 
 Para facilitar a compreensão das definições relacionadas às variáveis linguísticas, o seguinte exemplo foi dado \cite[p.~55]{Jang1997}: se \textit{idade} é interpretado como uma variável linguística, então seu conjunto de termos $T(idade)$ poderia ser dado por:
 \begin{align*}
@@ -51,7 +51,7 @@ Para facilitar a compreensão das definições relacionadas às variáveis lingu
 &\mbox{ \textit{não muito novo e não muito velho,}} \dots \},
 \end{align*}
 
-Em que cada termo em $T(idade)$ é caracterizado por um conjunto fuzzy de um universo de discurso $X = [0,100]$, como mostrado na Figura \ref{fig:fuzzy_rules_jang}. Geralmente, se diz ``idade é jovem'' para denotar a atribuição do valor linguístico jovem à variável linguística idade. A regra sintática se refere à forma como os valores linguísticos no conjunto de termos $T(idade)$ são gerados. A regra semântica define a função de pertinência de cada valor linguístico do conjunto de termos. A Figura \ref{fig:fuzzy_rules_jang} mostra algumas das funções de pertinência típicas para a variável linguística idade.
+Em que cada termo em $T(idade)$ é caracterizado por um conjunto \textit{fuzzy} de um universo de discurso $X = [0,100]$, como mostrado na Figura \ref{fig:fuzzy_rules_jang}. Geralmente, se diz ``idade é jovem'' para denotar a atribuição do valor linguístico jovem à variável linguística idade. A regra sintática se refere à forma como os valores linguísticos no conjunto de termos $T(idade)$ são gerados. A regra semântica define a função de pertinência de cada valor linguístico do conjunto de termos. A Figura \ref{fig:fuzzy_rules_jang} mostra algumas das funções de pertinência típicas para a variável linguística idade.
 
 \begin{figure}[!htb]
     \centering
@@ -61,13 +61,13 @@ Em que cada termo em $T(idade)$ é caracterizado por um conjunto fuzzy de um uni
     \label{fig:fuzzy_rules_jang}
 \end{figure}
 
-Diversas regras fuzzy fazem parte do nosso cotidiano. Exemplos possuindo a variável linguística \textit{idade} como variável linguística de entrada e saída respectivamente incluem:
+Diversas regras \textit{fuzzy} fazem parte do nosso cotidiano. Exemplos possuindo a variável linguística \textit{idade} como variável linguística de entrada e saída respectivamente incluem:
 \begin{center}
 se \textit{idade} é \textit{jovem} então \textit{energia} é \textit{alta} \\
 se \textit{sabedoria} é \textit{grande} então \textit{idade} é \textit{velha}
 \end{center}
 
-Um outro componente dos sistemas de inferência fuzzy agrega muito valor ao uso de regras fuzzy, permitindo a aplicação aproximada delas: o raciocínio fuzzy.
+Um outro componente dos sistemas de inferência \textit{fuzzy} agrega muito valor ao uso de regras \textit{fuzzy}, permitindo a aplicação aproximada delas: o raciocínio \textit{fuzzy}.
 
 \subsection{Raciocínio Fuzzy}
 \label{sec:raciocinio_fuzzy}
