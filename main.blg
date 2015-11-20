@@ -1,7 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: ./01-elementos-pre-textuais/lista-simbolos.aux
 A level-1 auxiliary file: ./02-elementos-textuais/fund-teorica.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
@@ -28,7 +27,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 8 entries,
             6711 wiz_defined-function locations,
-            1237 strings with 10109 characters,
+            1236 strings with 10063 characters,
 and the built_in function-call counts, 4489 in all, are:
 = -- 435
 > -- 92
