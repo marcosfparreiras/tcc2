@@ -57,21 +57,21 @@ Com esta arquitetura, constrói-se uma rede neuro-\textit{fuzzy} (ANFIS) que é 
 \subsection{Controladores \textit{Fuzzy} e Neuro-\textit{Fuzzy}}
 %Página 451 (Neuro-Fuzzy Control) de Jang1997
 
-Um controlador lógico fuzzy (FLC)\footnote{Do inglês, \textit{Fuzzy Logic Controller}} é um sistema de inferência fuzzy projetado especificamente para atuar como controlador de um sistemas que se deseja controlar. Este FIS portanto possui, como entradas, sinais provenientes do sistema e, como saídas, sinais de atuação sobre ele.
+Um controlador lógico fuzzy (FLC)\footnote{Do inglês, \textit{Fuzzy Logic Controller}.} é um sistema de inferência fuzzy projetado especificamente para atuar como controlador de um sistema que se deseja controlar. Este FIS portanto possui, como entradas, sinais provenientes do sistema e, como saídas, sinais de atuação sobre ele.
 
-Com o avanço dos microprocessadores e hardware, tem se criado uma diversidade ainda maior de domínios para aplicação de controladores lógicos fuzzy, que vão de eletroeletrônicos à indústria automobilística. De fato, para sistemas complexos ou mal definidos que não são facilmente sujeitados a métodos de controle convencionais, os FLCs provêm uma alternativa viável, uma vez que eles podem capturar os aspectos qualitativos aproximados do raciocínio de um humano e o processo de tomada de decisão. De qualquer forma, sem a capacidade adaptativa, a performance de um FLC se baseia exclusivamente em dois fatores: a disponibilidade de humanos com expertise e as técnicas de aquisição de conhecimento para converter esta expertise humana nas apropriadas regras fuzzy \textit{se-então} e funções de pertinência. Estes dois fatores restringem substancialmente o domínio de aplicações dos FLCs \cite[p.~451]{Jang1997}.
+Com o avanço dos microprocessadores e hardware, tem se criado uma diversidade ainda maior de domínios para aplicação de controladores lógicos fuzzy, que vão de eletroeletrônicos à indústria automobilística. De fato, para sistemas complexos ou mal definidos que não são facilmente sujeitados a métodos de controle convencionais, os FLCs proveem uma alternativa viável, uma vez que eles podem capturar os aspectos qualitativos aproximados do raciocínio de um humano e o processo de tomada de decisão. De qualquer forma, sem a capacidade adaptativa, a performance de um FLC se baseia exclusivamente em dois fatores: a disponibilidade de humanos com expertise e as técnicas de aquisição de conhecimento para converter esta expertise humana nas apropriadas regras fuzzy \textit{se-então} e funções de pertinência. Estes dois fatores restringem substancialmente o domínio de aplicações dos FLCs \cite[p.~451]{Jang1997}.
 
 Nesse contexto, o uso de controladores neuro-fuzzy passou a se mostrar muito interessante, tendo em vista que eles eliminam os dois fatores citados que restringem bastante o domínio de aplicações dos FLCs, uma vez que os sistemas ANFIS preenchem as lacunas deixadas pelos FIS, eliminando a necessidade de humanos com expertise sobre o sistema e encorporando técnicas de aquisição de conhecimento.
 
 Com isto, podem-se identificar algumas propriedades particulares aos controladores ANFIS que os tornam ótimas opções para diversos casos \cite[p.~458]{Jang1997}:
 \begin{enumerate}
-  \item Habilidade de aprendizado
-  \item Operação paralela
-  \item Representação do conhecimento estruturado
-  \item Melhor integração com outros métodos de controle
+  \item Habilidade de aprendizado;
+  \item Operação paralela;
+  \item Representação do conhecimento estruturado;
+  \item Melhor integração com outros métodos de controle.
 \end{enumerate}
 
-Como comparativo, é importante salientar que uma RNA possui as propriedades 1 e 2, mas não as 3 e 4, que são devidos à contribuição dos sistemas de inferência fuzzy \cite[p.~458]{Jang1997}. Um ANFIS, por aliar as duas técnicas, possui todas essas propriedades.
+Como comparativo, é importante salientar que uma RNA possui as propriedades 1 e 2, mas não as 3 e 4, que são devidas à contribuição dos sistemas de inferência fuzzy \cite[p.~458]{Jang1997}. Um ANFIS, por aliar as duas técnicas, possui todas essas propriedades.
 
 Ainda segundo o autor, há diversas formas diferentes de se projetar controladores neuro-fuzzy. A maioria deles são não lineares. Assim sendo, uma análise rigorosa para sistemas de controle neuro-fuzzy é difícil e continua sendo uma área desafiadora para outras investigações. Por outro lado, um controlador neuro-fuzzy geralmente contém um grande número de parâmetros, o que o torna mais versátil do que um controlador linear ao lidar com características não lineares de plantas. Desta forma, controladores neuro-fuzzy quase sempre superam controladores puramente lineares se devidamente projetados.
 
