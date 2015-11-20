@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  19 NOV 2015 23:10
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  19 NOV 2015 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1487,7 +1487,7 @@ re.1.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.46 \begin{align*}
+l.38 \begin{align*}
                     <./04-figuras/fund_teorica/anfis.png>] [13])) [14]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
@@ -1557,7 +1557,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
 Here is how much of TeX's memory you used:
  18136 strings out of 493304
  262168 string characters out of 6139871
- 517652 words of memory out of 5000000
+ 517678 words of memory out of 5000000
  20891 multiletter control sequences out of 15000+600000
  45685 words of font info for 235 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1576,7 +1576,7 @@ are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/palatino/uplri8a.pfb>
-Output written on main.pdf (18 pages, 356232 bytes).
+Output written on main.pdf (18 pages, 356469 bytes).
 PDF statistics:
  469 PDF objects out of 1000 (max. 8388607)
  415 compressed objects within 5 object streams
