@@ -20,16 +20,12 @@ A ser corrigido:
 
 ----- versão 16 -----
 
-[em processo] Sistemas não lineares (Modelagem de um Quadricóptero)
-	- apenas parcial
-	- correções de matrizes e texto
-	- pendências:
-		- alterar figura para corresponder ao descrito
-		- comentar equações 8, 9 e 10
-[em processo] Trabalhos Relacionados
+[OK parcial] Sistemas não lineares (Modelagem de um Quadricóptero)
+	se possível, comentar melhor as equações de desacoplamento e de aceleração
 
------ versão 17 - em aberto -----
+----- versão 17 -----
 
+Trabalhos Relacionados
 Metodologia
 Desenvolvimento
 Resultados
