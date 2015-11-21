@@ -2,7 +2,7 @@ Além das técnicas de controle tradicionais, encontram-se também na literatura
 
 %22
 %\cite{Rezazadeh2013}
-Em \cite{Rezazadeh2013}, é proposto um controlador neuro-\textit{fuzzy} (ANFIS) para o controle estabilizando a altitude de um quadricóptero. O módulo \textit{fuzzy} acoplado a um controlador PID é usado para controlar a atitude. Os controladores \textit{fuzzy} atualizam os ganhos do PID \textit{online} para produzir uma resposta apropriada. A saída é calculada diretamente pelo ajuste dos pesos das entradas de acordo com as regras de inferência \textit{fuzzy}. Estas regras, que são a base de conhecimento, são determinadas por um algoritmo computacional baseado em redes neurais. O controlador proposto foi comparado a um simples controlador PID e, a partir de simulações, foi mostrado que se obteve melhor resposta, por exemplo, tendo em vista o tempo de assentamento e a sobrelevação. Outro resultado obtido foi de que o controlador ANFIS é capaz de estabilizar o sistema quando exposto a perturbações externas.
+Em \cite{Rezazadeh2013}, é proposto um controlador neuro-\textit{fuzzy} (ANFIS) para o controle estabilizante de altitude de um quadricóptero. O módulo \textit{fuzzy} acoplado a um controlador PID é usado para controlar a atitude. Os controladores \textit{fuzzy} atualizam os ganhos do PID \textit{online} para produzir uma resposta apropriada. A saída é calculada diretamente pelo ajuste dos pesos das entradas de acordo com as regras de inferência \textit{fuzzy}. Estas regras, que são a base de conhecimento, são determinadas por um algoritmo computacional baseado em redes neurais. O controlador proposto foi comparado a um simples controlador PID e, a partir de simulações, foi mostrado que se obteve melhor resposta, por exemplo, tendo em vista o tempo de assentamento e a sobrelevação. Outro resultado obtido foi de que o controlador ANFIS é capaz de estabilizar o sistema quando exposto a perturbações externas.
 
 %34
 %\cite{Mahfouz2013}
@@ -10,30 +10,30 @@ Em \cite{Mahfouz2013}, foi proposto um controlador parecido. Neste trabalho, tam
 
 %14
 %\cite{Maj2013}
-Em \cite{Maj2013} é proposto um controle de estabilidade para um quadricóptero usando lógica fuzzy. Neste trabalho, três controladores fuzzy são usados: um para cada um dos dois eixos horizontais e mais um controlador geral para todo o sistema. Com isto, o erro angular e a aceleração são as variáveis linguísticas. Em ambos os casos, são usados cinco termos linguísticos: muito negativo (NL), pouco negativo (NS), zero (Z), pouco positivo (PS) e muito positivo (PL). Os conjuntos NS, Z e PS são triangulares enquanto os conjuntos NL e PL são trapezoidais, como mostra a Figura \ref{fig:Maj2013_fuzzy_sets}. 
+Em \cite{Maj2013} é proposto um controle de estabilidade para um quadricóptero usando lógica \textit{fuzzy}. Neste trabalho, três controladores \textit{fuzzy} são usados: um para cada um dos dois eixos horizontais (\textit{x} e \textit{y}) e mais um controlador geral para todo o sistema. Com isto, o erro angular e a aceleração são as variáveis linguísticas. Em ambos os casos, são usados cinco termos linguísticos: muito negativo (NL), pouco negativo (NS), zero (Z), pouco positivo (PS) e muito positivo (PL). Os conjuntos NS, Z e PS são triangulares enquanto os conjuntos NL e PL são trapezoidais, como mostra a Figura \ref{fig:Maj2013_fuzzy_sets}. 
 
 \begin{figure}[!htb]
     \centering
-    \caption{Conjuntos fuzzy usados em \cite{Maj2013}; a) erro de posição; b) erro de giro }
+    \caption{Conjuntos \textit{fuzzy} usados em \cite{Maj2013}; a) erro de posição; b) erro de giro }
     \includegraphics[width=0.6\textwidth]{./04-figuras/Maj2013_fuzzy_sets}
     \fonte{\cite{Maj2013}}
     \label{fig:Maj2013_fuzzy_sets}
 \end{figure}
 
-O bloco de fuzzificação calcula o grau de confiança dos conjuntos de entrada e um segundo bloco executa a inferência, que calcula o grau de confiança dos conjuntos de saída. As operações MIN e MAX são usadas como operadores AND e OR respectivamente para os conjuntos fuzzy. O conjunto de regras utiizadas são mostradas no Quadro \ref{qua:Maj2013_table_rules_inference} e os conjuntos fuzzy antes da defuzzificação são mostrados na Figura \ref{fig:Maj2013_fuzzy_sets_output}.
-%Como o controlador fuzzy é do tipo PD e este tipo de controlador não fornece uma posição zero, um bloco adicional é usado para controlar a integral do erro de posição. O resultado é, portanto, um controlador híbrido. Entretanto, os autores propõem também uma solução para substituir o bloco integrador por um bloco contendo três conjuntos fuzzy: negativo, neutro e positivo. Como resultado, obtém-se um \textit{array} tridimencional com setenta e cinco regras, ao invés das vinte e cinco obtidas no caso de usar o bloco integrador. O \autoref{qua:Maj2013_table_rules_inference} mostra as vinte e cinco regras de inferência fuzzy usadas no controlador proposto com bloco integral.
+O bloco de fuzzificação calcula o grau de confiança dos conjuntos de entrada e um segundo bloco executa a inferência, que calcula o grau de confiança dos conjuntos de saída. As operações MIN e MAX são usadas como operadores AND e OR respectivamente para os conjuntos \textit{fuzzy}. O conjunto de regras utilizadas é mostrado no Quadro \ref{qua:Maj2013_table_rules_inference}.
+% e os conjuntos \textit{fuzzy} antes da defuzzificação são mostrados na Figura \ref{fig:Maj2013_fuzzy_sets_output}.
 
 \input{./06-quadros/Maj2013_table_rules_for_inference}
 
-\begin{figure}[!htb]
-    \centering
-    \caption{Conjuntos fuzzy antes da defuzzificação usados em \cite{Maj2013} }
-    \includegraphics[width=0.6\textwidth]{./04-figuras/Maj2013_fuzzy_sets_output}
-    \fonte{\cite{Maj2013}}
-    \label{fig:Maj2013_fuzzy_sets_output}
-\end{figure}
+%\begin{figure}[!htb]
+%    \centering
+%    \caption{Conjuntos fuzzy antes da defuzzificação usados em \cite{Maj2013} }
+%    \includegraphics[width=0.6\textwidth]{./04-figuras/Maj2013_fuzzy_sets_output}
+%    \fonte{\cite{Maj2013}}
+%    \label{fig:Maj2013_fuzzy_sets_output}
+%\end{figure}
 
-Os autores obtiveram sucesso no controle de estabilidade do \textit{drone}, mas somente utilizando um bloco integrador. Apesar de os reguladores e motores serem do mesmo tipo, algumas características deles são levemente diferentes. Como consequência, os motores não giram todos na mesma velocidade causando uma inclinação do quadrotor. Esta inclinação pode ser corrigida com o uso de um bloco integrador. Desta forma, foi observado que um controlador puramente fuzzy pode não ser suficiente para lidar com esta situação mas que, acoplando um bloco integrador, o sistema certamente pode ser estabilizado.
+Os autores obtiveram sucesso no controle estabilizante do \textit{drone}, mas somente utilizando um bloco integrador. Apesar de os reguladores e motores serem do mesmo tipo, algumas características deles são levemente diferentes. Como consequência, os motores não giram todos na mesma velocidade causando uma inclinação do quadricóptero. Esta inclinação pode ser corrigida com o uso de um bloco integrador. Desta forma, foi observado que um controlador puramente \textit{fuzzy} pode não ser suficiente para lidar com esta situação mas que, acoplando um bloco integrador, o sistema certamente pode ser estabilizado.
 %A solução encontrada foi, portanto, implementar um controlador híbrido, que se mostrou eficiente para tal propósito.
 
 %06
