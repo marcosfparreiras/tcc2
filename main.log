@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  21 NOV 2015 17:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  21 NOV 2015 18:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1318,13 +1318,15 @@ LaTeX Warning: Reference `chap:introducao' on page 1 undefined on input line 1.
 
 
 
-<./04-figuras/drone_diagram/drone_test_sep-1.png, id=5, 430.60875pt x 400.49625
-pt>
-File: ./04-figuras/drone_diagram/drone_test_sep-1.png Graphic file (type png)
- <use ./04-figuras/drone_diagram/drone_test_sep-1.png>
-Package pdftex.def Info: ./04-figuras/drone_diagram/drone_test_sep-1.png used o
-n input line 15.
-(pdftex.def)             Requested size: 318.49861pt x 296.23425pt.
+<./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png, id=5, 259.7
+203pt x 188.20313pt>
+File: ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png Graphic
+ file (type png)
+
+<use ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>
+Package pdftex.def Info: ./04-figuras/drone_diagram/drone_gray_separate1_white_
+adapted.png used on input line 15.
+(pdftex.def)             Requested size: 318.49861pt x 230.79636pt.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
@@ -1357,8 +1359,8 @@ has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.23 
-      <./04-figuras/drone_diagram/drone_test_sep-1.png>]
-<./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png, id=31, 714.67pt x 1
+      <./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>]
+<./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png, id=32, 714.67pt x 1
 52.57pt>
 File: ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png Graphic file (t
 ype png)
@@ -1373,8 +1375,8 @@ en already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.15 \end{align}
-                 <./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png>]
+l.17 
+      <./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png>]
 
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 50.
 
@@ -1382,25 +1384,25 @@ LaTeX Warning: Command \textunderscore invalid in math mode on input line 50.
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 52.
 
 ) (./02-elementos-textuais/sistemas-nao-lineares-quadrotor-desacoplamento.tex
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
 [3]
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
 
 LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
 
@@ -1488,7 +1490,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 1AF587218B30F3AC154B9218178EE299;557.
+(rerunfilecheck)             Checksum: 7D3398E20E88C0E1EE22D85F30D78EEF;554.
 
 
 LaTeX Warning: There were undefined references.
@@ -1499,13 +1501,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 17882 strings out of 493304
- 258742 string characters out of 6139871
- 515998 words of memory out of 5000000
- 20816 multiletter control sequences out of 15000+600000
- 36586 words of font info for 136 fonts, out of 8000000 for 9000
+ 17874 strings out of 493304
+ 258617 string characters out of 6139871
+ 514834 words of memory out of 5000000
+ 20806 multiletter control sequences out of 15000+600000
+ 36745 words of font info for 138 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,16n,42p,1260b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,16n,42p,1272b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1519,10 +1521,10 @@ r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (10 pages, 211461 bytes).
+Output written on main.pdf (10 pages, 211097 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 256 compressed objects within 3 object streams
+ 109 named destinations out of 1000 (max. 500000)
  32331 words of extra memory for PDF output out of 35830 (max. 10000000)
 
