@@ -23,7 +23,7 @@ O vetor de entrada $U$ sendo:
 	\end{bmatrix}^T
 \]
 
-E as matriz A, B, C e D sendo definida como:
+E as matrizes A, B, C e D sendo definidas como:
 \begin{equation*}
 A =
 \left[ \begin{array}{@{}*{12}{c}@{}}
@@ -54,9 +54,10 @@ B =
 	0 & 0 & 0 & 0 \\
 	0 & 0 & 0 & 0 \\
 	0 & 0 & 0 & 0 \\
-	0 & cos(\psi)/I_{xx} & -sen(\psi)/I_{yy} & 0 \\
-	0 & sen(\psi)/(cos(\phi)I_{xx}) & cos(\psi)/(cos(\phi)I_{yy}) & 0\\
-	0 & sin(\psi)tan(\phi)/I_{xx} & cos(\psi)*tan(\phi)/I_{yy} & 1/I_{zz} \\
+	0 & cos(\psi_0)/I_{xx} & -sen(\psi_0)/I_{yy} & 0 \\
+	0 & sen(\psi_0)/(cos(\phi_0)I_{xx}) & cos(\psi_0)/(cos(\phi_0)I_{yy}) & 0\\
+	0 & sin(\psi_0)tan(\phi_0)/I_{xx} & cos(\psi_0)
+	tan(\phi_0)/I_{yy} & 1/I_{zz} \\
 \end{array}\right]
 \end{equation*}
 
@@ -95,6 +96,8 @@ D =
 	0 & 0 & 0 & 0 \\
 \end{array}\right]
 \end{equation*}
-em que $g$ é a gravidade, $m$, a massa do quadrotor e os ângulos $\phi$, $\theta$ e $\psi$ representam os ângulos em torno dos eixos $x$, $y$ e $z$ respectivamente. Além disto, $I_{xx}$, $I_{yy}$ e $I_{zz}$ representam o momento de inércia do quadricóptero ao longo destes mesmos eixos.
+em que $g$ é a gravidade, $m$, a massa do quadricóptero e os ângulos $\phi_0$, $\theta_0$ e $\psi_0$ representam os ângulos iniciais em torno dos eixos $x$, $y$ e $z$ respectivamente. Além disto, $I_{xx}$, $I_{yy}$ e $I_{zz}$ representam o momento de inércia do quadricóptero ao longo destes mesmos eixos.
 
-Ao longo deste trabalho, essa foi a modelagem adotada para simular o sistema de um quadrotor.
+Como se pode perceber, a matriz C é uma matriz diagonal, o que implica no fato de a saída do sistema ser representada pelo vetor de estados.
+
+Ao longo deste trabalho, essa foi a modelagem adotada para simular o sistema de um quadricóptero.
