@@ -23,9 +23,14 @@ A ser corrigido:
 [OK parcial] Sistemas não lineares (Modelagem de um Quadricóptero)
 	se possível, comentar melhor as equações de desacoplamento e de aceleração
 
+	- correção de legenda da figura que mostra diagrama de blocos usado por balas. termo quadrotor foi trocado por quadricóptero
+
 ----- versão 17 -----
 
-Trabalhos Relacionados
+[em processo]Trabalhos Relacionados
+
+----- versão 18 - aberto -----
+
 Metodologia
 Desenvolvimento
 Resultados
