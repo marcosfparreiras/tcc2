@@ -1,30 +1,8 @@
-Além das técnicas de controle tradicionais, encontram-se também na literatura diversas abordagens para a construção de controladores de estabilidade para \textit{drones} utilizando técnicas da Inteligência Computacional. As propostas vão do uso de algoritmos de otimização (e.g.\ algoritmos genéticos, PSO) ao uso de neuro-fuzzy expandido para o espaço dos números complexos.
+Além das técnicas de controle tradicionais, encontram-se também na literatura diversas abordagens para a construção de controladores de estabilidade para \textit{drones} utilizando técnicas da Inteligência Computacional. As propostas vão do uso de algoritmos de otimização (e.g.\ algoritmos genéticos, PSO) ao uso de sistemas neuro-\textit{fuzzy} expandido para o espaço dos números complexos.
 
 %22
 %\cite{Rezazadeh2013}
-Em \cite{Rezazadeh2013}, é proposto um controlador neuro-fuzzy (ANFIS) para controlar a estabilidade em altitude de um quadrotor. O módulo fuzzy acoplado a um controlador PID é usado para controlar cada atitude (i.e.\ cada um dos ângulos). Os controladores fuzzy atualizam os ganhos do PID \textit{online} para produzir uma resposta apropriada. A Figura \ref{fig:Rezazadeh2013_estrutura_anfis} ilustra o controlador neuro-fuzzy usado para garantir a estabilidade do quadrotor sendo esta a estrutura típica de uma arquitetura ANFIS para um sistema com duas entradas e uma saída.
-% O controlador neuro-fuzzy usado para garantir a estabilidade do quadrotor é mostrado na Figura \ref{fig:Rezazadeh2013_estrutura_anfis}, sendo esta a estrutura típica de uma arquitetura ANFIS para um sistema com duas entradas e uma saída.
-%De fato, o módulo fuzzy produz ganhos proporcional e derivativo sendo que o primeiro é setado como um fator do segundo. A taxa desses ganhos é determinado posteriormente através de otimização multi-objetivo, usando um algoritmo genético sem elitismo.
-%O esquema do controlador é mostrado na \autoref{fig:Rezazadeh2013_diagrama_controlador}.
-\iffalse
-\begin{figure}[!htb]
-    \centering
-    \caption{Diagrama em blocos do controlador Fuzzy PID proposto em \cite{Rezazadeh2013}}
-    \includegraphics[width=0.7\textwidth]{./04-figuras/Rezazadeh2013_diagrama_controlador}
-    \fonte{\cite{Rezazadeh2013}}
-    \label{fig:Rezazadeh2013_diagrama_controlador}
-\end{figure}
-\fi
-
-\begin{figure}[!htb]
-    \centering
-    \caption{Estrutura do ANFIS multicamadas de duas entradas e uma saída}
-    \includegraphics[width=0.7\textwidth]{./04-figuras/Rezazadeh2013_estrutura_anfis_gray}
-    \fonte{Adaptado de \citeonline{Rezazadeh2013}}
-    \label{fig:Rezazadeh2013_estrutura_anfis}
-\end{figure}
-
-Como se pode ver pela \autoref{fig:Rezazadeh2013_estrutura_anfis}, a saída é calculada diretamente pelo ajuste dos pesos das entradas de acordo com as regras de inferência fuzzy. Estas regras, que são a base de conhecimento, são determinadas por um algoritmo computacional baseado em redes neurais \cite{Rezazadeh2013}. O controlador proposto foi comparado a um simples controlador PID e, a partir de simulações, foi mostrado que obteve melhor resposta, por exemplo, sobre o tempo de assentamento e a sobrelevação. Outro resultado obtido foi de que o controlador ANFIS é capaz de estabilizar o sistema quando exposto a perturbações externas.
+Em \cite{Rezazadeh2013}, é proposto um controlador neuro-\textit{fuzzy} (ANFIS) para o controle estabilizando a altitude de um quadricóptero. O módulo \textit{fuzzy} acoplado a um controlador PID é usado para controlar a atitude. Os controladores \textit{fuzzy} atualizam os ganhos do PID \textit{online} para produzir uma resposta apropriada. A saída é calculada diretamente pelo ajuste dos pesos das entradas de acordo com as regras de inferência \textit{fuzzy}. Estas regras, que são a base de conhecimento, são determinadas por um algoritmo computacional baseado em redes neurais \cite{Rezazadeh2013}. O controlador proposto foi comparado a um simples controlador PID e, a partir de simulações, foi mostrado que se obteve melhor resposta, por exemplo, tendo em vista o tempo de assentamento e a sobrelevação. Outro resultado obtido foi de que o controlador ANFIS é capaz de estabilizar o sistema quando exposto a perturbações externas.
 
 %34
 %\cite{Mahfouz2013}

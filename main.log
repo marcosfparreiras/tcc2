@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  21 NOV 2015 20:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  21 NOV 2015 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1346,115 +1346,99 @@ LaTeX Font Info:    Try loading font information for TS1+ppl on input line 5.
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 ))
 (./02-elementos-textuais/trab-relacionados-quadrotor-inteligente.tex [2]
-<./04-figuras/Rezazadeh2013_estrutura_anfis_gray.png, id=39, 646.415pt x 306.14
-375pt>
-File: ./04-figuras/Rezazadeh2013_estrutura_anfis_gray.png Graphic file (type pn
-g)
- <use ./04-figuras/Rezazadeh2013_estrutura_anfis_gray.png>
-Package pdftex.def Info: ./04-figuras/Rezazadeh2013_estrutura_anfis_gray.png us
-ed on input line 22.
-(pdftex.def)             Requested size: 318.49861pt x 150.84325pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.32 
-      <./04-figuras/Rezazadeh2013_estrutura_anfis_gray.png>]
-<./04-figuras/Maj2013_fuzzy_sets.png, id=61, 872.25874pt x 603.25375pt>
+<./04-figuras/Maj2013_fuzzy_sets.png, id=49, 872.25874pt x 603.25375pt>
 File: ./04-figuras/Maj2013_fuzzy_sets.png Graphic file (type png)
 
 <use ./04-figuras/Maj2013_fuzzy_sets.png>
 Package pdftex.def Info: ./04-figuras/Maj2013_fuzzy_sets.png used on input line
- 40.
+ 18.
 (pdftex.def)             Requested size: 273.00278pt x 188.80168pt.
 
 (./06-quadros/Maj2013_table_rules_for_inference.tex)
-<./04-figuras/Maj2013_fuzzy_sets_output.png, id=77, 677.53125pt x 259.97125pt>
+<./04-figuras/Maj2013_fuzzy_sets_output.png, id=65, 677.53125pt x 259.97125pt>
 File: ./04-figuras/Maj2013_fuzzy_sets_output.png Graphic file (type png)
 
 <use ./04-figuras/Maj2013_fuzzy_sets_output.png>
 Package pdftex.def Info: ./04-figuras/Maj2013_fuzzy_sets_output.png used on inp
-ut line 53.
+ut line 31.
 (pdftex.def)             Requested size: 273.00278pt x 104.75621pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
-}) has been already used, duplicate ignored
+ [3] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
+.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.64 
-      <./04-figuras/Maj2013_fuzzy_sets.png>] [5pdfTeX warning (ext4): destinati
-on with the same identifier (name{quadro.1.1}) has been already used, duplicate
- ignored
+l.38 
+     pdfTeX warning (ext4): destination with the same identifier (name{quadro.1
+.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
+l.38 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-.3}) has been already used, duplicate ignored
+.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.70 
-      <./04-figuras/Maj2013_fuzzy_sets_output.png>] [6]
-<./04-figuras/Gao2014Stability_block_diagram.png, id=132, 703.62875pt x 224.84p
+l.38 
+      <./04-figuras/Maj2013_fuzzy_sets.png> <./04-figuras/Maj2013_fuzzy_sets_ou
+tput.png>] [5]
+<./04-figuras/Gao2014Stability_block_diagram.png, id=119, 703.62875pt x 224.84p
 t>
 File: ./04-figuras/Gao2014Stability_block_diagram.png Graphic file (type png)
  <use ./04-figuras/Gao2014Stability_block_diagram.png>
 Package pdftex.def Info: ./04-figuras/Gao2014Stability_block_diagram.png used o
-n input line 114.
+n input line 92.
 (pdftex.def)             Requested size: 409.49722pt x 130.84985pt.
-
+ [6]
 (./06-quadros/Gao2014Stability_table_rules_for_inference_kp.tex)
 (./06-quadros/Gao2014Stability_table_rules_for_inference_ki.tex)
 (./06-quadros/Gao2014Stability_table_rules_for_inference_kd.tex) [7pdfTeX warni
-ng (ext4): destination with the same identifier (name{figure.1.4}) has been alr
+ng (ext4): destination with the same identifier (name{figure.1.3}) has been alr
 eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.128 
-       <./04-figuras/Gao2014Stability_block_diagram.png>] [8pdfTeX warning (ext
-4): destination with the same identifier (name{quadro.1.2}) has been already us
-ed, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.132 
+l.110 
       pdfTeX warning (ext4): destination with the same identifier (name{quadro.
-1.3}) has been already used, duplicate ignored
+1.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.132 
+l.110 
+       <./04-figuras/Gao2014Stability_block_diagram.png>]
+<./04-figuras/Gao2014Precision_block_diagram.png, id=172, 754.82pt x 283.0575pt
+>
+File: ./04-figuras/Gao2014Precision_block_diagram.png Graphic file (type png)
+ <use ./04-figuras/Gao2014Precision_block_diagram.png>
+Package pdftex.def Info: ./04-figuras/Gao2014Precision_block_diagram.png used o
+n input line 116.
+(pdftex.def)             Requested size: 409.49722pt x 153.56142pt.
+
+(./06-quadros/Gao2014Precision_table_rules_for_inference.tex) [8pdfTeX warning 
+(ext4): destination with the same identifier (name{quadro.1.3}) has been alread
+y used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.128 
       pdfTeX warning (ext4): destination with the same identifier (name{quadro.
 1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.132 
-      ]
-<./04-figuras/Gao2014Precision_block_diagram.png, id=182, 754.82pt x 283.0575pt
->
-File: ./04-figuras/Gao2014Precision_block_diagram.png Graphic file (type png)
- <use ./04-figuras/Gao2014Precision_block_diagram.png>
-Package pdftex.def Info: ./04-figuras/Gao2014Precision_block_diagram.png used o
-n input line 138.
-(pdftex.def)             Requested size: 409.49722pt x 153.56142pt.
-
-(./06-quadros/Gao2014Precision_table_rules_for_inference.tex) [9pdfTeX warning 
-(ext4): destination with the same identifier (name{figure.1.5}) has been alread
-y used, duplicate ignored
+l.128 
+      ] [9pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.1.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.150 
+l.140 
       pdfTeX warning (ext4): destination with the same identifier (name{quadro.
 1.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.150 
+l.140 
        <./04-figuras/Gao2014Precision_block_diagram.png>])) [10]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
@@ -1514,7 +1498,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: D9ED25EFE18AAA487539CC4BB93D7936;1859.
+(rerunfilecheck)             Checksum: DF500EB7227259BDF27F1107F9C805C8;1815.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1522,11 +1506,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 18197 strings out of 493304
- 264361 string characters out of 6139871
- 518364 words of memory out of 5000000
- 21000 multiletter control sequences out of 15000+600000
- 39350 words of font info for 203 fonts, out of 8000000 for 9000
+ 18196 strings out of 493304
+ 264115 string characters out of 6139871
+ 518248 words of memory out of 5000000
+ 20995 multiletter control sequences out of 15000+600000
+ 39660 words of font info for 207 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,12n,42p,1400b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1536,10 +1520,10 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pala
 tino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (15 pages, 371671 bytes).
+Output written on main.pdf (15 pages, 327968 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
- 349 compressed objects within 4 object streams
- 125 named destinations out of 1000 (max. 500000)
- 28242 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 346 compressed objects within 4 object streams
+ 124 named destinations out of 1000 (max. 500000)
+ 28237 words of extra memory for PDF output out of 29859 (max. 10000000)
 
