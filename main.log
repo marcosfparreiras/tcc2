@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  22 NOV 2015 19:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  22 NOV 2015 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,7 +1210,10 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 69.
 
 
 Writing index file main.idx 
-(./main.aux (./02-elementos-textuais/trab-relacionados.aux)
+(./main.aux (./02-elementos-textuais/introducao.aux)
+(./02-elementos-textuais/fund-teorica.aux)
+(./02-elementos-textuais/sistemas-nao-lineares.aux)
+(./02-elementos-textuais/trab-relacionados.aux)
 (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
 \openout1 = `main.aux'.
@@ -1303,10 +1306,10 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 \c@lstlisting=\count203
-\openout2 = `./02-elementos-textuais/trab-relacionados.aux'.
+\openout2 = `./02-elementos-textuais/introducao.aux'.
 
 
-(./02-elementos-textuais/trab-relacionados.tex
+(./02-elementos-textuais/introducao.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
@@ -1316,7 +1319,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1324,29 +1327,292 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-(./02-elementos-textuais/trab-relacionados-quadrotor-tradicional.tex [1{/var/li
-b/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
 
 
-]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 5.
+] [2]
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)) [3]
+\openout2 = `./02-elementos-textuais/fund-teorica.aux'.
+
+
+(./02-elementos-textuais/fund-teorica.tex
+(./02-elementos-textuais/fund-teorica-sistemas-controle.tex
+<./04-figuras/fund_teorica/process.png, id=55, 827.09pt x 88.33pt>
+File: ./04-figuras/fund_teorica/process.png Graphic file (type png)
+
+<use ./04-figuras/fund_teorica/process.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/process.png used on input li
+ne 7.
+(pdftex.def)             Requested size: 318.49861pt x 34.01456pt.
+
+<./04-figuras/fund_teorica/open_loop_control_system.png, id=61, 1776.6375pt x 1
+26.4725pt>
+File: ./04-figuras/fund_teorica/open_loop_control_system.png Graphic file (type
+ png)
+ <use ./04-figuras/fund_teorica/open_loop_control_system.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/open_loop_control_system.png
+ used on input line 17.
+(pdftex.def)             Requested size: 432.24861pt x 30.76892pt.
+
+<./04-figuras/fund_teorica/closed_loop_control_system.png, id=67, 1140.26pt x 2
+56.96pt>
+File: ./04-figuras/fund_teorica/closed_loop_control_system.png Graphic file (ty
+pe png)
+ <use ./04-figuras/fund_teorica/closed_loop_control_system.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/closed_loop_control_system.p
+ng used on input line 27.
+(pdftex.def)             Requested size: 432.24861pt x 97.40663pt.
+
+[4
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.30 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.2.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.30 \end{figure}
+                  <./04-figuras/fund_teorica/process.png (PNG copy)> <./04-figu
+ras/fund_teorica/open_loop_control_system.png (PNG copy)>]
+(./02-elementos-textuais/fund-teorica-sistemas-controle-ss.tex
+<./04-figuras/fund_teorica/ss_diagram.png, id=84, 625.33624pt x 255.95625pt>
+File: ./04-figuras/fund_teorica/ss_diagram.png Graphic file (type png)
+
+<use ./04-figuras/fund_teorica/ss_diagram.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/ss_diagram.png used on input
+ line 12.
+(pdftex.def)             Requested size: 409.49722pt x 167.61546pt.
 ))
-(./02-elementos-textuais/trab-relacionados-quadrotor-inteligente.tex [2]
-<./04-figuras/Maj2013_fuzzy_sets.png, id=47, 872.25874pt x 603.25375pt>
+(./02-elementos-textuais/fund-teorica-rna.tex [5pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.2.3}) has been already used, duplicat
+e ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.6 
+     <./04-figuras/fund_teorica/closed_loop_control_system.png (PNG copy)>]
+<./04-figuras/brain_sistem_block_diagram.png, id=103, 2875.74374pt x 401.5pt>
+File: ./04-figuras/brain_sistem_block_diagram.png Graphic file (type png)
+
+<use ./04-figuras/brain_sistem_block_diagram.png>
+Package pdftex.def Info: ./04-figuras/brain_sistem_block_diagram.png used on in
+put line 10.
+(pdftex.def)             Requested size: 409.49722pt x 57.17145pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.17 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.17 
+      <./04-figuras/fund_teorica/ss_diagram.png> <./04-figuras/brain_sistem_blo
+ck_diagram.png (PNG copy)>]
+<./04-figuras/neuron-diagram-gray.png, id=116, 574.145pt x 349.305pt>
+File: ./04-figuras/neuron-diagram-gray.png Graphic file (type png)
+
+<use ./04-figuras/neuron-diagram-gray.png>
+Package pdftex.def Info: ./04-figuras/neuron-diagram-gray.png used on input lin
+e 23.
+(pdftex.def)             Requested size: 409.49722pt x 249.13823pt.
+
+<./04-figuras/fund_teorica/rna.png, id=121, 417.56pt x 260.975pt>
+File: ./04-figuras/fund_teorica/rna.png Graphic file (type png)
+
+<use ./04-figuras/fund_teorica/rna.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/rna.png used on input line 3
+5.
+(pdftex.def)             Requested size: 273.00278pt x 170.63524pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.38 \end{figure}
+                  <./04-figuras/neuron-diagram-gray.png>])
+(./02-elementos-textuais/fund-teorica-fuzzy.tex [8pdfTeX warning (ext4): destin
+ation with the same identifier (name{figure.2.7}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 
+     <./04-figuras/fund_teorica/rna.png>] [9]
+<./04-figuras/fund_teorica/fuzzy_sets_jang.png, id=167, 538.01pt x 209.78375pt>
+File: ./04-figuras/fund_teorica/fuzzy_sets_jang.png Graphic file (type png)
+<use ./04-figuras/fund_teorica/fuzzy_sets_jang.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_sets_jang.png used on 
+input line 27.
+(pdftex.def)             Requested size: 364.00139pt x 141.934pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.52 \end{align*}
+                  <./04-figuras/fund_teorica/fuzzy_sets_jang.png>]
+<./04-figuras/fund_teorica/fuzzy_rules_jang.png, id=181, 713.66624pt x 260.975p
+t>
+File: ./04-figuras/fund_teorica/fuzzy_rules_jang.png Graphic file (type png)
+ <use ./04-figuras/fund_teorica/fuzzy_rules_jang.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_rules_jang.png used on
+ input line 59.
+(pdftex.def)             Requested size: 364.00139pt x 133.10744pt.
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.76 
+      <./04-figuras/fund_teorica/fuzzy_rules_jang.png>] [12] [13])
+(./02-elementos-textuais/fund-teorica-anfis.tex
+<./04-figuras/fund_teorica/anfis.png, id=222, 739.76375pt x 508.90125pt>
+File: ./04-figuras/fund_teorica/anfis.png Graphic file (type png)
+
+<use ./04-figuras/fund_teorica/anfis.png>
+Package pdftex.def Info: ./04-figuras/fund_teorica/anfis.png used on input line
+ 18.
+(pdftex.def)             Requested size: 364.00139pt x 250.40433pt.
+ [14] [15pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.2.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.38 \begin{align*}
+                    <./04-figuras/fund_teorica/anfis.png>] [16])) [17]
+\openout2 = `./02-elementos-textuais/sistemas-nao-lineares.aux'.
+
+
+(./02-elementos-textuais/sistemas-nao-lineares.tex
+(./02-elementos-textuais/sistemas-nao-lineares-quadrotor.tex
+<./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png, id=277, 259
+.7203pt x 188.20313pt>
+File: ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png Graphic
+ file (type png)
+
+<use ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>
+Package pdftex.def Info: ./04-figuras/drone_diagram/drone_gray_separate1_white_
+adapted.png used on input line 15.
+(pdftex.def)             Requested size: 318.49861pt x 230.79636pt.
+
+[18
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.23 
+      <./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>]
+<./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png, id=297, 714.67pt x 
+152.57pt>
+File: ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png Graphic file (t
+ype png)
+ <use ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png>
+Package pdftex.def Info: ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.
+png used on input line 29.
+(pdftex.def)             Requested size: 455.0pt x 97.13463pt.
+
+(./02-elementos-textuais/sistemas-nao-lineares-quadrotor-modelagem.tex [19pdfTe
+X warning (ext4): destination with the same identifier (name{figure.3.12}) has 
+been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.17 
+      <./04-figuras/sistemas-nao-lineares/diagrama-quadrotor.png>]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 50.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 52.
+
+) (./02-elementos-textuais/sistemas-nao-lineares-quadrotor-desacoplamento.tex
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
+
+[20]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 32.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 33.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 34.
+
+) (./02-elementos-textuais/sistemas-nao-lineares-quadrotor-ss.tex
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 20.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 21.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 22.
+
+[21] [22]))) [23]
+\openout2 = `./02-elementos-textuais/trab-relacionados.aux'.
+
+ (./02-elementos-textuais/trab-relacionados.tex
+(./02-elementos-textuais/trab-relacionados-quadrotor-tradicional.tex [24
+
+
+
+])
+(./02-elementos-textuais/trab-relacionados-quadrotor-inteligente.tex [25]
+<./04-figuras/Maj2013_fuzzy_sets.png, id=401, 872.25874pt x 603.25375pt>
 File: ./04-figuras/Maj2013_fuzzy_sets.png Graphic file (type png)
 
 <use ./04-figuras/Maj2013_fuzzy_sets.png>
@@ -1354,22 +1620,22 @@ Package pdftex.def Info: ./04-figuras/Maj2013_fuzzy_sets.png used on input line
  18.
 (pdftex.def)             Requested size: 273.00278pt x 188.80168pt.
 
-(./06-quadros/Maj2013_table_rules_for_inference.tex) [3] [4pdfTeX warning (ext4
-): destination with the same identifier (name{figure.1.1}) has been already use
-d, duplicate ignored
+(./06-quadros/Maj2013_table_rules_for_inference.tex) [26] [27pdfTeX warning (ex
+t4): destination with the same identifier (name{figure.4.13}) has been already 
+used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.43 A
        abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
-pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{quadro.4.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.43 A
        abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
- <./04-figuras/Maj2013_fuzzy_sets.png>] [5] [6])) [7]
+ <./04-figuras/Maj2013_fuzzy_sets.png>] [28] [29])) [30]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -1379,14 +1645,14 @@ l.43 A
 
 
 bibitemlist
-[8
+[31
 
 
 
-])) [9]
+] [32])) [33]
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
- (./03-elementos-pos-textuais/apendices.tex [10
+ (./03-elementos-pos-textuais/apendices.tex [34
 
 
 
@@ -1410,25 +1676,28 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [11
+) [35
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-atitude.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))) [12
+))) [36
 
 ] (./main.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
 
-(./main.aux (./02-elementos-textuais/trab-relacionados.aux)
+(./main.aux (./02-elementos-textuais/introducao.aux)
+(./02-elementos-textuais/fund-teorica.aux)
+(./02-elementos-textuais/sistemas-nao-lineares.aux)
+(./02-elementos-textuais/trab-relacionados.aux)
 (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 9ADA2EA83D62F88B21AC0DA56B070432;1096.
+(rerunfilecheck)             Checksum: 6526CE3E3FF4A86DECDA99C4BC5EFD00;3733.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1436,26 +1705,34 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 18154 strings out of 493304
- 261966 string characters out of 6139871
- 516425 words of memory out of 5000000
- 20968 multiletter control sequences out of 15000+600000
- 40120 words of font info for 213 fonts, out of 8000000 for 9000
+ 18607 strings out of 493304
+ 272453 string characters out of 6139871
+ 531184 words of memory out of 5000000
+ 21200 multiletter control sequences out of 15000+600000
+ 49794 words of font info for 259 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,13n,42p,1392b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,16n,42p,1392b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/cour
-ier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (12 pages, 252395 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
+no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
+fb>
+Output written on main.pdf (36 pages, 583146 bytes).
 PDF statistics:
- 330 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
- 116 named destinations out of 1000 (max. 500000)
- 28222 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 811 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 211 named destinations out of 1000 (max. 500000)
+ 38170 words of extra memory for PDF output out of 42996 (max. 10000000)
 

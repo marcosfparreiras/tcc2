@@ -27,9 +27,9 @@ A ser corrigido:
 
 ----- versão 17 -----
 
-[em processo]Trabalhos Relacionados
+[OK] Trabalhos Relacionados
 
------ versão 18 - aberto -----
+----- versão 18 -----
 
 Metodologia
 Desenvolvimento
