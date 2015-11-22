@@ -87,27 +87,28 @@ Em \cite{Gao2014Stability}, é proposto um outro tipo de controlador híbrido. N
 
 %28
 %\cite{Gao2014Precision}
-Em outro trabalho, os mesmos autores implementaram um outro controlador híbrido. Em \cite{Gao2014Precision}, foi proposto um controlador Fuzzy PD. Além disto, neste trabalho, são comparadas as performances de três controladores diferentes: PID, Fuzzy PD e \textit{Backstepping}. Mais uma vez, aqui o controlador fuzzy tem como função ajustar os parâmetros do controlador PD: $\Delta K_p$ e $\Delta K_d$.
+Em \cite{Gao2014Precision}, um outro trabalho dos mesmos autores, são comparados os desempenhos de três controladores diferentes: PID, \textit{Fuzzy} PD Adaptativo e \textit{Backstepping}. Mais uma vez, aqui o Sistema de Inferência \textit{Fuzzy} tem como função ajustar os parâmetros do controlador PD: $\Delta K_p$ e $\Delta K_d$. Nas simulações feitas foi verificado que, embora o controlador \textit{Backstepping} seja pior que os outros dois, ele pode rapidamente suprimir o impacto de perturbações. Foi mostrado ainda que o controlador \textit{Fuzzy} PD Adaptativo obteve o melhor resultado relacionado a rejeição de perturbações. O tempo de subida do controlador \textit{Fuzzy} PD Adaptativo é ligeiramente menor nos eixos x e z mas um pouco maior no eixo y.
+% Após numerosas simulações, verificou-se que o controlador proposto é, de fato, eficaz para manter a estabilidade de um helicóptero quadrotor.
+%Em outro trabalho, os mesmos autores implementaram um outro controlador híbrido. Em \cite{Gao2014Precision}, foi proposto um controlador Fuzzy PD. Além disto, neste trabalho, são comparadas as performances de três controladores diferentes: PID, Fuzzy PD e \textit{Backstepping}. Mais uma vez, aqui o controlador fuzzy tem como função ajustar os parâmetros do controlador PD: $\Delta K_p$ e $\Delta K_d$.
 
-A \autoref{fig:Gao2014Precision_block_diagram} mostra o diagrama de blocos do controlador neste caso. Como se pode ver, o diagrama mostra o controlador Fuzzy PD e um controlador PID.
+%A \autoref{fig:Gao2014Precision_block_diagram} mostra o diagrama de blocos do controlador neste caso. Como se pode ver, o diagrama mostra o controlador Fuzzy PD e um controlador PID.
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \caption{Diagrama de blocos do controlador híbrido usando em \cite{Gao2014Precision}}
+%    \includegraphics[width=0.9\textwidth]{./04-figuras/Gao2014Precision_block_diagram}
+%    \fonte{\citeonline{Gao2014Precision}}
+%    \label{fig:Gao2014Precision_block_diagram}
+%\end{figure}
 
-\begin{figure}[!htb]
-    \centering
-    \caption{Diagrama de blocos do controlador híbrido usando em \cite{Gao2014Precision}}
-    \includegraphics[width=0.9\textwidth]{./04-figuras/Gao2014Precision_block_diagram}
-    \fonte{\citeonline{Gao2014Precision}}
-    \label{fig:Gao2014Precision_block_diagram}
-\end{figure}
-
-Em relação à estrutura fuzzy, mais uma vez aqui há duas entradas para a inferência: o erro, sua derivada e os conjuntos fuzzy para cada uma delas consistem de sete variáveis linguísticas: $e$ = \{NB, NM, NS, ZO, PS, PM, PB\}, $e_c$ = \{NB, NM, NS, ZO, PS, PM, PB\}. A variável de saída do sistema Fuzzy PD é apenas uma: $U_{fuzzy}$ = \{ZO, PS, PM, PB\}. O \autoref{qua:Gao2014Precision_table_rules_inference} mostra as regras definidas para o sistema de inferência fuzzy.
-
-\input{./06-quadros/Gao2014Precision_table_rules_for_inference}
-
-O controlador Fuzzy PD é adotado para garantir uma supressão rápida e com sobrelevação quando o desvio é grande. Já o controlador PID é adotado para eliminar o estado estacionário quando o desvio é pequeno.
-
-A definição de qual dos controles irá atuar, depende do bloco \textit{Fuzzy switching}, que avalia os sinais $u_{pid}$ e $u_{fuzzy}$, e utiliza o mais apropriado entre eles. A regra utilizada é a seguinte: se $E(k)$ é $SE$ e $\Delta EC(k)$ é $S\Delta EC$ então $U$ é $U_{pid}$, senão $U$ é $U_{fuzzy}$, em que $U_{fuzzy}$ e $U_{pid}$ são as saídas dos controladores Fuzzy PD e PID respectivamente. $SE$ e $S\Delta EC$ são, respectivamente, funções de pertinência fuzzy das variáveis $E$ e $\Delta E_c$.
-
-Nas simulações feitas, foram comparados três controladores diferentes: \textit{Backstepping}, PID e Fuzzy PD. Foi verificado que, embora o controlador \textit{Backstepping} seja pior que os outros dois, ele pode rapidamente suprimir o impacto de perturbações. Foi mostrado ainda que o controlador Fuzzy PD obteve o melhor resultado relacionado a rejeição de perturbações. O tempo de subida do controlador Fuzzy PD é ligeiramente menor nos eixos x e z mas um pouco maior no eixo y. Após numerosas simulações, verificou-se que o controlador proposto é, de fato, eficaz para manter a estabilidade de um helicóptero quadrotor.
+%Em relação à estrutura fuzzy, mais uma vez aqui há duas entradas para a inferência: o erro, sua derivada e os conjuntos fuzzy para cada uma delas consistem de sete variáveis linguísticas: $e$ = \{NB, NM, NS, ZO, PS, PM, PB\}, $e_c$ = \{NB, NM, NS, ZO, PS, PM, PB\}. A variável de saída do sistema Fuzzy PD é apenas uma: $U_{fuzzy}$ = \{ZO, PS, PM, PB\}. O \autoref{qua:Gao2014Precision_table_rules_inference} mostra as regras definidas para o sistema de inferência fuzzy.
+%
+%%\input{./06-quadros/Gao2014Precision_table_rules_for_inference}
+%
+%O controlador Fuzzy PD é adotado para garantir uma supressão rápida e com sobrelevação quando o desvio é grande. Já o controlador PID é adotado para eliminar o estado estacionário quando o desvio é pequeno.
+%
+%A definição de qual dos controles irá atuar, depende do bloco \textit{Fuzzy switching}, que avalia os sinais $u_{pid}$ e $u_{fuzzy}$, e utiliza o mais apropriado entre eles. A regra utilizada é a seguinte: se $E(k)$ é $SE$ e $\Delta EC(k)$ é $S\Delta EC$ então $U$ é $U_{pid}$, senão $U$ é $U_{fuzzy}$, em que $U_{fuzzy}$ e $U_{pid}$ são as saídas dos controladores Fuzzy PD e PID respectivamente. $SE$ e $S\Delta EC$ são, respectivamente, funções de pertinência fuzzy das variáveis $E$ e $\Delta E_c$.
+%Nas simulações feitas, foram comparados três controladores diferentes: \textit{Backstepping}, PID e Fuzzy PD. Foi verificado que, embora o controlador \textit{Backstepping} seja pior que os outros dois, ele pode rapidamente suprimir o impacto de perturbações. Foi mostrado ainda que o controlador Fuzzy PD obteve o melhor resultado relacionado a rejeição de perturbações. O tempo de subida do controlador Fuzzy PD é ligeiramente menor nos eixos x e z mas um pouco maior no eixo y. Após numerosas simulações, verificou-se que o controlador proposto é, de fato, eficaz para manter a estabilidade de um helicóptero quadrotor.
 
 %15
 %\cite{Fatan2013}
@@ -117,10 +118,10 @@ Nas simulações feitas, foram comparados três controladores diferentes: \texti
 
 %17
 %\cite{Yacef2013}
-Outras abordagens híbridas ainda foram adotadas para o projeto de controladores de estabilidade para \textit{drones}. Em \cite{Yacef2013}, foi proposto o uso do PSO para ajuste de um IBC. O método é usado para minimizar o erro quadrático (SE) de uma função de custo que quantifica a performance de todo o sistema. Resultados de numerosas simulações mostram a validação e as boas performances alcançadas pelo método proposto.
+Outras abordagens híbridas ainda foram adotadas para o projeto de controladores de estabilidade para \textit{drones}. Em \cite{Yacef2013}, foi proposto o uso da técnica \textit{Particle Swarm Optimization}\footnote{Otimização por Enxame de Partículas (tradução nossa).} (PSO) para ajuste de um IBC. O método é usado para minimizar o erro quadrático (SE) de uma função de custo que quantifica o desempenho de todo o sistema. Resultados de numerosas simulações mostram a validação e as bons desempenhos alcançadas pelo método proposto.
 
 %18
 %\cite{Boubertakh2013}
 Em \cite{Boubertakh2013} é proposta uma ideia parecida: utilizar o algoritmo PSO para ajustar os pesos de quatro controladores PD, cada qual responsável por controlar um rotor. A ideia é usar o PSO para minimizar o SE da função de custo que quantifica o sistema, assim como visto em \cite{Yacef2013}. As simulações feitas mostraram a eficácia do controlador proposto.
 
-Como se pode ver, as técnicas inteligentes têm sido largamente utilizadas para propor diferentes tipos de controladores para quadrotores. Como já dito anteriormente, isso deve às inúmeras vantagens citadas que elas trazem. Algumas dessas técnicas foram utilizadas neste trabalho, como é mostrado a seguir.
+Como se pode ver, as técnicas inteligentes têm sido largamente utilizadas para propor diferentes tipos de controladores para quadricópteros. Como já dito anteriormente, isso se deve às inúmeras vantagens citadas que elas trazem. Algumas dessas técnicas foram utilizadas neste trabalho, como é mostrado a seguir.
