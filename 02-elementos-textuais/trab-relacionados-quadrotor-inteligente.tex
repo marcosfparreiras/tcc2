@@ -58,51 +58,32 @@ Em \cite{Rabhi2011} uma outra abordagem é utilizada. Neste caso, os autores pro
 
 %20
 %\cite{Ariffanan2014}
-Já em \cite{Ariffanan2014}, foi proposto um controlador FSBC (\textit{Fuzzy Supervisory Backstepping Controller}\footnote{Controlador por Backstepping Fuzzy Supervisionado, tradução nossa}). O controlador projetado consiste em controlador de \textit{backstepping} que pode selecionar automaticamente seus parâmetros \textit{on line} por um mecanismo de supervisão fuzzy. O critério de estabilidade para a estabilização do quadrotor é provada pelo teorema de Lyapunov. Extensivas simulações mostram a eficácia desta abordagem, apontando que uma alta precisão no transiente e no tempo de controle foram alcançados. Além disto, os resultados indicam que a técnica proposta pode estabilizar quadrotores com melhor performance se comparado a técnicas de estabilização lineares.
+Já em \cite{Ariffanan2014}, foi proposto um controlador FSBC (\textit{Fuzzy Supervisory Backstepping Controller}\footnote{Controlador por \textit{Backstepping Fuzzy} Supervisionado (tradução nossa).}). O controlador projetado consiste em controlador de \textit{backstepping} que pode selecionar automaticamente seus parâmetros \textit{on line} por um mecanismo de supervisão \textit{fuzzy}. O critério de estabilidade para a estabilização do quadricóptero é provada pelo teorema de Lyapunov. Extensivas simulações mostram a eficácia desta abordagem, apontando que uma alta precisão no transiente e no tempo de controle foram alcançados. Além disto, os resultados indicam que a técnica proposta pode estabilizar quadricópteros com melhor desempenho se comparado a técnicas de estabilização lineares.
 
-%24
-%\cite{Benavidez2014}
-%Em \cite{Benavidez2014} foi implementado um controlador fuzzy para controlar um quadrotor do modelo AR Drone 2.0 para trabalhar em conjunto com um UGV (\textit{Unmanned Ground Vehicle}\footnote{Veículos Terrestres não Tripulados, tradução nossa}). Este seria o caso, por exemplo, de o UGV prover espaço para aterrissagem, recarga de bateria e/ou serviços físicos ao UAV, que é limitado em termos de bateria. Desta forma, este trabalho lida com um UAV rastreando e aterrissando sobre um UGV.
-%
-%O controlador foi projetado baseado em diferentes questões. O que se deseja controlar é a altitude do drone e esta informação pode ser obtida a partir do sonar embutido no modelo.
-%
-%A principal função do controlador será estabilizar o \textit{drone} em altitude e, ao mesmo tempo, alcançar o ângulo de orientação desejado, de forma a permitir que ele alcance o UGV com sucesso. Para tanto, o \textit{drone} precisa de velocidade de translação ao longo to eixo y local enquanto rotaciona em torno do seu eixo z para reduzir o ângulo de orientação. Sobretudo, o objetivo é obter a mesma orientação em ambos UAV e UGV. Com a mesma orientação, o UAV pode se aproximar do UGV para operações de aterrissagem. Para se aproximar do UGV, uma vez orientado, o quadricóptero deve transladar ao longo do seu eixo x a fim de chegar próximo o suficiente para usar a câmera inferior possibilitando a detecção do bloco de aterrissagem.
-%
-%A modelagem usando lógica Fuzzy aplicada ao controle de altitude se deu utilizando cinco diferentes termos linguísticos. As regras utilizadas são mostradas no \autoref{qua:Benavidez2014_table_rules_inference}.
-%
-%\input{./06-quadros/Benavidez2014_table_rules_for_inference}
-%
-%Como se pode ver, a entrada do sistema é a leitura do sonar, e ela está associada a cinco funções de pertinência: muito baixo, baixo, no alvo, alto e muito alto. A saída do sistema é o comando de velocidade de giro em torno do eixo z. Para cada um dos valores de entrada, a saída assume as seguintes funções de pertinência respectivamente: grande aumento na velocidade, pequeno aumento na velocidade, sem mudanças na velocidade, pequena redução na velocidade e, por fim, grande redução na velocidade. Todos os termos linguísticos foram modelados a partir de ondas gaussianas dentro dos limites de operação.
-%
-%Os detalhes acerca do controle de ajuste de ângulo entre o UAV e o UGV usados não serão citados por não possuírem relação direta com este trabalho. O controle de estabilidade em altitude implementado se mostrou eficiente e os autores propuseram, para trabalhos futuros, o uso de um controlador neuro-fuzzy com treinamento supervisionado e \textit{data mining} para obter as entradas, regras e termos linguísticos ótimos baseados em histórico prévio de dados de voo.
-%
-%
-%\subsection{Métodos de Controle Híbrido de Helicópteros Quadrotores}
-%\label{sec:trab-rel-quadrotores-sub-hib}
 %
 %19
 %\cite{Gao2014Stability}
-Em \cite{Gao2014Stability}, é proposto um outro tipo de controlador híbrido. Neste caso, o controle é feito a partir de um sistema composto por dois controladores independentes: um controlador \textit{Backstepping} e um segundo controlador Fuzzy PID, que alia a lógica fuzzy a um controlador PID. Quando o quadrotor voa em boas condições, o controle de estabilidade é assumido pelo controlador \textit{Backstepping}. Quando o quadrotor encontra vento ou outro fator de perturbação durante o voo, o controlador Fuzzy PID é usado para estabilizá-lo.
+Em \cite{Gao2014Stability}, é proposto um outro tipo de controlador híbrido. Neste caso, o controle é feito a partir de um sistema composto por dois controladores independentes: um controlador \textit{Backstepping} e um segundo controlador \textit{Fuzzy} PID Adaptativo, que alia a lógica \textit{fuzzy} a um controlador PID. Quando o quadricóptero voa em boas condições, o controle de estabilidade é assumido pelo controlador \textit{Backstepping}. Quando o quadricóptero encontra vento ou outro fator de perturbação durante o voo, o controlador \textit{Fuzzy} PID Adaptativo\footnote{O controlador \textit{Fuzzy} PID Adaptativo é um controlador PID que emprega o Sistema de Inferência \textit{Fuzzy} (FIS) para ajustar os parâmetros $K_p$, $K_i$, $K_d$, ganhos proporcional, integral e derivativo respectivamente.} é usado para estabilizá-lo. . O controlador proposto alcançou sucesso nos testes realizados, permitindo que se complete a trajetória sem que perturbações afetem a precisão do controle. Com isso, o Sistema de Inferência \textit{Fuzzy} se mostrou eficiente para ajustar os ganhos do controlador PID de forma a possibilitar o controle eficiente do quadricóptero.
 
-O controlador Fuzzy PID é um controlador PID que emprega o Sistema de Inteferência Fuzzy (FIS) para ajustar os parâmetros $K_p$, $K_i$, $K_d$, ganhos proporcional, integral e diferencial respectivamente. A \autoref{fig:Gao2014Stability_block_diagram} mostra o diagrama de blocos representando o controlador Fuzzy PID.
+%A \autoref{fig:Gao2014Stability_block_diagram} mostra o diagrama de blocos representando o controlador Fuzzy PID.
+%
+%\begin{figure}[!htb]
+%    \centering
+%    \caption{Diagrama de blocos do controlador híbrido usando em \cite{Gao2014Stability}}
+%    \includegraphics[width=0.9\textwidth]{./04-figuras/Gao2014Stability_block_diagram}
+%    \fonte{\citeonline{Gao2014Stability}}
+%    \label{fig:Gao2014Stability_block_diagram}
+%\end{figure}
+%
+%Em relação à estrutura fuzzy, há duas entradas para a inferência fuzzy: o erro e a derivada do erro. São três saídas, cada uma sendo um parâmetro do controlador PID $\Delta kp$, $\Delta ki$ e $\Delta kd$. O universo de discurso foi normalizado e dividido em sete subconjuntos fuzzy. Os termos linguísticos foram definidos da seguinte forma: NB, negativo grande; NM, negativo médio; NS, negativo pequeno; ZO, aproximadamente zero; PS, positivo pequeno; PM, positivo médio; e PB, positivo grande. Os conjuntos fuzzy para cada variável de entrada consistem de sete variáveis linguísticas: $e$ = \{NB, NM, NS, ZO, PS, PM, PB\}, $e_c$ = \{NB, NM, NS, ZO, PS, PM, PB\}. As variáveis linguísticas das saídas são atribuídas da seguinte forma: $\Delta kp$ = \{ZO, PS, PM, PB\}, $\Delta ki$ = \{ZO, PS, PM, PB\}, $\Delta kp$ = \{ZO, PS, PM, PB\}. As regras de inferência Fuzzy para as variáveis de saída $\Delta kp$, $\Delta ki$ e $\Delta kd$ são mostradas nos Quadros \ref{qua:Gao2014Stability_table_rules_inference_kp}, \ref{qua:Gao2014Stability_table_rules_inference_ki} e \ref{qua:Gao2014Stability_table_rules_inference_kd} respectivamente.
+%
+%\input{./06-quadros/Gao2014Stability_table_rules_for_inference_kp}
+%
+%\input{./06-quadros/Gao2014Stability_table_rules_for_inference_ki}
+%
+%\input{./06-quadros/Gao2014Stability_table_rules_for_inference_kd}
 
-\begin{figure}[!htb]
-    \centering
-    \caption{Diagrama de blocos do controlador híbrido usando em \cite{Gao2014Stability}}
-    \includegraphics[width=0.9\textwidth]{./04-figuras/Gao2014Stability_block_diagram}
-    \fonte{\citeonline{Gao2014Stability}}
-    \label{fig:Gao2014Stability_block_diagram}
-\end{figure}
-
-Em relação à estrutura fuzzy, há duas entradas para a inferência fuzzy: o erro e a derivada do erro. São três saídas, cada uma sendo um parâmetro do controlador PID $\Delta kp$, $\Delta ki$ e $\Delta kd$. O universo de discurso foi normalizado e dividido em sete subconjuntos fuzzy. Os termos linguísticos foram definidos da seguinte forma: NB, negativo grande; NM, negativo médio; NS, negativo pequeno; ZO, aproximadamente zero; PS, positivo pequeno; PM, positivo médio; e PB, positivo grande. Os conjuntos fuzzy para cada variável de entrada consistem de sete variáveis linguísticas: $e$ = \{NB, NM, NS, ZO, PS, PM, PB\}, $e_c$ = \{NB, NM, NS, ZO, PS, PM, PB\}. As variáveis linguísticas das saídas são atribuídas da seguinte forma: $\Delta kp$ = \{ZO, PS, PM, PB\}, $\Delta ki$ = \{ZO, PS, PM, PB\}, $\Delta kp$ = \{ZO, PS, PM, PB\}. As regras de inferência Fuzzy para as variáveis de saída $\Delta kp$, $\Delta ki$ e $\Delta kd$ são mostradas nos Quadros \ref{qua:Gao2014Stability_table_rules_inference_kp}, \ref{qua:Gao2014Stability_table_rules_inference_ki} e \ref{qua:Gao2014Stability_table_rules_inference_kd} respectivamente.
-
-\input{./06-quadros/Gao2014Stability_table_rules_for_inference_kp}
-
-\input{./06-quadros/Gao2014Stability_table_rules_for_inference_ki}
-
-\input{./06-quadros/Gao2014Stability_table_rules_for_inference_kd}
-
-O controlador proposto alcançou sucesso nos testes realizados, mostrando permitir completar a trajetória sem que perturbações afetem a precisão de controle. O Sistema de Inferência Fuzzy se mostrou eficiente para ajustar os ganhos do controlador PID de forma a possibilitar o controle eficiente do quadrotor.
+%O controlador proposto alcançou sucesso nos testes realizados, permitindo que se complete a trajetória sem que perturbações afetem a precisão de controle. O Sistema de Inferência \textit{Fuzzy} se mostrou eficiente para ajustar os ganhos do controlador PID de forma a possibilitar o controle eficiente do quadricóptero.
 
 %28
 %\cite{Gao2014Precision}
