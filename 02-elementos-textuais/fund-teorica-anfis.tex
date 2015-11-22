@@ -20,34 +20,34 @@ A Figura \ref{fig:anfis} ilustra um mecanismo de raciocínio para o modelo Sugen
     \label{fig:anfis}
 \end{figure}
 
-Na camada 1 (\textit{Layer 1}), todo nó \textit{i} é um nó adaptativo com uma função de nó do tipo:
+Na Camada 1, todo nó \textit{i} é um nó adaptativo com uma função de nó do tipo:
 \begin{align*}
     O_{1,i} = \mu_{A_{i}}(x), \mbox{ para } i = 1, 2, \mbox{ ou}\\
     O_{1,i} = \mu_{B_{i-2}}(y), \mbox{ para } i = 3, 4
 \end{align*}
 em que $x$ (ou $y$) é a entrada para o nó $i$ e $A_{i}$ (ou $B_{i-2}$) é um termo linguístico (como ``pequeno'' ou ``grande'') associado a este nó. Em outras palavras, $O_{1,i}$ é o grau de pertinência de um conjunto \textit{fuzzy} $A$ ($A_1$, $A_2$, $B_1$ ou $B_2$) e especifica o grau em que a entrada $x$ (ou $y$) satisfaz o quantificador $A$. Aqui, a função de pertinência $A$ pode ser qualquer função de pertinência parametrizada apropriada. Parâmetros nesta camada são chamados parâmetros de premissa \cite[p.~336]{Jang1997}.
 
-Na camada 2 (\textit{Layer 2}), cada nó é um nó fixo rotulado $\prod$, cuja saída é o produto de todos sinais de entrada:
+Na Camada 2, cada nó é um nó fixo rotulado $\prod$, cuja saída é o produto de todos sinais de entrada:
 \begin{align*}
     O_{2,i} = w_i = \mu_{A_{i}}(x)\mu_{B_{i-2}}(y), i = 1, 2.
 \end{align*}
 
 Cada nó de saída representa a força de ativação de uma regra. Em geral, qualquer outro operador norma-T\footnote{Operador de interseção \cite[p.~337]{Jang1997}} que desempenhe a operação \textit{AND} \textit{fuzzy} pode ser usado como função de nó nesta camada \cite[p.~337]{Jang1997}.
 
-Na camada 3 (\textit{Layer 3}), cada nó é um nó fixo rotulado N. O $i$-ésimo nó calcula a taxa da força de ativação da $i$-ésima regra pela soma da força de ativação de todas as regras:
+Na Camada 3, cada nó é um nó fixo rotulado N. O $i$-ésimo nó calcula a taxa da força de ativação da $i$-ésima regra pela soma da força de ativação de todas as regras:
 \begin{align*}
     O_{3,i} = \bar{w_i} = \frac{w_i}{w_1 + w_2}, i = 1, 2.
 \end{align*}
 
 Por conveniência, saídas desta camada são chamadas forças de ativação normalizadas \cite[p.~336]{Jang1997}.
 
-Na camada 4 (\textit{Layer 4}), todo nó $i$ é um nó adaptativo com uma função nodal
+Na Camada 4, todo nó $i$ é um nó adaptativo com uma função nodal
 \begin{align*}
     O_{4,i} = \bar{w_i}f_i = \bar{w_i}(p_ix+q_iy+r_i),
 \end{align*}
 em que $\bar{w_i}$ é um taxa da força de ativação normalizada da camada 3 e \{$p_i, q_i, r_i$\} é o conjunto de parâmetros deste nó. Parâmetros nesta camada são denominados parâmetros consequentes \cite[p.~336]{Jang1997}.
 
-O único nó na camada 5 (\textit{Layer 5}) é um nó fixo denominado $\sum$, e é responsável por computar a saída global como a soma ponderada de todos os sinais de entrada:
+O único nó na Camada 5 é um nó fixo denominado $\sum$, e é responsável por computar a saída global como a soma ponderada de todos os sinais de entrada:
 \begin{align*}
     \mbox{saída global} = O_{5,i} = \sum_{i} {\bar{w_i}f_i} = \frac{\sum_{i} {w_if_i}}{\sum_{i} {w_i}} %\overline{w_i}(p_ix+q_iy+r_i),
 \end{align*}
