@@ -31,6 +31,10 @@ A ser corrigido:
 
 ----- versão 18 -----
 
+[OK] Tradução das Figuras com termos em inglês e dos textos que as citavam
+
+----- versão 19 -----
+
 Metodologia
 Desenvolvimento
 Resultados
