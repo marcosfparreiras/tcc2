@@ -31,8 +31,11 @@ A ser corrigido:
 
 ----- versão 18 -----
 
-Metodologia
+Revisão dos capítulos:
+[OK] Metodologia - Escrito do zero
 Desenvolvimento
+
+----- versão 19 - em aberto ---
 Resultados
 Conclusões
 Trabalhos Futuros
