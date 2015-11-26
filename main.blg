@@ -2,7 +2,7 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 A level-1 auxiliary file: ./02-elementos-textuais/metodologia_revisto.aux
-A level-1 auxiliary file: ./02-elementos-textuais/metodologia.aux
+A level-1 auxiliary file: ./02-elementos-textuais/desenvolvimento.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
 The style file: abntex2-alf.bst
@@ -28,7 +28,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 7 entries,
             6711 wiz_defined-function locations,
-            1228 strings with 10002 characters,
+            1228 strings with 10006 characters,
 and the built_in function-call counts, 4163 in all, are:
 = -- 417
 > -- 92
