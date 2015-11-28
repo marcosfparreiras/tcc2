@@ -1,16 +1,15 @@
-Como se pode ver, os controladores de atitude e altitude tanto fuzzy quanto neuro-fuzzy foram eficientes levando à estabilização do sistema em todos os casos testados, inclusive na situação em que a massa do sistema foi aumentada em mais de 100 \%. Isso indica que estes controladores podem ser utilizados, por exemplo, em situações em que o drone precisaria transportar uma carga que tenha sua massa ou até mesmo uma superior.
-
-Em quase todos os casos, nota-se um comportamento do controlador neuro-fuzzy superior ao do \textit{fuzzy}, o que já era esperado tendo em vista que o primeiro alia o poder do segundo às vantagens das RNAs, fazendo com que, a partir de um treinamento supervisionado utilizando o próprio modelo \textit{fuzzy}, possa se construir um controle mais abrangente e com resposta melhorada. Além disto, verificou-se uma melhora no consumo energético no controle de altitude ao utilizar o controlador neuro-\textit{fuzzy}. No controle de atitude, entretanto, o controlador neuro-\textit{fuzzy} apresentou pior eficiência energética.
-
-Já no experimento envolvendo ruídos de medição, o controlador neuro-\textit{fuzzy} de altitude se mostrou muito superior ao \textit{fuzzy}, apresentando menor variação e menor tempo de convergência além de uma eficiência energética muito melhor, atuando de forma muito sutil para as correções dos ruídos incluídos no sistema ao passo que o \textit{fuzzy} gasta muito mais energia para fazer cada uma dessas correções.
-
-Estes resultados mostram que, de fato, as técnicas de Inteligência Computacional podem ser aplicadas para projetar controladores eficientes e robustos para atuar sobre sistemas multivariável e que, além disto, o poder de treinamento dos ANFISs realmente é capaz de fazer com que o desempenho de controladores neuro-\textit{fuzzy} seja melhorado se comparado ao daqueles puramente \textit{fuzzy}, tanto com relação à qualidade de resposta quanto à eficiência energética.
-
-A sumarização dos resultados é feita nos Quadros \ref{qua:resultados_2kg_comparativo_fuzzy}, \ref{qua:resultados_5kg_comparativo_fuzzy} e \ref{qua:resultados_2kg_ruidos_comparativo_fuzzy}.
+Como se pode ver, os controladores de atitude e altitude tanto \textit{fuzzy} quanto neuro-\textit{fuzzy} foram eficientes levando à estabilização do sistema em todos os casos testados, inclusive na situação em que a massa do sistema foi aumentada em mais de 100 \%. Isso indica que estes controladores podem ser utilizados, por exemplo, em situações em que o \textit{drone} precisaria transportar uma carga que tenha sua massa ou até mesmo uma superior. O Quadro \ref{qua:resultados_2kg_comparativo_fuzzy} sintetiza os resultados obtidos para o sistema com massa $m=2$ kg e o Quadro \ref{qua:resultados_5kg_comparativo_fuzzy}, para o sistema com massa $m=5$ kg.
 
 \input{./06-quadros/resultados_2kg}
 
 \input{./06-quadros/resultados_5kg}
 
+Em quase todos os casos, nota-se um comportamento do controlador neuro-\textit{fuzzy} superior ao do \textit{fuzzy}, o que já era esperado tendo em vista que o primeiro alia o poder do segundo às vantagens das RNAs, fazendo com que, a partir de um treinamento supervisionado utilizando o próprio modelo \textit{fuzzy}, possa se construir um controle mais abrangente e com resposta melhorada. Além disto, verificou-se uma melhora no consumo energético no controle de altitude ao utilizar o controlador neuro-\textit{fuzzy}. No controle de atitude, entretanto, o controlador neuro-\textit{fuzzy} apresentou pior eficiência energética.
+
+Já no experimento envolvendo ruídos de medição, o controlador neuro-\textit{fuzzy} de altitude se mostrou muito superior ao \textit{fuzzy}, apresentando menor variação e menor tempo de convergência além de uma eficiência energética muito melhor, atuando de forma muito sutil para as correções dos ruídos incluídos no sistema ao passo que o \textit{fuzzy} gasta muito mais energia para fazer cada uma dessas correções. O Quadro \ref{qua:resultados_2kg_ruidos_comparativo_fuzzy} sintetiza os resultados obtidos neste experimento.
+
 \input{./06-quadros/resultados_2kg_ruidos}
 
+Estes resultados mostram que, de fato, as técnicas de Inteligência Computacional podem ser aplicadas para projetar controladores eficientes e robustos para atuar sobre sistemas multivariável e que, além disto, o poder de treinamento dos ANFISs realmente é capaz de fazer com que o desempenho de controladores neuro-\textit{fuzzy} seja melhorado se comparado ao daqueles puramente \textit{fuzzy}, tanto com relação à qualidade de resposta quanto à eficiência energética.
+
+%A sumarização dos resultados é feita nos Quadros \ref{qua:resultados_2kg_comparativo_fuzzy}, \ref{qua:resultados_5kg_comparativo_fuzzy} e \ref{qua:resultados_2kg_ruidos_comparativo_fuzzy} que sintetizam as respostas do sistema com massa $m=2$ kg

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 19:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1729,27 +1729,26 @@ l.2
 l.2 
      <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
 > <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_
-ruidos.jpg>] [13pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.1.22}) has been already used, duplicate ignored
+ruidos.jpg>] (./06-quadros/resultados_2kg.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 7.
+) (./06-quadros/resultados_5kg.tex) [13pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.1.22}) has been already used, duplicate ignore
+d
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.8 
+    pdfTeX warning (ext4): destination with the same identifier (name{quadro.1.
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.8 
      <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
-.jpg>] (./06-quadros/resultados_2kg.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 7.
-) (./06-quadros/resultados_5kg.tex)
-(./06-quadros/resultados_2kg_ruidos.tex))) [14pdfTeX warning (ext4): destinatio
-n with the same identifier (name{quadro.1.1}) has been already used, duplicate 
-ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.110 ...clude{./02-elementos-textuais/resultados}
-                                                              % ResultadospdfTe
-X warning (ext4): destination with the same identifier (name{quadro.1.2}) has b
-een already used, duplicate ignored
+.jpg>] (./06-quadros/resultados_2kg_ruidos.tex))) [14pdfTeX warning (ext4): des
+tination with the same identifier (name{quadro.1.2}) has been already used, dup
+licate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1859,7 +1858,7 @@ type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (21 pages, 663388 bytes).
+Output written on main.pdf (21 pages, 663963 bytes).
 PDF statistics:
  351 PDF objects out of 1000 (max. 8388607)
  295 compressed objects within 3 object streams
