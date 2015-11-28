@@ -52,6 +52,9 @@ Revisão do capítulo:
 
 ----- versão 22 -----
 
+Inclusão dos testes com ruídos na Metologia, Desenvolvimento e Resultados
+
+----- versão 23 -----
 
 Conclusões
 Trabalhos Futuros
