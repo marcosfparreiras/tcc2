@@ -59,6 +59,11 @@ Inclusão dos testes com ruídos na Metologia, Desenvolvimento e Resultados
 Conclusões
 Trabalhos Futuros
 
+----- versão 24 -----
+
+Introdução
+Abstract
+
 
 
 v14- primeira versão revisada depois do TCC.
