@@ -13,7 +13,7 @@ De fato, os resultados mostram que o controlador neuro-\textit{fuzzy} realmente 
 
 Além disto, num teste para verificar a robustez dos controladores, a massa do sistema foi acrescida em 117\%, passando de 2 kg para 5 kg. Neste novo contexto, o controlador de atitude neuro-\textit{fuzzy} mais uma vez foi superior ao \textit{fuzzy}, reduzindo o tempo de convergência em 3\% e da variação em 14\%. Já no controle de altitude, o único fator melhorado pelo neuro-\textit{fuzzy} foi a variação do sistema, sendo reduzida em 20\%, ao passo que seu tempo de convergência cresceu 57\%, além de ter sido inserida uma sobrelevação na resposta.
 
-Além disso, os resultados obtidos no experimento computacional incluindo ruídos de medição, ambos os controladores se mostraram capazes de lidar com eles. Neste ponto, entretanto, o controlador neuro-\textit{fuzzy} apresentou desempenho bastante superior, levando a uma convergência mais rápida, com menor variação e consumindo menos energia.
+No experimento computacional incluindo ruídos de medição, ambos os controladores se mostraram capazes de lidar com eles. Neste ponto, o controlador neuro-\textit{fuzzy} apresentou desempenho bastante superior, levando a uma convergência mais rápida e com menor variação além de consumir menos energia.
 
 Apesar das diferenças de desempenho, os controladores \textit{fuzzy} e neuro-\textit{fuzzy} tanto para atitude quanto para altitude do sistema foram capazes de estabilizá-lo, mesmo quando submetido a uma variação substancial de parâmetros, que foi representada pelo aumento da massa em mais de 100\%.
 
@@ -22,11 +22,11 @@ Desta forma, mostra-se que se podem usar técnicas de IC para controlar, de form
 \section{Trabalhos futuros}
 \label{sec:conclusao-trabalhosFuturos}
 
-Os resultados obtidos neste trabalho abrem espaço para  se projetarem controladores equivalentes aos construídos ao longo dele para controlar um quadrotor real, extrapolando o cenário de simulações.
+Os resultados obtidos nesta dissertação abrem espaço para diferentes frentes de trabalho, tais como:
+\begin{itemize}
+\item Implementação dos controladores propostos sobre um sistema físico ;
+\item Investigação mais completa sobre a resposta dos controladores desenvolvidos quando atuando sobre sistemas sujeitos a diferentes tipos de ruído, tais como de medição e de atuação;
+\item Comparar os resultados obtidos pelos controladores desenvolvidos aos obtidos por outros controladores que implementam técnicas de IC e  outros que seguem técnicas tradicionais de controle.
+\end{itemize}
 
 
-%A escolha de projetar controladores neuro-fuzzy foi baseada na suposição de que, devido à sua capacidade de aprendizado e generalização, poderiam melhorar a resposta obtida pelos controladores Fuzzy. De fato, isto foi o que ocorreu em dois dos três casos observados.
-%
-%Todos os controladores projetados alcançaram os resultados esperados, atuando de forma a, de fato, estabilizar a atitude (variáveis $\phi$ e $\theta$) e altitude (variável $z$) do sistema. O uso do controlador Neuro-Fuzzy sobre a variável $\phi$ aumentou a sobrelevação em quase quatro vezes apesar de não ter afetado de forma considerável no tempo de assentamento. Já sobre as variáveis $\theta$ e $z$, o controlador Neuro-Fuzzy apresentou uma ligeira redução na sobrelevação do sistema e também no tempo de assentamento.
-%
-%Estes resultados indicam que as características apresentadas pelos controladores Neuro-Fuzzy podem realmente melhorar o desempenho de sistemas que possuem controladores Fuzzy. Entretanto, os resultados também mostram que esta melhora não é observada em todos os casos e que um controlador Neuro-Fuzzy pode também levar à piora num controle.
