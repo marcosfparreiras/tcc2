@@ -1,3 +1,6 @@
 \contentsline {quadro}{\numberline {1}{\ignorespaces Regras de infer\IeC {\^e}ncia fuzzy usadas em \cite {Maj2013}}}{27}{quadro.4.1}
 \contentsline {quadro}{\numberline {2}{\ignorespaces Regras fuzzy para modelagem do controle de altitude}}{35}{quadro.6.2}
 \contentsline {quadro}{\numberline {3}{\ignorespaces Regras fuzzy para modelagem do controle de atitude}}{36}{quadro.6.3}
+\contentsline {quadro}{\numberline {4}{\ignorespaces Desempenho do controlador neuro-\textit {fuzzy} comparado ao \textit {fuzzy} no controle sobre o sistema com massa $m=2$ kg}}{54}{quadro.7.4}
+\contentsline {quadro}{\numberline {5}{\ignorespaces Desempenho do controlador neuro-\textit {fuzzy} comparado ao \textit {fuzzy} no controle sobre o sistema com massa $m=5$ kg}}{55}{quadro.7.5}
+\contentsline {quadro}{\numberline {6}{\ignorespaces Desempenho do controlador neuro-\textit {fuzzy} comparado ao \textit {fuzzy} no controle sobre o sistema com massa $m=2$ kg submetido a ru\IeC {\'\i }dos de medi\IeC {\c c}\IeC {\~a}o da vari\IeC {\'a}vel $z$}}{55}{quadro.7.6}
