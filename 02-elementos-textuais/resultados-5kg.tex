@@ -18,12 +18,21 @@ A resposta dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} para altitude
     \label{fig:altitude_z_zdot_5kg_closer}
 \end{figure}
 
+A Figura \ref{fig:graph_control_z5kg} mostra a ação de ambos os controladores sendo que o neuro-\textit{fuzzy} apresentou um resultado ligeiramente superior ao \textit{fuzzy} com relação ao gasto energético, consumindo 7\% menos.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em altitude do sistema com massa $m=5$ kg}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z}
+    \label{fig:graph_control_z5kg}
+\end{figure}
+
 
 % -------------------  ATITUDE ---------------
 
-Por fim, as Figuras \ref{fig:atitude_phi_phidot_5kg_40s} e \ref{fig:atitude_theta_thetadot_5kg_40s} mostram os resultados obtidos pelos controladores de atitude no sistema com massa $m=5$ kg. Percebe-se que mais uma vez o sistema convergiu ao seu estado de estabilidade com os ângulos nulos e velocidades angulares também nulas, representando que o quadricóptero, após a ação de controle, tanto \textit{fuzzy} quanto neuro-\textit{fuzzy}, fica estável e com orientação plana\footnote{i.e\ paralela ao plano XY}.
+As Figuras \ref{fig:atitude_phi_phidot_5kg_40s} e \ref{fig:atitude_theta_thetadot_5kg_40s} mostram os resultados obtidos pelos controladores de atitude no sistema com massa $m=5$ kg. Percebe-se que mais uma vez o sistema convergiu ao seu estado de estabilidade com os ângulos nulos e velocidades angulares também nulas, representando que o quadricóptero, após a ação de controle, tanto \textit{fuzzy} quanto neuro-\textit{fuzzy}, fica estável e com orientação plana\footnote{i.e\ paralela ao plano XY}.
 
-As Figuras \ref{fig:atitude_phi_phidot_5kg_10s} e \ref{fig:atitude_theta_thetadot_5kg_10s} mostram em mais detalhes as repostas obtidas pelos controladores sobre a atitude do sistema com massa $m=5$ kg. A partir delas, nota-se que mais uma vez o controlador neuro-\textit{fuzzy} apresentou desempenho levemente superior ao \textit{fuzzy}. Sobre os ângulos $\phi$ e $\theta$, a convergência ocorreu 3\% mais rapidamente e a variação apresentada reduziu 14\%. Já sobre as velocidades angulares $\dot{\phi}$ e $\dot{\theta}$, a redução de tempo de convergência com o neuro-\textit{fuzzy} foi de 2\%, mantendo a mesma sobrelevação e variação oferecidas pelo \textit{fuzzy}. Com isto, mais uma vez o controle neuro-fuzzy fez com que o ângulo máximo de inclinação do \textit{drone} fosse inferior ao alcançado pelo sistema controlado pelo \textit{fuzzy},e além de reduzir o tempo necessário para sua estabilização definitiva.
+As Figuras \ref{fig:atitude_phi_phidot_5kg_10s} e \ref{fig:atitude_theta_thetadot_5kg_10s} mostram em mais detalhes as repostas obtidas pelos controladores sobre a atitude do sistema com massa $m=5$ kg. A partir delas, nota-se que mais uma vez o controlador neuro-\textit{fuzzy} apresentou desempenho levemente superior ao \textit{fuzzy}. Sobre os ângulos $\phi$ e $\theta$, a convergência ocorreu 3\% mais rapidamente e a variação apresentada reduziu 14\%. Já sobre as velocidades angulares $\dot{\phi}$ e $\dot{\theta}$, a redução de tempo de convergência com o neuro-\textit{fuzzy} foi de 2\%, mantendo a mesma sobrelevação e variação oferecidas pelo \textit{fuzzy}. Com isto, mais uma vez o controle neuro-fuzzy fez com que o ângulo máximo de inclinação do \textit{drone} fosse inferior ao alcançado pelo sistema controlado pelo \textit{fuzzy}, e além de reduzir o tempo necessário para sua estabilização definitiva.
 
 %phi
 \begin{figure}[!htb]
@@ -54,6 +63,22 @@ As Figuras \ref{fig:atitude_phi_phidot_5kg_10s} e \ref{fig:atitude_theta_thetado
     \caption{Comparação da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=5$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s}
     \label{fig:atitude_theta_thetadot_5kg_10s}
+\end{figure}
+
+Por fim, as Figuras \ref{fig:fig_contoller_phi_2kg} e \ref{fig:fig_contoller_theta_2kg} mostra a ação de ambos os controladores no processo de estabilização da atitude do \textit{drone}. Assim como para o sistema com massa $m=2$ kg, em ambos os casos o controlador neuro-\textit{fuzzy} apresentou resultado inferior ao \textit{fuzzy}. Desta vez, entretanto, o consumo foi 10\% maior.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em atitude do sistema com massa $m=5$ kg para variável $\phi$}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg}
+    \label{fig:fig_contoller_phi_5kg}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em atitude do sistema com massa $m52$ kg para variável $\theta$}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg}
+    \label{fig:fig_contoller_theta_5kg}
 \end{figure}
 
 
