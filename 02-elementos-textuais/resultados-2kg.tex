@@ -16,6 +16,15 @@ A Figura \ref{fig:altitude_z_zdot_2kg} mostra a posição no eixo vertical ($z$)
     \label{fig:altitude_z_zdot_2kg_closer}
 \end{figure}
 
+Já a Figura \ref{fig:graph_control_z} mostra a ação de ambos os controladores. O controlador neuro-\textit{fuzzy} apresentou melhor resultado quanto ao gasto energético, apresentando um gasto 14\% menor do que o \textit{fuzzy}.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em altitude do sistema com massa $m=2$ kg}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z}
+    \label{fig:graph_control_z}
+\end{figure}
+
 % -------------------  ATITUDE ---------------
 
 Já as Figuras \ref{fig:atitude_phi_phidot_2kg_40s} e \ref{fig:atitude_theta_thetadot_2kg_40s} mostram a estabilidade de atitude em torno dos eixos x e y (i.e\ em relação ao plano horizontal XY), representados por $\theta$ e $\phi$ respectivamente. Como se pode ver, ambos os estados são devidamente controlados e, com isto, o \textit{drone} volta à estabilidade horizontal, com ângulos e velocidades angulares nulas no estado permanente.
@@ -52,4 +61,20 @@ A partir das Figuras \ref{fig:atitude_phi_phidot_2kg_10s} e \ref{fig:atitude_the
     \caption{Comparação em mais detalhes da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=2$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s}
     \label{fig:atitude_theta_thetadot_2kg_10s}
+\end{figure}
+
+As Figuras \ref{fig:fig_contoller_phi_2kg} e \ref{fig:fig_contoller_theta_2kg} mostra a ação de ambos os controladores no processo de estabilização da atitude do \textit{drone}. Como se pode ver, ambas as respostas são bastante parecidas, devido ao fato de o sistema ser praticamente simétrico em relação aos seus eixos x e y. Em ambos os casos, o controlador neuro-\textit{fuzzy} apresentou resultado inferior ao \textit{fuzzy}, consumindo 12\% mais energia do que este.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em atitude do sistema com massa $m=2$ kg para variável $\phi$}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg}
+    \label{fig:fig_contoller_phi_2kg}
+\end{figure}
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Comparação da ação dos controladores \textit{fuzzy} e neuro-\textit{fuzzy} na estabilização em atitude do sistema com massa $m=2$ kg para variável $\theta$}
+    \includegraphics[width=0.6\textwidth]{./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg}
+    \label{fig:fig_contoller_theta_2kg}
 \end{figure}

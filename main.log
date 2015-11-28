@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 12:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1352,7 +1352,17 @@ File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jpg
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_z
 dot_2kg_details.jpg used on input line 15.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg, id=10, 562.1
+pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg Graphic 
+file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_con
+trol_z.jpg used on input line 24.
+(pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 
@@ -1363,84 +1373,106 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.22 
+l.31 
       <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=28, 421.575pt
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=29, 421.575pt
  x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png Graphic file
  (type png)
 
 <use ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png>
 Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_4
-0s.png used on input line 28.
+0s.png used on input line 37.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=29, 421.5
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=30, 421.5
 75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png Graphic 
 file (type png)
 
 <use ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png>
 Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_2
-kg_40s.png used on input line 36.
+kg_40s.png used on input line 45.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
  [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41 
+l.50 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.1
 .3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.41 
+l.50 
       <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jp
-g> <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png (PNG copy)>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=36, 421.575pt
+g> <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg>] [3pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.1.4}) has be
+en already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.50 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.50 
+      <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png (PNG copy)>
+ <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png (PNG copy)>]
+
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=45, 421.575pt
  x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png Graphic file
  (type png)
 
 <use ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png>
 Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_1
-0s.png used on input line 45.
+0s.png used on input line 54.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=37, 421.5
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=46, 421.5
 75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png Graphic 
 file (type png)
 
 <use ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png>
 Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_2
-kg_10s.png used on input line 53.
+kg_10s.png used on input line 62.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
+
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg, id=49, 
+562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg Gra
+phic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contol
+ler_phi_2kg.jpg used on input line 71.
+(pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
+
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg, id=50
+, 562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg G
+raphic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contol
+ler_theta_2kg.jpg used on input line 78.
+(pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 )
-(./02-elementos-textuais/resultados-5kg.tex [3pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.1.4}) has been already used, duplicate 
+(./02-elementos-textuais/resultados-5kg.tex [4pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.1.6}) has been already used, duplicate 
 ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.4 
-     <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png (PNG cop
-y)>] [4pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1.5}) has been already used, duplicate ignored
+     <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png (PNG copy)>]
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.4 
-    pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
-6}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.4 
-     <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png (PNG copy)> 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png (PNG copy)>]
-<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=52, 562.
+<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=61, 562.
 1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg Graphic
  file (type jpg)
@@ -1451,7 +1483,7 @@ dot_5kg.jpg used on input line 9.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg, id=
-53, 562.1pt x 421.575pt>
+62, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg
  Graphic file (type jpg)
 
@@ -1471,9 +1503,23 @@ l.25
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.25 
-      <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg> <./04
--figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=63, 421.575pt
+      <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png (PNG co
+py)> <./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg>]
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.9}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg>
+ <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg>]
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=79, 421.575pt
  x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png Graphic file
  (type png)
@@ -1483,7 +1529,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_4
 0s.png used on input line 32.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=64, 421.5
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=80, 421.5
 75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png Graphic 
 file (type png)
@@ -1493,7 +1539,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_40s.png used on input line 40.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=65, 421.575pt
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=81, 421.575pt
  x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png Graphic file
  (type png)
@@ -1503,7 +1549,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_1
 0s.png used on input line 47.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=66, 421.5
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=82, 421.5
 75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png Graphic 
 file (type png)
@@ -1513,38 +1559,46 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_10s.png used on input line 55.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 )
-(./02-elementos-textuais/resultados-interpretacao.tex [6pdfTeX warning (ext4): 
-destination with the same identifier (name{figure.1.9}) has been already used, 
-duplicate ignored
+(./02-elementos-textuais/resultados-interpretacao.tex [7pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.1.11}) has been already used,
+ duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.2 
-     <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png (PNG copy)>]
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1.10
-}) has been already used, duplicate ignored
+l.4 
+     <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg
+>] [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3 E
-     m quase todos os casos, nota-se um comportamento do controlador neuro-f...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.11})
+l.5 E
+     stes resultados mostram que, de fato, as técnicas de Inteligência Com...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.13})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.3 E
-     m quase todos os casos, nota-se um comportamento do controlador neuro-f...
- <./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png (PNG copy)> 
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)>]))
-[8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.12
+l.5 E
+     stes resultados mostram que, de fato, as técnicas de Inteligência Com...
+ <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png (PNG copy)> <./0
+4-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png (PNG copy)>]))
+[9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.14
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.110 ...clude{./02-elementos-textuais/resultados}
+                                                              % ResultadospdfTe
+X warning (ext4): destination with the same identifier (name{figure.1.15}) has 
+been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 ...clude{./02-elementos-textuais/resultados}
                                                               % Resultados <./0
-4-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png (PNG copy)>]
+4-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)> <./04-fig
+uras/resultados/novos/atitude_theta_thetadot_5kg_10s.png (PNG copy)>] [10]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -1557,14 +1611,14 @@ bibitemlist
 
 LaTeX Warning: Empty `thebibliography' environment on input line 8.
 
-)) [9
+)) [11
 
 
 
 ]
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
- (./03-elementos-pos-textuais/apendices.tex [10
+ (./03-elementos-pos-textuais/apendices.tex [12
 
 
 
@@ -1588,13 +1642,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [11
+) [13
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-atitude.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))) [12
+))) [14
 
 ] (./main.ind)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
@@ -1610,11 +1664,11 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 17892 strings out of 493304
- 260663 string characters out of 6139871
- 516234 words of memory out of 5000000
- 20819 multiletter control sequences out of 15000+600000
- 31843 words of font info for 138 fonts, out of 8000000 for 9000
+ 17934 strings out of 493304
+ 261934 string characters out of 6139871
+ 517376 words of memory out of 5000000
+ 20834 multiletter control sequences out of 15000+600000
+ 32785 words of font info for 150 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,13n,42p,1512b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1624,10 +1678,10 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (12 pages, 364857 bytes).
+Output written on main.pdf (14 pages, 441150 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 210 compressed objects within 3 object streams
- 103 named destinations out of 1000 (max. 500000)
- 23661 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 264 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 23676 words of extra memory for PDF output out of 24883 (max. 10000000)
 
