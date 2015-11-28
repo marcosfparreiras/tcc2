@@ -6,17 +6,17 @@ Este capítulo trata da forma como o trabalho foi desenvolvido de forma a aplica
 \section{Verificação do Desacoplamento das Entradas}
 \label{sec:verificacao-desacoplamento}
 
-\input{./02-elementos-textuais/desenvolvimento-verificacao-desacoplamento}
+\input{./02-elementos-textuais/desenvolvimento-desacoplamento}
 
 \section{Controladores Fuzzy}
 \label{sec:controlador-fuzzy}
 
-\input{./02-elementos-textuais/desenvolvimento-controlador-fuzzy}
+%\input{./02-elementos-textuais/desenvolvimento-controlador-fuzzy}
 
 \section{Controladores Neuro-Fuzzy}
 \label{sec:controlador-neuro-fuzzy}
 
-\input{./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy}
+%\input{./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy}
 
 \section{Experimentos Realizados}
 \label{sec:experimentos-realizados}
@@ -28,74 +28,3 @@ Uma vez projetados os controladores fuzzy e neuro-fuzzy, o sistema foi sujeitado
 Em seguida, para testar a robustez de cada controlador, foi feita uma simulação em que eles atuam sobre um sistema cuja massa do quadrotor é $m=5$ $kg$, valor este que foi escolhido por variar o parâmetro massa em mais de 100 \%.
 
 Os resultados obtidos são mostrados no capítulo seguinte.
-
-
-%
-%O desenvolvimento do trabalho se deu integralmente em ambiente simulado. Para a implementação das simulações, foi utilizado o software MATLAB\textregistered, devido à grande gama de possibilidades que ele oferece para lidar com sistemas não lineares além do excelente material de apoio da própria MathWorks\textregistered\ e da comunidade de usuários. As ferramentas do MATLAB utilizadas foram:
-%\begin{itemize}
-%  \item Simulink: utilizado para modelar sistemas em diagramas de blocos e fazer simulações dos sistemas resultantes;
-%  \item Fuzzy Logic Toolbox: utilizado para desenvolver controladores Fuzzy.
-%  \item Neuro-Fuzzy Designer: utilizado para treinar e validar controladores Neuro-Fuzzy.
-%\end{itemize}
-%
-%\section{Contextualização do Controle de Sistemas Dinâmicos Não Lineares}
-%\label{sec:metodologia-contextualizacao}
-%
-%\input{./02-elementos-textuais/metodologia-pendulo}
-%
-%\section{Modelagem e Controle do Quadrotor}
-%\label{sec:metodologia-quadcopter}
-%
-%\input{./02-elementos-textuais/metodologia-drone}
-%
-%\iffalse
-%Num primeiro momento, mostra-se o comportamento do quadrotor modelado quando submetido a uma entrada em degrau. Assim como no caso do pêndulo invertido, a intenção deste experimento é mostrar a instabilidade do quadrotor, justificando assim a necessidade de um controlador adequado para evitar tal comportamento e garantir sua estabilidade no regime permanente. Esta etapa foi dividida em quatro simulações diferentes, sendo que, na primeira delas, é analisada a resposta que uma excitação em degrau unitário na entrada $u_1$ causa nos estados relacionados à ela, segundo a modelagem utilizada: $z$ e $\dot{z}$. Numa segunda simulação, foi analisada a resposta dos estados $y$, $\dot{y}$, $\phi$, $\dot{\phi}$ a uma excitação em degrau na entrada $u_2$. Já na terceira, analisou-se o impacto que uma entrada em degrau sobre $u_3$ causa nos estados $x$, $\dot{x}$, $\theta$ e $\dot{\theta}$. Por fim, uma quarta simulação foi projetada para analisar como os estados $\phi$ e $\dot{\phi}$ reagem a uma excitação em degrau na entrada $u_4$. Os diagramas de blocos referentes a estas simulações são mostrados nas Figuras \ref{fig:simulink-drone-diagrama-step-u1}, \ref{fig:simulink-drone-diagrama-step-u2}, \ref{fig:simulink-drone-diagrama-step-u3} e \ref{fig:simulink-drone-diagrama-step-u4} mostram a estrutura de cada uma destas simulações respectivamente. Como se pode ver, em cada simulação, uma única entrada foi utilizada enquanto as outras três foram aterradas. Equivalentemente, em cada experimento somente as saídas diretamente afetadas pela entrada estudada, segundo a modelagem realizada, foram verificadas. Assim como nas simulações envolvendo o pêndulo invertido, para se poder distinguir mais claramente os efeitos da excitação em degrau, foi definido que ela ocorresse no tempo $t=10\ s$.
-%
-%
-%\begin{figure}[!htb]
-%    \centering
-%    \caption{Diagrama de blocos representando o sistema do quadrotor usado nas simulações}
-%    \includegraphics[width=.9\textwidth]{./04-figuras/simulink_drone/diagrama_geral}
-%    \label{fig:simulink-drone-diagrama-geral}
-%\end{figure}
-%
-%\begin{figure}[!htb]
-%    \centering
-%    \caption{Diagrama de blocos representando a simulação do quadrotor para  verificação efeito de sinal em degrau sobre a entrada $u_1$ nos estados afetados por ela}
-%    \includegraphics[width=.9\textwidth]{./04-figuras/simulink_drone/diagrama_step_u1}
-%    \label{fig:simulink-drone-diagrama-step-u1}
-%\end{figure}
-%
-%\begin{figure}[!htb]
-%    \centering
-%    \caption{Diagrama de blocos representando a simulação do quadrotor para  verificação efeito de sinal em degrau sobre a entrada $u_2$ nos estados afetados por ela}
-%    \includegraphics[width=.9\textwidth]{./04-figuras/simulink_drone/diagrama_step_u2}
-%    \label{fig:simulink-drone-diagrama-step-u2}
-%\end{figure}
-%
-%\begin{figure}[!htb]
-%    \centering
-%    \caption{Diagrama de blocos representando a simulação do quadrotor para  verificação efeito de sinal em degrau sobre a entrada $u_3$ nos estados afetados por ela}
-%    \includegraphics[width=.9\textwidth]{./04-figuras/simulink_drone/diagrama_step_u3}
-%    \label{fig:simulink-drone-diagrama-step-u3}
-%\end{figure}
-%
-%\begin{figure}[!htb]
-%    \centering
-%    \caption{Diagrama de blocos representando a simulação do quadrotor para  verificação efeito de sinal em degrau sobre a entrada $u_4$ nos estados afetados por ela}
-%    \includegraphics[width=.9\textwidth]{./04-figuras/simulink_drone/diagrama_step_u4}
-%    \label{fig:simulink-drone-diagrama-step-u4}
-%\end{figure}
-%
-%%$x$, $\dot{x}$, $\theta$ e $\dot{\theta}$
-%
-%Num segundo momento, é mostrada a resposta oferecida a uma entrada em degrau pelo quadrotor quando controlado por um controlador PID modelado também por \citeonline{Balas2007}. Neste momento, espera-se que o sistema não divirja e alcance a estabilidade em regime permanente. O mesmo teste é feito mas usando um controlador LQR no lugar do controlador PID. Assim como o controlador PID, o LQR também foi modelado em \citeonline{Balas2007}.
-%
-%Os ajustes utilizados com os ganhos utilizados na realimentação dos controladores PID e LQR são expostos nas Tabelas \ref{tab:quadrotor-controle-pid} e \ref{tab:quadrotor-controle-lqr}, respectivamente.
-%
-%\input{./05-tabelas/quadrotor-controle-pid}
-%
-%\input{./05-tabelas/quadrotor-controle-lqr}
-%
-%\fi
-

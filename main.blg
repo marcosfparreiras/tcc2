@@ -1,10 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
-A level-1 auxiliary file: ./02-elementos-textuais/introducao.aux
-A level-1 auxiliary file: ./02-elementos-textuais/fund-teorica.aux
-A level-1 auxiliary file: ./02-elementos-textuais/sistemas-nao-lineares.aux
-A level-1 auxiliary file: ./02-elementos-textuais/trab-relacionados.aux
 A level-1 auxiliary file: ./02-elementos-textuais/metodologia_revisto.aux
 A level-1 auxiliary file: ./02-elementos-textuais/desenvolvimento.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
@@ -30,44 +26,44 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 29 entries,
+You've used 5 entries,
             6711 wiz_defined-function locations,
-            1380 strings with 14675 characters,
-and the built_in function-call counts, 25238 in all, are:
-= -- 2005
-> -- 916
-< -- 28
-+ -- 400
-- -- 271
-* -- 1801
-:= -- 3240
-add.period$ -- 121
-call.type$ -- 30
-change.case$ -- 321
-chr.to.int$ -- 46
-cite$ -- 25
-duplicate$ -- 1149
-empty$ -- 2025
-format.name$ -- 1345
-if$ -- 6234
-int.to.chr$ -- 4
+            1212 strings with 9656 characters,
+and the built_in function-call counts, 2204 in all, are:
+= -- 264
+> -- 18
+< -- 3
++ -- 54
+- -- 8
+* -- 100
+:= -- 319
+add.period$ -- 3
+call.type$ -- 6
+change.case$ -- 18
+chr.to.int$ -- 14
+cite$ -- 1
+duplicate$ -- 45
+empty$ -- 225
+format.name$ -- 23
+if$ -- 560
+int.to.chr$ -- 3
 int.to.str$ -- 3
-missing$ -- 515
-newline$ -- 120
-num.names$ -- 125
-pop$ -- 637
+missing$ -- 57
+newline$ -- 14
+num.names$ -- 5
+pop$ -- 50
 preamble$ -- 1
-purify$ -- 123
+purify$ -- 15
 quote$ -- 0
-skip$ -- 1500
+skip$ -- 263
 stack$ -- 1
-substring$ -- 993
-swap$ -- 612
-text.length$ -- 22
+substring$ -- 81
+swap$ -- 14
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
+type$ -- 4
 warning$ -- 0
-while$ -- 194
+while$ -- 8
 width$ -- 0
-write$ -- 409
+write$ -- 24
