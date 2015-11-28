@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 12:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1713,11 +1713,11 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 17969 strings out of 493304
- 263142 string characters out of 6139871
+ 17972 strings out of 493304
+ 263169 string characters out of 6139871
  518513 words of memory out of 5000000
  20849 multiletter control sequences out of 15000+600000
- 33417 words of font info for 158 fonts, out of 8000000 for 9000
+ 33572 words of font info for 160 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,12n,42p,1512b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1727,7 +1727,7 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (15 pages, 518132 bytes).
+Output written on main.pdf (15 pages, 518433 bytes).
 PDF statistics:
  279 PDF objects out of 1000 (max. 8388607)
  234 compressed objects within 3 object streams

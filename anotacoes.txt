@@ -46,8 +46,13 @@ Revisão do capítulo:
 
 ----- versão 21 -----
 
+[OK] Resultados
+[OK] (Alteração dos gráficos de altitude para alterar altitude inicial do drone)
+[OK] (Inclusão de gráficos mostrando resposta dos controladores)
 
-Resultados
+----- versão 22 -----
+
+
 Conclusões
 Trabalhos Futuros
 
