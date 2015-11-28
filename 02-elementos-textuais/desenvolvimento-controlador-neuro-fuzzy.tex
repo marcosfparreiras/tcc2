@@ -47,24 +47,20 @@ Um processo similar foi aplicado para modelar o controlador de atitude neuro-fuz
     \label{fig:rna_anfis_train_result_atitude}
 \end{figure}
 
-O processo de treinamento determina o comportamento dos controladores neuro-fuzzy projetados, cujas superfícies de regras são exibidas nas Figuras \ref{fig:u1_sugeno_surface} e \ref{fig:u2_u3_sugeno_surface}.
-
-%-----
-%Utilizando o comando {\ttfamily mam2sug} do MATLAB, obteve-se um novo modelo fuzzy do tipo Sugeno para cada modelo previamente definidos: um para controle de altitude e um segundo para controle de atitude do quadrotor. Então, utilizando o \textit{Neuro-Fuzzy Designer} do MATLAB, cada um dos modelos Sugeno criados foi treinado a partir de resultados obtidos pelos modelos fuzzy previamente elaborados. Não houve nenhuma alteração nas regras dos sistema, mas, devido às generalizações e aprendizagem da rede neuro-fuzzy, a relação entre valores de cada conjunto de saída foi ligeiramente alterado. Isso pode ser visto a partir das superfícies de regras para ambos os controladores, mostradas nas Figuras \ref{fig:u1_sugeno_surface} e \ref{fig:u2_u3_sugeno_surface}.
+O processo de treinamento determina o comportamento dos controladores neuro-fuzzy projetados, cujas superfícies de regras são exibidas nas Figuras \ref{fig:grid_anfis_altitude} e \ref{fig:grid_anfis_atitude}.
 
 % Mostrar superfície Sugeno
 \begin{figure}[!htb]
     \centering
-    \caption{Superfície das regras do sistema de controle neuro-fuzzy para a altitude do quadrotor}
-    \includegraphics[width=0.6\textwidth]{./04-figuras/resultados/fis_u1/u1_sugeno_surface}
-    \label{fig:u1_sugeno_surface}
+    \caption{Superfície das regras do sistema de controle neuro-\textit{fuzzy} para a altitude do quadricóptero}
+    \includegraphics[width=0.8\textwidth]{./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_altitude}
+    \label{fig:grid_anfis_altitude}
 \end{figure}
 
 \begin{figure}[!htb]
     \centering
-    \caption{Superfície das regras do sistema de controle fuzzy para a atitude do quadrotor}
-    \includegraphics[width=0.6\textwidth]{./04-figuras/resultados/fis_u3/u2_u3_sugeno_surface}
-    \label{fig:u2_u3_sugeno_surface}
+    \caption{Superfície das regras do sistema de controle neuro-\textit{fuzzy} para a atitude do quadricóptero}
+    \includegraphics[width=0.8\textwidth]{./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atitude}
+    \label{fig:grid_anfis_atitude}
 \end{figure}
-
 

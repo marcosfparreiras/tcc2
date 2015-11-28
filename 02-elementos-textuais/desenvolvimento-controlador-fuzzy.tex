@@ -11,7 +11,7 @@ Como se pode ver, três controladores agem no sistema com o objetivo de torná-l
 
 O controlador de altitude possui duas entradas e uma saída. As entradas são referentes à posição vertical do quadricóptero ($z$) e sua respectiva velocidade ($\dot{z}$), ao passo que a saída diz respeito ao sinal de controle a ser aplicado sobre o sistema para estabilizar sua altitude ($u_1$).
 
-Utilizando o \textit{Fuzzy Logic Toolbox} do MATLAB, cada variável linguística do controlador \textit{fuzzy} foi dividida em três conjuntos: N (negativo), Z (zero) e P (positivo), tomando como base os trabalhos de \citeonline{Maj2013} e \citeonline{Gao2014Stability}. As regras \textit{fuzzy} definidas para este controlador são mostradas no Quadro \ref{qua:regras_fuzzy_u1_mamdani}, e a Figura \ref{fig:1_mamdani_surface} exibe seu equivalente em superfície.
+Utilizando o \textit{Fuzzy Logic Toolbox} do MATLAB, cada variável linguística do controlador \textit{fuzzy} foi dividida em três conjuntos: N (negativo), Z (zero) e P (positivo), tomando como base os trabalhos de \citeonline{Maj2013} e \citeonline{Gao2014Stability}. As regras \textit{fuzzy} definidas para este controlador são mostradas no Quadro \ref{qua:regras_fuzzy_u1_mamdani}, e a Figura \ref{fig:grid_fis_altitude} exibe seu equivalente em superfície.
 
 % Mostrar regras Fuzzy envolvidas no controle de u1 (quadro de regras + superfície)
 \input{./06-quadros/regras_fuzzy_u1_mamdani}
@@ -19,20 +19,28 @@ Utilizando o \textit{Fuzzy Logic Toolbox} do MATLAB, cada variável linguística
 \begin{figure}[!htb]
     \centering
     \caption{Superfície das regras do sistema de controle \textit{fuzzy} para a altitude do quadricóptero}
-    \includegraphics[width=0.6\textwidth]{./04-figuras/resultados/fis_u1/u1_mamdani_surface}
-    \label{fig:1_mamdani_surface}
+    \includegraphics[width=0.8\textwidth]{./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitude}
+    \label{fig:grid_fis_altitude}
 \end{figure}
 
 O controlador de atitude projetado também possui duas entradas e uma saída. Desta vez, entretanto, as entradas são referentes ao ângulo em relação ao eixo horizontal ($\phi$ ou $\theta$) e sua respectiva variação ($\dot{\phi}$ ou $\dot{\theta}$). Mais uma vez, cada variável linguística foi dividida em três conjuntos: N, Z e P.
 
-As regras que regem o controlador de atitude são sintetizadas no Quadro \ref{qua:regras_fuzzy_u2_u3_mamdani} e podem ser vistas na superfície de regras mostradas na Figura \ref{fig:u2_u3_mamdani_surface}.
+As regras que regem o controlador de atitude são sintetizadas no Quadro \ref{qua:regras_fuzzy_u2_u3_mamdani} e podem ser vistas na superfície de regras mostradas na Figura \ref{fig:grid_fis_atitude}.
 
 % Mostrar regras Fuzzy envolvidas no controle de u2 e u3 (quadro de regras + superfície)
 \input{./06-quadros/regras_fuzzy_u2_u3_mamdani}
 
+%\begin{figure}[!htb]
+%    \centering
+%    \caption{Superfície das regras do sistema de controle fuzzy para a atitude do quadrotor}
+%    \includegraphics[width=0.6\textwidth]{./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface}
+%    \label{fig:u2_u3_mamdani_surface}
+%\end{figure}
 \begin{figure}[!htb]
     \centering
-    \caption{Superfície das regras do sistema de controle fuzzy para a atitude do quadrotor}
-    \includegraphics[width=0.6\textwidth]{./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface}
-    \label{fig:u2_u3_mamdani_surface}
+    \caption{Superfície das regras do sistema de controle \textit{fuzzy} para a atitude do quadricóptero}
+    \includegraphics[width=0.8\textwidth]{./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitude}
+    \label{fig:grid_fis_atitude}
 \end{figure}
+
+
