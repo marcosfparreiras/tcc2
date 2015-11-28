@@ -2,10 +2,38 @@
 \select@language {brazil}
 \contentsline {chapter}{\chapternumberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Relev\IeC {\^a}ncia}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Objetivo}{3}{section.1.2}
-\contentsline {chapter}{Refer\^encias}{4}{section*.14}
+\contentsline {section}{\numberline {1.2}Objetivo}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Objetivos Espec\IeC {\'\i }ficos}{3}{subsection.1.2.1}
+\contentsline {chapter}{\chapternumberline {2}Fundamenta\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Sistemas de Controle}{4}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Espa\IeC {\c c}o de Estados}{5}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Redes Neurais Artificiais}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}L\IeC {\'o}gica \textit {Fuzzy}}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Conjuntos \textit {Fuzzy}}{9}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Regras \textit {Fuzzy}}{10}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Racioc\IeC {\'\i }nio \textit {Fuzzy}}{11}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Sistema de Infer\IeC {\^e}ncia \textit {Fuzzy}}{12}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Redes Neuro-\textit {Fuzzy}}{14}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}ANFIS: \textit {Adaptive Neuro-Fuzzy Inference Systems}}{14}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Controladores \textit {Fuzzy} e Neuro-\textit {Fuzzy}}{16}{subsection.2.4.2}
+\contentsline {chapter}{\chapternumberline {3}Modelagem de um Quadric\IeC {\'o}ptero}{18}{chapter.3}
+\contentsline {section}{\numberline {3.1}Modelagem Matem\IeC {\'a}tica}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Desacoplamento das Entradas}{20}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Representa\IeC {\c c}\IeC {\~a}o no Espa\IeC {\c c}o de Estados}{21}{subsection.3.2.1}
+\contentsline {chapter}{\chapternumberline {4}Trabalhos Relacionados}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Controle Tradicional de Quadric\IeC {\'o}pteros}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Controle Inteligente de Quadric\IeC {\'o}pteros}{25}{section.4.2}
+\contentsline {chapter}{\chapternumberline {5}Metodologia}{31}{chapter.5}
+\contentsline {chapter}{\chapternumberline {6}Desenvolvimento do Trabalho}{32}{chapter.6}
+\contentsline {section}{\numberline {6.1}Verifica\IeC {\c c}\IeC {\~a}o do Desacoplamento das Entradas}{32}{section.6.1}
+\contentsline {section}{\numberline {6.2}Controladores Fuzzy}{34}{section.6.2}
+\contentsline {section}{\numberline {6.3}Controladores Neuro-Fuzzy}{36}{section.6.3}
+\contentsline {section}{\numberline {6.4}Experimentos Realizados}{41}{section.6.4}
+\contentsline {chapter}{\chapternumberline {7}Resultados}{42}{chapter.7}
+\contentsline {section}{\numberline {7.1}An\IeC {\'a}lise Consolidada dos Resultados}{49}{section.7.1}
+\contentsline {chapter}{Refer\^encias}{53}{section*.3}
 \vspace {\cftbeforepartskip }
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{Ap\^endices}{5}{section*.15}
-\contentsline {appendix}{\chapternumberline {A}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Altitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{6}{appendix.A}
-\contentsline {appendix}{\chapternumberline {B}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Atitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{7}{appendix.B}
+\contentsline {part}{Ap\^endices}{56}{section*.4}
+\contentsline {appendix}{\chapternumberline {A}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Altitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{57}{appendix.A}
+\contentsline {appendix}{\chapternumberline {B}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Atitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{58}{appendix.B}
