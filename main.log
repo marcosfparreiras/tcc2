@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 19:14
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1736,11 +1736,27 @@ me{figure.1.22}) has been already used, duplicate ignored
                                                   \fi \fi 
 l.8 
      <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
-.jpg>] (./06-quadros/resultados_altitude_2kg.tex
+.jpg>] (./06-quadros/resultados_2kg.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
-(Font)              Font shape `T1/ppl/b/it' tried instead on input line 8.
-))) [14pdfTeX warning (ext4): destination with the same identifier (name{quadro
-.1.1}) has been already used, duplicate ignored
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 7.
+) (./06-quadros/resultados_5kg.tex)
+(./06-quadros/resultados_2kg_ruidos.tex))) [14pdfTeX warning (ext4): destinatio
+n with the same identifier (name{quadro.1.1}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 ...clude{./02-elementos-textuais/resultados}
+                                                              % ResultadospdfTe
+X warning (ext4): destination with the same identifier (name{quadro.1.2}) has b
+een already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.110 ...clude{./02-elementos-textuais/resultados}
+                                                              % ResultadospdfTe
+X warning (ext4): destination with the same identifier (name{quadro.1.3}) has b
+een already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1828,10 +1844,10 @@ Package rerunfilecheck Info: File `main.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 18156 strings out of 493304
- 267511 string characters out of 6139871
- 523296 words of memory out of 5000000
- 20936 multiletter control sequences out of 15000+600000
+ 18170 strings out of 493304
+ 267888 string characters out of 6139871
+ 523700 words of memory out of 5000000
+ 20942 multiletter control sequences out of 15000+600000
  41678 words of font info for 203 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,12n,42p,1456b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1843,10 +1859,10 @@ type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
 atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8
 a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (21 pages, 662836 bytes).
+Output written on main.pdf (21 pages, 663388 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 126 named destinations out of 1000 (max. 500000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 295 compressed objects within 3 object streams
+ 128 named destinations out of 1000 (max. 500000)
  25783 words of extra memory for PDF output out of 29859 (max. 10000000)
 
