@@ -5,22 +5,4 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
-\bibitem[Balas 2007]{Balas2007}
-\abntrefinfo{Balas}{BALAS}{2007}
-{BALAS, C.
-\textbf{{Modeling and Linear Control of a Quadrotor}}.
-Disserta\c{c}\~{a}o (Mestrado) --- Cranfield University, Reino Unido, 2007.}
-
-\bibitem[Gao et al. 2014]{Gao2014Stability}
-\abntrefinfo{Gao et al.}{GAO et al.}{2014}
-{GAO, Q.; YUE, F.; HU, D. Research of stability augmentation hybrid controller
-  for quadrotor uav. In:  \textbf{Control and Decision Conference (2014 CCDC),
-  The 26th Chinese}. [S.l.: s.n.], 2014. p. 5224--5229.}
-
-\bibitem[Maj e Butkiewicz 2013]{Maj2013}
-\abntrefinfo{Maj e Butkiewicz}{MAJ; BUTKIEWICZ}{2013}
-{MAJ, W.; BUTKIEWICZ, B. Flying n-copter with fuzzy logic control. In:
-  \textbf{Signal Processing Symposium (SPS), 2013}. [S.l.: s.n.], 2013.
-  p.~1--6.}
-
 \end{thebibliography}

@@ -1,0 +1,43 @@
+[System]
+Name='fis_z_new_v01'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=5
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='z'
+Range=[-1 1]
+NumMFs=3
+MF1='n':'trimf',[-1.8 -1 -0]
+MF2='z':'trimf',[-0.1 0 0.1]
+MF3='p':'trimf',[0 1 1.8]
+
+[Input2]
+Name='z-dot'
+Range=[-5 5]
+NumMFs=3
+MF1='n':'trimf',[-9 -5 -0]
+MF2='z':'trimf',[-0.3 0 0.3]
+MF3='p':'trimf',[0 5 9]
+
+[Output1]
+Name='u1'
+Range=[-100 100]
+NumMFs=3
+MF1='n':'trimf',[-180 -100 0]
+MF2='z':'trimf',[-1 0 1]
+MF3='p':'trimf',[0 100 180]
+
+[Rules]
+1 0, 1 (1) : 1
+3 0, 3 (1) : 1
+2 1, 1 (1) : 1
+2 2, 2 (1) : 1
+2 3, 3 (1) : 1
