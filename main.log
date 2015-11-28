@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 15:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1650,7 +1650,7 @@ uido.png Graphic file (type png)
 ido.png>
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/dia
 grama_sistema_com_ruido.png used on input line 34.
-(pdftex.def)             Requested size: 455.0pt x 308.00113pt.
+(pdftex.def)             Requested size: 364.00139pt x 246.39897pt.
 ) [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2
 .16}) has been already used, duplicate ignored
 
@@ -1931,52 +1931,129 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contol
 ler_theta_5kg.jpg used on input line 80.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 )
-(./02-elementos-textuais/resultados-interpretacao.tex [19pdfTeX warning (ext4):
- destination with the same identifier (name{figure.3.29}) has been already used
-, duplicate ignored
+(./02-elementos-textuais/resultados-2kg_ruidos.tex
+<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos.jpg
+, id=260, 562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruido
+s.jpg Graphic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos
+.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
+ph_z_zdot_2kg_ruidos.jpg used on input line 8.
+(pdftex.def)             Requested size: 455.0pt x 341.24872pt.
+
+<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg, id=
+261, 562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
+ Graphic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
+ph_sinal_ruidos.jpg used on input line 15.
+(pdftex.def)             Requested size: 318.49861pt x 238.87218pt.
+
+<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_ru
+idos.jpg, id=262, 562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_detai
+ls_ruidos.jpg Graphic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_detail
+s_ruidos.jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
+ph_z_zdot_2kg_details_ruidos.jpg used on input line 22.
+(pdftex.def)             Requested size: 455.0pt x 341.24872pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+29}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 
-     <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png (PNG copy)>]
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
-0}) has been already used, duplicate ignored
+l.27 
+      <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png (PNG copy)>
+] [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.30}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 
+l.27 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
+.31}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png (PNG co
+py)> <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)>]
+
+<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.jpg,
+ id=278, 562.1pt x 421.575pt>
+File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
+.jpg Graphic file (type jpg)
+
+<use ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.
+jpg>
+Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
+ph_control_z_ruidos.jpg used on input line 31.
+(pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
+) (./02-elementos-textuais/resultados-interpretacao.tex [21pdfTeX warning (ext4
+): destination with the same identifier (name{figure.3.32}) has been already us
+ed, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
     pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-31}) has been already used, duplicate ignored
+33}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.4 
-     <./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png (PNG cop
-y)> <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)>])
-) [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.32}) has been already used, duplicate ignored
+l.2 
+     <./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png (PNG cop
+y)> <./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg>]
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.110 ...clude{./02-elementos-textuais/resultados}
-                                                              % ResultadospdfTe
-X warning (ext4): destination with the same identifier (name{figure.3.33}) has 
-been already used, duplicate ignored
+l.2 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+35}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
+     <./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg> 
+<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos.jpg
+>]
+
+LaTeX Warning: Text page 23 contains only floats.
+
+
+Overfull \vbox (0.24078pt too high) has occurred while \output is active []
+
+
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+37}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 
+     <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
+> <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_
+ruidos.jpg>])) [24pdfTeX warning (ext4): destination with the same identifier (
+name{figure.3.38}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.110 ...clude{./02-elementos-textuais/resultados}
                                                               % Resultados <./0
-4-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png (PNG copy)> <./04
--figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg>] [22pdfTeX w
-arning (ext4): destination with the same identifier (name{figure.3.34}) has bee
-n already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.110 ...clude{./02-elementos-textuais/resultados}
-                                                              % Resultados <./0
-4-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg>]
+4-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.jpg>]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -1986,14 +2063,14 @@ l.110 ...clude{./02-elementos-textuais/resultados}
 
 
 bibitemlist
-)) [23
+)) [25
 
 
 
 ]
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
- (./03-elementos-pos-textuais/apendices.tex [24
+ (./03-elementos-pos-textuais/apendices.tex [26
 
 
 
@@ -2012,13 +2089,13 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [25
+) [27
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-atitude.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))) [26
+))) [28
 
 ] (./main.ind)
 \tf@toc=\write6
@@ -2044,11 +2121,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 18340 strings out of 493304
- 274233 string characters out of 6139871
- 528113 words of memory out of 5000000
- 21046 multiletter control sequences out of 15000+600000
- 42657 words of font info for 215 fonts, out of 8000000 for 9000
+ 18378 strings out of 493304
+ 276102 string characters out of 6139871
+ 529781 words of memory out of 5000000
+ 21068 multiletter control sequences out of 15000+600000
+ 42812 words of font info for 217 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  45i,12n,42p,1469b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -2059,10 +2136,10 @@ pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (27 pages, 1101983 bytes).
+Output written on main.pdf (29 pages, 1230347 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 387 compressed objects within 4 object streams
- 153 named destinations out of 1000 (max. 500000)
- 26387 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 402 compressed objects within 5 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 26407 words of extra memory for PDF output out of 29859 (max. 10000000)
 
