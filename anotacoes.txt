@@ -52,19 +52,23 @@ Revisão do capítulo:
 
 ----- versão 22 -----
 
-Inclusão dos testes com ruídos na Metologia, Desenvolvimento e Resultados
+[OK] Inclusão dos testes com ruídos na Metologia, Desenvolvimento e Resultados
 
 ----- versão 23 -----
 
-Conclusões
-Trabalhos Futuros
+[OK] Conclusões
+[OK] Trabalhos Futuros
 
 ----- versão 24 -----
 
-Introdução
-Abstract
+[OK] Introdução
+[OK] Abstract
 
 ----- versão 25 -----
+
+[OK] Inclusão de quadros comparativos com resultados dos controladores na seção de análise consolidada dos resultados
+
+----- versão 26 -----
 
 
 
