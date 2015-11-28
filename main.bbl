@@ -5,22 +5,169 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.3 }
 
+\bibitem[Al-Younes e Jarrah 2008]{Al-Younes2008}
+\abntrefinfo{Al-Younes e Jarrah}{AL-YOUNES; JARRAH}{2008}
+{AL-YOUNES, Y.; JARRAH, M. Attitude stabilization of quadrotor uav using
+  backstepping fuzzy logic \& backstepping least-mean-square controllers. In:
+  \textbf{Mechatronics and Its Applications, 2008. ISMA 2008. 5th International
+  Symposium on}. [S.l.: s.n.], 2008. p. 1--11.}
+
 \bibitem[Balas 2007]{Balas2007}
 \abntrefinfo{Balas}{BALAS}{2007}
 {BALAS, C.
 \textbf{{Modeling and Linear Control of a Quadrotor}}.
 Disserta\c{c}\~{a}o (Mestrado) --- Cranfield University, Reino Unido, 2007.}
 
+\bibitem[Basri et al. 2014]{Ariffanan2014}
+\abntrefinfo{Basri et al.}{BASRI et al.}{2014}
+{BASRI, M.; HUSAIN, A.; DANAPALASINGAM, K. Fuzzy supervisory backstepping
+  controller for stabilization of quadrotor unmanned aerial vehicle. In:
+  \textbf{Intelligent and Advanced Systems (ICIAS), 2014 5th International
+  Conference on}. [S.l.: s.n.], 2014. p.~1--5.}
+
+\bibitem[Boubertakh et al. 2013]{Boubertakh2013}
+\abntrefinfo{Boubertakh et al.}{BOUBERTAKH et al.}{2013}
+{BOUBERTAKH, H.; BENCHAREF, S.; LABIOD, S. Pso-based pid control design for the
+  stabilization of a quadrotor. In:  \textbf{Systems and Control (ICSC), 2013
+  3rd International Conference on}. [S.l.: s.n.], 2013. p. 514--517.}
+
+\bibitem[Coza e Macnab 2006]{Coza2006}
+\abntrefinfo{Coza e Macnab}{COZA; MACNAB}{2006}
+{COZA, C.; MACNAB, C. A new robust adaptive-fuzzy control method applied to
+  quadrotor helicopter stabilization. In:  \textbf{Fuzzy Information Processing
+  Society, 2006. NAFIPS 2006. Annual meeting of the North American}. [S.l.:
+  s.n.], 2006. p. 454--458.}
+
+\bibitem[Dorf 2011]{Dorf2011}
+\abntrefinfo{Dorf}{DORF}{2011}
+{DORF, R. \textbf{Modern control systems}. 12. ed. Upper Saddle River, N.J:
+  Pearson Prentice Hall, 2011.
+ISBN 978-0136024583.}
+
+\bibitem[Gao et al. 2014]{Gao2014Precision}
+\abntrefinfo{Gao et al.}{GAO et al.}{2014a}
+{GAO, Q.; YUE, F.; HU, D. Research of precision flight control for quadrotor
+  uav. In:  \textbf{Guidance, Navigation and Control Conference (CGNCC), 2014
+  IEEE Chinese}. [S.l.: s.n.], 2014. p. 2369--2374.}
+
 \bibitem[Gao et al. 2014]{Gao2014Stability}
-\abntrefinfo{Gao et al.}{GAO et al.}{2014}
+\abntrefinfo{Gao et al.}{GAO et al.}{2014b}
 {GAO, Q.; YUE, F.; HU, D. Research of stability augmentation hybrid controller
   for quadrotor uav. In:  \textbf{Control and Decision Conference (2014 CCDC),
   The 26th Chinese}. [S.l.: s.n.], 2014. p. 5224--5229.}
+
+\bibitem[Guo et al. 2003]{Guo2003}
+\abntrefinfo{Guo et al.}{GUO et al.}{2003}
+{GUO, C.; SIMAAN, M.; SUN, Z. Neuro-fuzzy intelligent controller for ship roll
+  motion stabilization. In:  \textbf{Intelligent Control. 2003 IEEE
+  International Symposium on}. [S.l.: s.n.], 2003. p. 182--187.
+ISSN 2158-9860.}
+
+\bibitem[Haykin 1998]{Haykin1998}
+\abntrefinfo{Haykin}{HAYKIN}{1998}
+{HAYKIN, S. \textbf{{Neural Networks: A Comprehensive Foundation}}. NJ, USA:
+  Prentice Hall PTR Upper Saddle River, 1998.
+ISBN 0132733501.}
+
+\bibitem[Jang et al. 1997]{Jang1997}
+\abntrefinfo{Jang et al.}{JANG et al.}{1997}
+{JANG, J.; SUN, C.; MIZUTANI, E. \textbf{Neuro-fuzzy and Soft Computing: A
+  Computational Approach to Learning and Machine Intelligence}. [S.l.]:
+  Prentice Hall, 1997.
+ISBN 9780132610667.}
+
+\bibitem[Khatoon et al. 2014]{Khatoon2014}
+\abntrefinfo{Khatoon et al.}{KHATOON et al.}{2014}
+{KHATOON, S.; SHAHID, M.; IBRAHEEM; CHAUDHARY, H. Dynamic modeling and
+  stabilization of quadrotor using pid controller. In:  \textbf{Advances in
+  Computing, Communications and Informatics (ICACCI, 2014 International
+  Conference on}. [S.l.: s.n.], 2014. p. 746--750.}
+
+\bibitem[Mahfouz et al. 2013]{Mahfouz2013}
+\abntrefinfo{Mahfouz et al.}{MAHFOUZ et al.}{2013}
+{MAHFOUZ, M.; ASHRY, M.; ELNASHAR, G. {Design and Control of Quad-Rotor
+  Helicopters Based on Adaptive Neuro-Fuzzy Inference System}.
+v.~2, n.~12, p. 479--485, 2013.
+ISSN 2278-0181.}
 
 \bibitem[Maj e Butkiewicz 2013]{Maj2013}
 \abntrefinfo{Maj e Butkiewicz}{MAJ; BUTKIEWICZ}{2013}
 {MAJ, W.; BUTKIEWICZ, B. Flying n-copter with fuzzy logic control. In:
   \textbf{Signal Processing Symposium (SPS), 2013}. [S.l.: s.n.], 2013.
   p.~1--6.}
+
+\bibitem[Mustapa et al. 2014]{Mustapa2014}
+\abntrefinfo{Mustapa et al.}{MUSTAPA et al.}{2014}
+{MUSTAPA, Z.; SAAT, S.; HUSIN, S.; ABAS, N. Altitude controller design for
+  multi-copter uav. In:  \textbf{Computer, Communications, and Control
+  Technology (I4CT), 2014 International Conference on}. [S.l.: s.n.], 2014. p.
+  382--387.}
+
+\bibitem[Niroumand et al. 2013]{JavidiNiroumand2013}
+\abntrefinfo{Niroumand et al.}{NIROUMAND et al.}{2013}
+{NIROUMAND, F.; FAKHARIAN, A.; SEYEDSAJADI, M. Fuzzy integral backstepping
+  control approach in attitude stabilization of a quadrotor uav. In:
+  \textbf{Fuzzy Systems (IFSC), 2013 13th Iranian Conference on}. [S.l.: s.n.],
+  2013. p.~1--6.}
+
+\bibitem[Ogata 2010]{Ogata2010}
+\abntrefinfo{Ogata}{OGATA}{2010}
+{OGATA, K. \textbf{Modern Control Engineering}. 5. ed. [S.l.]: Prentice Hall,
+  2010.
+ISBN 978-0136156734.}
+
+\bibitem[Olivares-Mendez et al. 2012]{Olivares-Mendez2012}
+\abntrefinfo{Olivares-Mendez et al.}{OLIVARES-MENDEZ et al.}{2012}
+{OLIVARES-MENDEZ, M.; CAMPOY, P.; MELLADO-BATALLER, I.; MEJIAS, L.
+  See-and-avoid quadcopter using fuzzy control optimized by cross-entropy. In:
+  \textbf{Fuzzy Systems (FUZZ-IEEE), 2012 IEEE International Conference on}.
+  [S.l.: s.n.], 2012. p.~1--7.
+ISSN 1098-7584.}
+
+\bibitem[Orsag e Bogdan 2012]{Orsag2012}
+\abntrefinfo{Orsag e Bogdan}{ORSAG; BOGDAN}{2012}
+{ORSAG, M.; BOGDAN, S. {Influence of Forward and Descent Flight on Quadrotor
+  Dynamics}.
+\textbf{Recent Advances in Aircraft Technology}, p. 141--156, 2012.}
+
+\bibitem[Rabhi et al. 2011]{Rabhi2011}
+\abntrefinfo{Rabhi et al.}{RABHI et al.}{2011}
+{RABHI, A.; CHADLI, M.; PEGARD, C. Robust fuzzy control for stabilization of a
+  quadrotor. In:  \textbf{Advanced Robotics (ICAR), 2011 15th International
+  Conference on}. [S.l.: s.n.], 2011. p. 471--475.}
+
+\bibitem[Razinkova et al. 2014]{Razinkova2014}
+\abntrefinfo{Razinkova et al.}{RAZINKOVA et al.}{2014}
+{RAZINKOVA, A.; GAPONOV, I.; CHO, H.-C. Adaptive control over quadcopter uav
+  under disturbances. In:  \textbf{Control, Automation and Systems (ICCAS),
+  2014 14th International Conference on}. [S.l.: s.n.], 2014. p. 386--390.
+ISSN 2093-7121.}
+
+\bibitem[Rezazadeh et al. 2013]{Rezazadeh2013}
+\abntrefinfo{Rezazadeh et al.}{REZAZADEH et al.}{2013}
+{REZAZADEH, S.; ARDESTANI, M.; SADEGHI, P. Optimal attitude control of a
+  quadrotor uav using adaptive neuro-fuzzy inference system (anfis). In:
+  \textbf{Control, Instrumentation, and Automation (ICCIA), 2013 3rd
+  International Conference on}. [S.l.: s.n.], 2013. p. 219--223.}
+
+\bibitem[Senkul e Altug 2013]{Senkul2013}
+\abntrefinfo{Senkul e Altug}{SENKUL; ALTUG}{2013}
+{SENKUL, F.; ALTUG, E. Modeling and control of a novel tilt - roll rotor
+  quadrotor uav. In:  \textbf{Unmanned Aircraft Systems (ICUAS), 2013
+  International Conference on}. [S.l.: s.n.], 2013. p. 1071--1076.}
+
+\bibitem[Sheikhpour e Shouraki 2013]{Sheikhpour2013}
+\abntrefinfo{Sheikhpour e Shouraki}{SHEIKHPOUR; SHOURAKI}{2013}
+{SHEIKHPOUR, S.; SHOURAKI, S.~B. A model-based fuzzy controller using the
+  parallel distributed compensation method for quadrotor attitude
+  stabilization. In:  \textbf{Electrical Engineering (ICEE), 2013 21st Iranian
+  Conference on}. [S.l.: s.n.], 2013. p.~1--6.}
+
+\bibitem[Yacef et al. 2013]{Yacef2013}
+\abntrefinfo{Yacef et al.}{YACEF et al.}{2013}
+{YACEF, F.; BOUHALI, O.; HAMERLAIN, M.; REZOUG, A. Pso optimization of integral
+  backstepping controller for quadrotor attitude stabilization. In:
+  \textbf{Systems and Control (ICSC), 2013 3rd International Conference on}.
+  [S.l.: s.n.], 2013. p. 462--466.}
 
 \end{thebibliography}
