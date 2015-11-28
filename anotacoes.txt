@@ -40,11 +40,11 @@ Revisão do capítulo:
 
 ----- versão 20 -----
 
-Desenvolvimento
-(Corrigir Figuras que mostram desacoplamento para u2,u3,u4 -> passar z para 30)
-(Corrigir Figuras de superfície de regras -> refinar o grid)
+[OK] Desenvolvimento
+[OK] (Corrigir Figuras que mostram desacoplamento para u2,u3,u4 -> passar z para 30)
+[OK] (Corrigir Figuras de superfície de regras -> refinar o grid)
 
------ versão 21 - em aberto ---
+----- versão 21 -----
 
 
 Resultados
