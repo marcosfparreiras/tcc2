@@ -5,6 +5,7 @@ A level-1 auxiliary file: ./01-elementos-pre-textuais/sumario.aux
 A level-1 auxiliary file: ./02-elementos-textuais/metodologia_revisto.aux
 A level-1 auxiliary file: ./02-elementos-textuais/desenvolvimento.aux
 A level-1 auxiliary file: ./02-elementos-textuais/resultados.aux
+A level-1 auxiliary file: ./02-elementos-textuais/conclusao.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/referencias.aux
 A level-1 auxiliary file: ./03-elementos-pos-textuais/apendices.aux
 The style file: abntex2-alf.bst
@@ -30,7 +31,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 7 entries,
             6711 wiz_defined-function locations,
-            1230 strings with 10083 characters,
+            1231 strings with 10120 characters,
 and the built_in function-call counts, 4163 in all, are:
 = -- 417
 > -- 92
