@@ -16,15 +16,14 @@ Este capítulo trata da forma como o trabalho foi desenvolvido de forma a aplica
 \section{Controladores Neuro-Fuzzy}
 \label{sec:controlador-neuro-fuzzy}
 
-%\input{./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy}
+\input{./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy}
 
 \section{Experimentos Realizados}
 \label{sec:experimentos-realizados}
+%O primeiro experimento feito foi para mostrar a instabilidade do sistema, mostrando a resposta das variáveis relacionadas à atitude (ângulos $\phi$ e $\theta$) e altitude ($z$) quando o sistema é submetido a um breve impulso em suas entradas, simulando qualquer força que possa atuar brevemente sobre o quadrotor, como um golpe sofrido por qualquer objeto que colida com ele. Após contextualizada a necessidade de controladores, passou-se à sua implementação e uso.
 
-O primeiro experimento feito foi para mostrar a instabilidade do sistema, mostrando a resposta das variáveis relacionadas à atitude (ângulos $\phi$ e $\theta$) e altitude ($z$) quando o sistema é submetido a um breve impulso em suas entradas, simulando qualquer força que possa atuar brevemente sobre o quadrotor, como um golpe sofrido por qualquer objeto que colida com ele. Após contextualizada a necessidade de controladores, passou-se à sua implementação e uso.
+Uma vez projetados os controladores \textit{fuzzy} e neuro-\textit{fuzzy}, o sistema foi sujeitado a distúrbios em pulso em atitude e altitude para verificar o funcionamento deles sob condições similares às mostradas quando nenhum controle agia sobre ele fazendo com que o sistema divergisse. Primeiramente, o comportamento de ambos os controladores foi verificado quando atuando sobre o sistema para os quais eles foram projetados, com $g=9,81$ m/s\textsuperscript{2}, $m=2,3$ kg e $l=0,5$ m. 
 
-Uma vez projetados os controladores fuzzy e neuro-fuzzy, o sistema foi sujeitado a distúrbios em atitude e altitude para verificar o funcionamento deles sob condições similares às mostradas quando nenhum controle agia sobre ele fazendo com que o sistema divergisse.. Primeiramente, o comportamento de ambos os controladores foi verificado quando atuando sobre o sistema para os quais eles foram projetados, com $g=9,81$ $m/s^2$, $m=2,3$ $kg$ e $l=0,5$ $m$. 
+Em seguida, para testar a robustez de cada controlador, foi feita uma simulação em que eles atuam sobre um sistema cuja massa do quadricóptero é $m=5$ kg, valor este que foi escolhido por variar o parâmetro massa em mais de 100 \%.
 
-Em seguida, para testar a robustez de cada controlador, foi feita uma simulação em que eles atuam sobre um sistema cuja massa do quadrotor é $m=5$ $kg$, valor este que foi escolhido por variar o parâmetro massa em mais de 100 \%.
-
-Os resultados obtidos são mostrados no capítulo seguinte.
+Por fim, foi testado o funcionamento do sistema quando um ruído de medição passa a fazer parte dele. Os resultados obtidos são mostrados no capítulo seguinte.
