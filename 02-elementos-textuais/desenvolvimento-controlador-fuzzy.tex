@@ -1,6 +1,6 @@
-O projeto dos controlador fuzzy foi focado na estabilização de atitude e altitude de um drone sujeito a parâmetros específicos\footnote{Estes valores foram também utilizados por \citeonline{Balas2007} para definir uma especificação do sistema}, sendo eles: a gravidade $g=9,81$ $m/s^2$, a massa do quadrotor $m=2,3$ $kg$ e o comprimento de cada haste do drone $l=0,5$ $m$. Um dos controladores projetado tem, como objetivo, controlar a altitude do drone, ao passo que um segundo visa a estabilização de sua atitude.
+O projeto dos controlador \textit{fuzzy} foi focado na estabilização de atitude e altitude de um \textit{drone} sujeito a parâmetros específicos\footnote{Estes valores foram também utilizados por \citeonline{Balas2007} para definir uma especificação do sistema}, sendo eles: a gravidade $g=9,81$ m/s\textsuperscript{2}, a massa do quadricóptero $m=2,3$ kg e o comprimento de cada haste do \textit{drone} $l=0,5$ m. Um dos controladores projetado tem, como objetivo, controlar a altitude do quadricóptero, ao passo que um segundo visa a sua estabilização de sua atitude.
 
-O controlador de altitude possui duas entradas e uma saída. As entradas são referentes à posição vertical do quadrotor ($z$) e sua respectiva velocidade ($\dot{z}$), ao passo que a saída diz respeito ao sinal de controle a ser aplicado sobre o sistema para estabilizar sua altitude ($u_1$). Sua aplicação no sistema é mostrada na Figura \ref{fig:u1_mamdani_blocks}.
+O controlador de altitude possui duas entradas e uma saída. As entradas são referentes à posição vertical do quadricóptero ($z$) e sua respectiva velocidade ($\dot{z}$), ao passo que a saída diz respeito ao sinal de controle a ser aplicado sobre o sistema para estabilizar sua altitude ($u_1$). Sua aplicação no sistema é mostrada na Figura \ref{fig:u1_mamdani_blocks}.
 
 % Mostrar diagrama do sistema controlado (para ruídos), sobre a entrada u1
 \begin{figure}[!htb]
@@ -10,7 +10,7 @@ O controlador de altitude possui duas entradas e uma saída. As entradas são re
     \label{fig:u1_mamdani_blocks}
 \end{figure}
 
-Utilizando o \textit{Fuzzy Logic Toolbox} do MATLAB, cada variável linguística do controlador fuzzy foi divida em três conjuntos: N (negativo), Z (zero) e P (positivo), baseado nos trabalhos de \citeonline{Maj2013} e \citeonline{Gao2014Stability}. As regras fuzzy definidas para este controlador são mostradas no Quadro \ref{qua:regras_fuzzy_u1_mamdani}, e a Figura \ref{fig:1_mamdani_surface} exibe seu equivalente em superfície.
+Utilizando o \textit{Fuzzy Logic Toolbox} do MATLAB, cada variável linguística do controlador fuzzy foi divida em três conjuntos: N (negativo), Z (zero) e P (positivo), tomando como base os trabalhos de \citeonline{Maj2013} e \citeonline{Gao2014Stability}. As regras fuzzy definidas para este controlador são mostradas no Quadro \ref{qua:regras_fuzzy_u1_mamdani}, e a Figura \ref{fig:1_mamdani_surface} exibe seu equivalente em superfície.
 
 % Mostrar regras Fuzzy envolvidas no controle de u1 (quadro de regras + superfície)
 % Tá errada!

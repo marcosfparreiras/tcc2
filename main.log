@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  22 NOV 2015 21:56
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  27 NOV 2015 22:19
+>>>>>>> cap5-metodologia
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,10 +1214,8 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 69.
 
 
 Writing index file main.idx 
-(./main.aux (./02-elementos-textuais/introducao.aux)
-(./02-elementos-textuais/fund-teorica.aux)
-(./02-elementos-textuais/sistemas-nao-lineares.aux)
-(./02-elementos-textuais/trab-relacionados.aux)
+(./main.aux (./02-elementos-textuais/metodologia_revisto.aux)
+(./02-elementos-textuais/desenvolvimento.aux)
 (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
 \openout1 = `main.aux'.
@@ -1306,20 +1308,20 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 \c@lstlisting=\count203
-\openout2 = `./02-elementos-textuais/introducao.aux'.
+\openout2 = `./02-elementos-textuais/metodologia_revisto.aux'.
 
 
-(./02-elementos-textuais/introducao.tex
+(./02-elementos-textuais/metodologia_revisto.tex
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1327,109 +1329,122 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-
-
-
-] [2]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 39.
+)
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)) [3]
-\openout2 = `./02-elementos-textuais/fund-teorica.aux'.
+)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-(./02-elementos-textuais/fund-teorica.tex
-(./02-elementos-textuais/fund-teorica-sistemas-controle.tex
-<./04-figuras/fund_teorica/process.png, id=55, 827.09pt x 88.33pt>
-File: ./04-figuras/fund_teorica/process.png Graphic file (type png)
 
-<use ./04-figuras/fund_teorica/process.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/process.png used on input li
-ne 7.
-(pdftex.def)             Requested size: 318.49861pt x 34.01456pt.
 
-<./04-figuras/fund_teorica/open_loop_control_system.png, id=61, 1776.6375pt x 1
-26.4725pt>
-File: ./04-figuras/fund_teorica/open_loop_control_system.png Graphic file (type
- png)
- <use ./04-figuras/fund_teorica/open_loop_control_system.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/open_loop_control_system.png
- used on input line 17.
-(pdftex.def)             Requested size: 432.24861pt x 30.76892pt.
 
-<./04-figuras/fund_teorica/closed_loop_control_system.png, id=67, 1140.26pt x 2
-56.96pt>
-File: ./04-figuras/fund_teorica/closed_loop_control_system.png Graphic file (ty
+]
+\openout2 = `./02-elementos-textuais/desenvolvimento.aux'.
+
+
+(./02-elementos-textuais/desenvolvimento.tex
+(./02-elementos-textuais/desenvolvimento-verificacao-desacoplamento.tex)
+(./02-elementos-textuais/desenvolvimento-controlador-fuzzy.tex
+<./04-figuras/resultados/novos/simulink_printscreen_z.png, id=26, 304.88907pt x
+ 313.17pt>
+File: ./04-figuras/resultados/novos/simulink_printscreen_z.png Graphic file (ty
 pe png)
- <use ./04-figuras/fund_teorica/closed_loop_control_system.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/closed_loop_control_system.p
-ng used on input line 27.
-(pdftex.def)             Requested size: 432.24861pt x 97.40663pt.
+ <use ./04-figuras/resultados/novos/simulink_printscreen_z.png>
+Package pdftex.def Info: ./04-figuras/resultados/novos/simulink_printscreen_z.p
+ng used on input line 9.
+(pdftex.def)             Requested size: 227.5pt x 233.68704pt.
 
-[4
+(./06-quadros/regras_fuzzy_u1_mamdani.tex)
+<./04-figuras/resultados/fis_u1/u1_mamdani_surface.png, id=33, 286.06876pt x 18
+8.95593pt>
+File: ./04-figuras/resultados/fis_u1/u1_mamdani_surface.png Graphic file (type 
+png)
+ <use ./04-figuras/resultados/fis_u1/u1_mamdani_surface.png>
+Package pdftex.def Info: ./04-figuras/resultados/fis_u1/u1_mamdani_surface.png 
+used on input line 22.
+(pdftex.def)             Requested size: 273.00278pt x 180.32883pt.
+ [2
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{quadro.2.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.30 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.2.2}) has been already used, duplicate ignored
+l.27 
+     ] (./06-quadros/regras_fuzzy_u2_u3_mamdani.tex)
+<./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface.png, id=52, 275.52937pt x
+ 188.20313pt>
+File: ./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface.png Graphic file (ty
+pe png)
+ <use ./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface.png>
+Package pdftex.def Info: ./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface.p
+ng used on input line 36.
+(pdftex.def)             Requested size: 273.00278pt x 186.49396pt.
+
+<./04-figuras/resultados/novos/simulink_printscreen_phi.png, id=56, 303.38344pt
+ x 312.41719pt>
+File: ./04-figuras/resultados/novos/simulink_printscreen_phi.png Graphic file (
+type png)
+
+<use ./04-figuras/resultados/novos/simulink_printscreen_phi.png>
+Package pdftex.def Info: ./04-figuras/resultados/novos/simulink_printscreen_phi
+.png used on input line 46.
+(pdftex.def)             Requested size: 273.00278pt x 281.13472pt.
+
+<./04-figuras/resultados/novos/simulink_printscreen_theta.png, id=57, 304.13625
+pt x 308.65312pt>
+File: ./04-figuras/resultados/novos/simulink_printscreen_theta.png Graphic file
+ (type png)
+
+<use ./04-figuras/resultados/novos/simulink_printscreen_theta.png>
+Package pdftex.def Info: ./04-figuras/resultados/novos/simulink_printscreen_the
+ta.png used on input line 53.
+(pdftex.def)             Requested size: 227.5pt x 230.88643pt.
+)
+(./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy.tex [3pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.2.1}) has been
+ already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.30 \end{figure}
-                  <./04-figuras/fund_teorica/process.png (PNG copy)> <./04-figu
-ras/fund_teorica/open_loop_control_system.png (PNG copy)>]
-(./02-elementos-textuais/fund-teorica-sistemas-controle-ss.tex
-<./04-figuras/fund_teorica/ss_diagram.png, id=84, 625.33624pt x 255.95625pt>
-File: ./04-figuras/fund_teorica/ss_diagram.png Graphic file (type png)
-
-<use ./04-figuras/fund_teorica/ss_diagram.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/ss_diagram.png used on input
- line 12.
-(pdftex.def)             Requested size: 409.49722pt x 167.61546pt.
-))
-(./02-elementos-textuais/fund-teorica-rna.tex [5pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.2.3}) has been already used, duplicat
-e ignored
+l.3 P
+     ara tanto, foram utilizados os códigos mostrados nos Apêndices \ref{c...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.6 
-     <./04-figuras/fund_teorica/closed_loop_control_system.png (PNG copy)>]
-<./04-figuras/brain_sistem_block_diagram.png, id=103, 2875.74374pt x 401.5pt>
-File: ./04-figuras/brain_sistem_block_diagram.png Graphic file (type png)
-
-<use ./04-figuras/brain_sistem_block_diagram.png>
-Package pdftex.def Info: ./04-figuras/brain_sistem_block_diagram.png used on in
-put line 10.
-(pdftex.def)             Requested size: 409.49722pt x 57.17145pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
+l.3 P
+     ara tanto, foram utilizados os códigos mostrados nos Apêndices \ref{c...
+ <./04-figuras/resultados/novos/simulink_printscreen_z.png> <./04-figuras/resul
+tados/fis_u1/u1_mamdani_surface.png>]
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{quadro.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.17 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-.5}) has been already used, duplicate ignored
+l.6 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
+<<<<<<< HEAD
 l.17 
       <./04-figuras/fund_teorica/ss_diagram.png> <./04-figuras/brain_sistem_blo
 ck_diagram.png (PNG copy)>]
@@ -1623,47 +1638,158 @@ Package pdftex.def Info: ./04-figuras/Maj2013_fuzzy_sets.png used on input line
 (./06-quadros/Maj2013_table_rules_for_inference.tex) [26] [27pdfTeX warning (ex
 t4): destination with the same identifier (name{figure.4.13}) has been already 
 used, duplicate ignored
+=======
+l.6 
+     <./04-figuras/resultados/fis_u2/u2_u3_mamdani_surface.png>] [5pdfTeX warni
+ng (ext4): destination with the same identifier (name{figure.2.4}) has been alr
+eady used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.43 A
-       abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
-pdfTeX warning (ext4): destination with the same identifier (name{quadro.4.1}) 
-has been already used, duplicate ignored
+l.6 
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.43 A
-       abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
- <./04-figuras/Maj2013_fuzzy_sets.png>] [28] [29])) [30]
+l.6 
+     <./04-figuras/resultados/novos/simulink_printscreen_phi.png> <./04-figuras
+/resultados/novos/simulink_printscreen_theta.png>]
+<./04-figuras/anfisedit/anfisedit_screen.png, id=85, 420.06938pt x 313.9228pt>
+File: ./04-figuras/anfisedit/anfisedit_screen.png Graphic file (type png)
+
+<use ./04-figuras/anfisedit/anfisedit_screen.png>
+Package pdftex.def Info: ./04-figuras/anfisedit/anfisedit_screen.png used on in
+put line 10.
+(pdftex.def)             Requested size: 364.00139pt x 272.02328pt.
+
+<./04-figuras/anfisedit/rna_anfis_altitude_gray.png, id=86, 414.04688pt x 264.2
+3718pt>
+File: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png Graphic file (type png
+)
+ <use ./04-figuras/anfisedit/rna_anfis_altitude_gray.png>
+Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png use
+d on input line 17.
+(pdftex.def)             Requested size: 273.00278pt x 174.22772pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.22 
+      <./04-figuras/anfisedit/anfisedit_screen.png> <./04-figuras/anfisedit/rna
+_anfis_altitude_gray.png>]
+<./04-figuras/anfisedit/rna_anfis_train_result_altitude.png, id=94, 436.63126pt
+ x 207.77625pt>
+File: ./04-figuras/anfisedit/rna_anfis_train_result_altitude.png Graphic file (
+type png)
+
+<use ./04-figuras/anfisedit/rna_anfis_train_result_altitude.png>
+Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_train_result_altitude
+.png used on input line 28.
+(pdftex.def)             Requested size: 273.00278pt x 129.91055pt.
+
+<./04-figuras/anfisedit/rna_anfis_atitude_gray.png, id=98, 417.81094pt x 263.48
+438pt>
+File: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png Graphic file (type png)
+
+ <use ./04-figuras/anfisedit/rna_anfis_atitude_gray.png>
+Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png used
+ on input line 39.
+(pdftex.def)             Requested size: 273.00278pt x 172.17545pt.
+
+<./04-figuras/anfisedit/rna_anfis_train_result_atitude.png, id=99, 438.63875pt 
+x 208.78pt>
+File: ./04-figuras/anfisedit/rna_anfis_train_result_atitude.png Graphic file (t
+ype png)
+ <use ./04-figuras/anfisedit/rna_anfis_train_result_atitude.png>
+Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_train_result_atitude.
+png used on input line 46.
+(pdftex.def)             Requested size: 273.00278pt x 129.9424pt.
+
+<./04-figuras/resultados/fis_u1/u1_sugeno_surface.png, id=102, 278.54062pt x 18
+5.19188pt>
+File: ./04-figuras/resultados/fis_u1/u1_sugeno_surface.png Graphic file (type p
+ng)
+ <use ./04-figuras/resultados/fis_u1/u1_sugeno_surface.png>
+Package pdftex.def Info: ./04-figuras/resultados/fis_u1/u1_sugeno_surface.png u
+sed on input line 59.
+(pdftex.def)             Requested size: 273.00278pt x 181.51503pt.
+
+<./04-figuras/resultados/fis_u3/u2_u3_sugeno_surface.png, id=103, 277.035pt x 1
+89.70876pt>
+File: ./04-figuras/resultados/fis_u3/u2_u3_sugeno_surface.png Graphic file (typ
+e png)
+ <use ./04-figuras/resultados/fis_u3/u2_u3_sugeno_surface.png>
+Package pdftex.def Info: ./04-figuras/resultados/fis_u3/u2_u3_sugeno_surface.pn
+g used on input line 66.
+(pdftex.def)             Requested size: 273.00278pt x 186.94962pt.
+)
+[7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.25 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.25 
+      <./04-figuras/anfisedit/rna_anfis_train_result_altitude.png> <./04-figura
+s/anfisedit/rna_anfis_atitude_gray.png>] [8pdfTeX warning (ext4): destination w
+ith the same identifier (name{figure.2.10}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.11}) has been already used, duplicate ignored
+>>>>>>> cap5-metodologia
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
+.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+      <./04-figuras/anfisedit/rna_anfis_train_result_atitude.png> <./04-figuras
+/resultados/fis_u1/u1_sugeno_surface.png> <./04-figuras/resultados/fis_u3/u2_u3
+_sugeno_surface.png>]) [9]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
-
-(./03-elementos-pos-textuais/referencias.tex (./main.bbl (./main.brf)
+ (./03-elementos-pos-textuais/referencias.tex
+(./main.bbl (./main.brf)
 \tf@brf=\write5
 \openout5 = `main.brf'.
 
 
 bibitemlist
-[31
+)) [10
 
 
 
-] [32])) [33]
+]
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
- (./03-elementos-pos-textuais/apendices.tex [34
+ (./03-elementos-pos-textuais/apendices.tex [11
 
 
 
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-altitude.tex
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 )
@@ -1676,43 +1802,50 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [35
+) [12
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-atitude.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))) [36
+))) [13
 
 ] (./main.ind)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
-(./main.aux (./02-elementos-textuais/introducao.aux)
-(./02-elementos-textuais/fund-teorica.aux)
-(./02-elementos-textuais/sistemas-nao-lineares.aux)
-(./02-elementos-textuais/trab-relacionados.aux)
+(./main.aux (./02-elementos-textuais/metodologia_revisto.aux)
+(./02-elementos-textuais/desenvolvimento.aux)
 (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: 6526CE3E3FF4A86DECDA99C4BC5EFD00;3733.
+(rerunfilecheck)             Checksum: A49E0B763395445EF01ED3421033224C;177.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  18605 strings out of 493304
  272630 string characters out of 6139871
  531189 words of memory out of 5000000
  21200 multiletter control sequences out of 15000+600000
  49639 words of font info for 257 fonts, out of 8000000 for 9000
+=======
+ 18039 strings out of 493304
+ 263010 string characters out of 6139871
+ 517490 words of memory out of 5000000
+ 20903 multiletter control sequences out of 15000+600000
+ 35445 words of font info for 164 fonts, out of 8000000 for 9000
+>>>>>>> cap5-metodologia
  957 hyphenation exceptions out of 8191
- 45i,16n,42p,1392b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,42p,1925b,1899s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+<<<<<<< HEAD
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
@@ -1735,4 +1868,18 @@ PDF statistics:
  721 compressed objects within 8 object streams
  211 named destinations out of 1000 (max. 500000)
  38170 words of extra memory for PDF output out of 42996 (max. 10000000)
+=======
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palat
+ino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (13 pages, 236674 bytes).
+PDF statistics:
+ 300 PDF objects out of 1000 (max. 8388607)
+ 259 compressed objects within 3 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 24717 words of extra memory for PDF output out of 24883 (max. 10000000)
+>>>>>>> cap5-metodologia
 

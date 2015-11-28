@@ -1,21 +1,22 @@
-%
-% Documento: Metodologia
-%
+\chapter{Desenvolvimento do Trabalho}
+\label{chap:desenvolvimento-trabalho}
 
-\chapter{Metodologia}
-\label{chap:metodologia}
+Este capítulo trata da forma como o trabalho foi desenvolvido de forma a aplicar a metodologia proposta, descrevendo os processos utilizados para a verificação do desacoplamento e instabilidade do sistema (Seção \ref{sec:verificacao-desacoplamento}); a modelagem dos controladores \textit{fuzzy} (Seção \ref{sec:controlador-fuzzy}) e neuro-\textit{fuzzy} (Seção \ref{sec:controlador-neuro-fuzzy}); e a descrição detalhada dos experimentos realizados (Seção \ref{sec:experimentos-realizados}).
 
-Em ambiente simulado, utilizando a modelagem computacional de um quadrotor com desacoplamento das entradas proposto por \citeonline{Balas2007} e mostrado na seção \ref{sec:sistemas-nao-lineares-quadrotor}, foram propostos, para estabilizar o sistema, controladores aplicando duas técnicas diferentes de IC: fuzzy e neuro-fuzzy. Todas as simulações e execuções se deram utilizando a versão R2015a do MATLAB.
+\section{Verificação do Desacoplamento das Entradas}
+\label{sec:verificacao-desacoplamento}
+
+\input{./02-elementos-textuais/desenvolvimento-verificacao-desacoplamento}
 
 \section{Controladores Fuzzy}
 \label{sec:controlador-fuzzy}
 
-\input{./02-elementos-textuais/metodologia-controlador-fuzzy}
+\input{./02-elementos-textuais/desenvolvimento-controlador-fuzzy}
 
 \section{Controladores Neuro-Fuzzy}
 \label{sec:controlador-neuro-fuzzy}
 
-\input{./02-elementos-textuais/metodologia-controlador-neuro-fuzzy}
+\input{./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy}
 
 \section{Experimentos Realizados}
 \label{sec:experimentos-realizados}
