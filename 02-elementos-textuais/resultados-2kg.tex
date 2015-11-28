@@ -18,13 +18,13 @@ A Figura \ref{fig:altitude_z_zdot_2kg} mostra a posição no eixo vertical ($z$)
 
 % -------------------  ATITUDE ---------------
 
-Já as Figuras \ref{fig:atitude_phi_phidot_2kg_40s} e \ref{fig:atitude_theta_thetadot_2kg_40s} mostram a estabilidade de atitude em torno dos eixos x e y (i.e\ em relação ao plano horizontal XY), representados por $\theta$ e $\phi$ respectivamente. Como se pode ver, ambos os estados são devidamente controlados e, com isto, o quadrotor volta à estabilidade horizontal, com ângulos e velocidades angulares nulas no estado permanente.
+Já as Figuras \ref{fig:atitude_phi_phidot_2kg_40s} e \ref{fig:atitude_theta_thetadot_2kg_40s} mostram a estabilidade de atitude em torno dos eixos x e y (i.e\ em relação ao plano horizontal XY), representados por $\theta$ e $\phi$ respectivamente. Como se pode ver, ambos os estados são devidamente controlados e, com isto, o \textit{drone} volta à estabilidade horizontal, com ângulos e velocidades angulares nulas no estado permanente.
 
 % Atitude m=2
 %phi
 \begin{figure}[!htb]
     \centering
-    \caption{Comparação da resposta das saídas $\phi$ e $\dot{\phi}$ no controle de atitude fuzzy e neuro-fuzzy para o sistema com massa $m=2kg$}
+    \caption{Comparação da resposta das saídas $\phi$ e $\dot{\phi}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=2$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s}
     \label{fig:atitude_phi_phidot_2kg_40s}
 \end{figure}
@@ -32,16 +32,16 @@ Já as Figuras \ref{fig:atitude_phi_phidot_2kg_40s} e \ref{fig:atitude_theta_the
 %theta
 \begin{figure}[!htb]
     \centering
-    \caption{Comparação da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude fuzzy e neuro-fuzzy para o sistema com massa $m=2kg$}
+    \caption{Comparação da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=2$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s}
     \label{fig:atitude_theta_thetadot_2kg_40s}
 \end{figure}
 
-A partir das Figuras \ref{fig:atitude_phi_phidot_2kg_10s} e \ref{fig:atitude_theta_thetadot_2kg_10s}, que mostram as respostas obtidas em mais detalhes, pode-se ver que, mais uma vez o controlador neuro-fuzzy mais uma vez teve desempenho superior ao fuzzy, fazendo com que os ângulos $\phi$ e $\theta$ convergissem 2\% mais rápido, além de reduzir suas variações em 13\%. Com relação às velocidades angulares $\dot{\phi}$ e $\dot{\theta}$, foi capaz de reduzir o tempo de convergência em 3\%, não afetando a variação nem a sobrelevação apresentada pelo sistema quando estabilizado pelo controlador fuzzy. Desta forma, verifica-se que o controle neuro-fuzzy levou o sistema a uma menor variação, representando que o ângulo máximo de inclinação alcançado pelo drone é menor e corrigido mais rapidamente.
+A partir das Figuras \ref{fig:atitude_phi_phidot_2kg_10s} e \ref{fig:atitude_theta_thetadot_2kg_10s}, que mostram as respostas obtidas em mais detalhes, pode-se ver que, mais uma vez o controlador neuro-\textit{fuzzy} mais uma vez teve desempenho superior ao \textit{fuzzy}, fazendo com que os ângulos $\phi$ e $\theta$ convergissem 2\% mais rápido, além de reduzir suas variações a 13\%. Com relação às velocidades angulares $\dot{\phi}$ e $\dot{\theta}$, foi capaz de reduzir o tempo de convergência em 3\%, não afetando a variação nem a sobrelevação apresentada pelo sistema quando estabilizado pelo controlador \textit{fuzzy}. Desta forma, verifica-se que o controle neuro-fuzzy levou o sistema a uma menor variação, representando que o ângulo máximo de inclinação alcançado pelo \textit{drone} é menor e corrigido mais rapidamente.
 
 \begin{figure}[!htb]
     \centering
-    \caption{Comparação em mais detalhes da resposta das saídas $\phi$ e $\dot{\phi}$ no controle de atitude fuzzy e neuro-fuzzy para o sistema com massa $m=2kg$}
+    \caption{Comparação em mais detalhes da resposta das saídas $\phi$ e $\dot{\phi}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=2$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s}
     \label{fig:atitude_phi_phidot_2kg_10s}
 \end{figure}
@@ -49,7 +49,7 @@ A partir das Figuras \ref{fig:atitude_phi_phidot_2kg_10s} e \ref{fig:atitude_the
 %theta
 \begin{figure}[!htb]
     \centering
-    \caption{Comparação em mais detalhes da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude fuzzy e neuro-fuzzy para o sistema com massa $m=2kg$}
+    \caption{Comparação em mais detalhes da resposta das saídas $\theta$ e $\dot{\theta}$ no controle de atitude \textit{fuzzy} e neuro-\textit{fuzzy} para o sistema com massa $m=2$ kg}
     \includegraphics[width=0.8\textwidth]{./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s}
     \label{fig:atitude_theta_thetadot_2kg_10s}
 \end{figure}
