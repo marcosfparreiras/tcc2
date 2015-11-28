@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 18:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,25 +1210,7 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 69.
 
 
 Writing index file main.idx 
-(./main.aux (./01-elementos-pre-textuais/capa.aux)
-(./01-elementos-pre-textuais/folha-rosto.aux)
-(./01-elementos-pre-textuais/folha-aprovacao-nova.aux)
-(./01-elementos-pre-textuais/dedicatoria.aux)
-(./01-elementos-pre-textuais/agradecimentos.aux)
-(./01-elementos-pre-textuais/epigrafe.aux)
-(./01-elementos-pre-textuais/resumo-pt.aux)
-(./01-elementos-pre-textuais/resumo-en.aux)
-(./01-elementos-pre-textuais/lista-figuras.aux)
-(./01-elementos-pre-textuais/lista-quadros.aux)
-(./01-elementos-pre-textuais/lista-siglas.aux)
-(./01-elementos-pre-textuais/lista-simbolos.aux)
-(./01-elementos-pre-textuais/sumario.aux)
-(./02-elementos-textuais/introducao.aux)
-(./02-elementos-textuais/fund-teorica.aux)
-(./02-elementos-textuais/sistemas-nao-lineares.aux)
-(./02-elementos-textuais/trab-relacionados.aux)
-(./02-elementos-textuais/metodologia_revisto.aux)
-(./02-elementos-textuais/desenvolvimento.aux)
+(./main.aux (./01-elementos-pre-textuais/sumario.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
 ) (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
@@ -1322,22 +1304,20 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 \c@lstlisting=\count203
-\openout2 = `./01-elementos-pre-textuais/capa.aux'.
+\openout2 = `./01-elementos-pre-textuais/sumario.aux'.
 
 
-(./01-elementos-pre-textuais/capa.tex
-<./04-figuras/cefet-logo.pdf, id=4, 508.71927pt x 324.1442pt>
-File: ./04-figuras/cefet-logo.pdf Graphic file (type pdf)
-
-<use ./04-figuras/cefet-logo.pdf>
-Package pdftex.def Info: ./04-figuras/cefet-logo.pdf used on input line 10.
-(pdftex.def)             Requested size: 69.16115pt x 44.06422pt.
-
+(./01-elementos-pre-textuais/sumario.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+ (./main.toc
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+LaTeX Font Info:    Try loading font information for U+msa on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1345,7 +1325,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1353,784 +1333,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 29.
-LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 29.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 32.
-LaTeX Font Info:    Font shape `T1/ppl/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/sc' tried instead on input line 32.
- [1
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
+) [1
 
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./04-figuras/cefet-logo.pd
-f>])
-\openout2 = `./01-elementos-pre-textuais/folha-rosto.aux'.
-
-
-(./01-elementos-pre-textuais/folha-rosto.texpdfTeX warning (ext4): destination 
-with the same identifier (name{page.i}) has been already used, duplicate ignore
-d
-<to be read again> 
-                   \relax 
-l.55 \end{folhaderosto}
-                        [1
-
-
-
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/folha-aprovacao-nova.aux'.
-
-
-(./01-elementos-pre-textuais/folha-aprovacao-nova.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-
- []
-
-) [2
-
-
-
-]
-\openout2 = `./01-elementos-pre-textuais/dedicatoria.aux'.
-
- (./01-elementos-pre-textuais/dedicatoria.tex) [3
-
-
-]
-\openout2 = `./01-elementos-pre-textuais/agradecimentos.aux'.
-
-
-(./01-elementos-pre-textuais/agradecimentos.tex [4
-
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/epigrafe.aux'.
-
-
-(./01-elementos-pre-textuais/epigrafe.tex
-Overfull \hbox (1.03925pt too wide) in paragraph at lines 7--8
-[]\T1/ppl/m/it/12 (-20) ``O ontem é história, o amanhã é um mistério, mas
- []
-
-) [5
-
-
-
-]
-\openout2 = `./01-elementos-pre-textuais/resumo-pt.aux'.
-
- (./01-elementos-pre-textuais/resumo-pt.tex [6
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/resumo-en.aux'.
-
-
-(./01-elementos-pre-textuais/resumo-en.tex [7
-
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/lista-figuras.aux'.
-
-
-(./01-elementos-pre-textuais/lista-figuras.tex (./main.lof
-Overfull \hbox (7.95251pt too wide) in paragraph at lines 17--17
- [][] [][][]\T1/ppl/m/n/12 (-20) Resposta das saí-das z, $\OML/cmm/m/it/12 ^^^$
-\T1/ppl/m/n/12 (-20) , $\OML/cmm/m/it/12 ^^R$ \T1/ppl/m/n/12 (-20) e $\OML/cmm/
-m/it/12  $ \T1/ppl/m/n/12 (-20) a um en-trada em de-grau em $\OML/cmm/m/it/12 u
-\OT1/cmr/m/n/12 2[]\OML/cmm/m/it/12 desacoplado$[][] []  
- []
-
-
-Overfull \hbox (7.95251pt too wide) in paragraph at lines 18--18
- [][] [][][]\T1/ppl/m/n/12 (-20) Resposta das saí-das z, $\OML/cmm/m/it/12 ^^^$
-\T1/ppl/m/n/12 (-20) , $\OML/cmm/m/it/12 ^^R$ \T1/ppl/m/n/12 (-20) e $\OML/cmm/
-m/it/12  $ \T1/ppl/m/n/12 (-20) a um en-trada em de-grau em $\OML/cmm/m/it/12 u
-\OT1/cmr/m/n/12 3[]\OML/cmm/m/it/12 desacoplado$[][] []  
- []
-
-
-Overfull \hbox (7.95251pt too wide) in paragraph at lines 19--19
- [][] [][][]\T1/ppl/m/n/12 (-20) Resposta das saí-das z, $\OML/cmm/m/it/12 ^^^$
-\T1/ppl/m/n/12 (-20) , $\OML/cmm/m/it/12 ^^R$ \T1/ppl/m/n/12 (-20) e $\OML/cmm/
-m/it/12  $ \T1/ppl/m/n/12 (-20) a um en-trada em de-grau em $\OML/cmm/m/it/12 u
-\OT1/cmr/m/n/12 4[]\OML/cmm/m/it/12 desacoplado$[][] []  
- []
-
-[8
-
-
-
-] [9]) [10])
-\openout2 = `./01-elementos-pre-textuais/lista-quadros.aux'.
-
- (./01-elementos-pre-textuais/lista-quadros.tex (./main.loq)
-[11
-
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/lista-siglas.aux'.
-
- (./01-elementos-pre-textuais/lista-siglas.tex [12
-
-
-
-
-] [13])
-\openout2 = `./01-elementos-pre-textuais/lista-simbolos.aux'.
-
-
-(./01-elementos-pre-textuais/lista-simbolos.tex [14
-
-
-
-
-])
-\openout2 = `./01-elementos-pre-textuais/sumario.aux'.
-
-
-(./01-elementos-pre-textuais/sumario.tex (./main.toc [15
-
-
-
-]) [16])
-\openout2 = `./02-elementos-textuais/introducao.aux'.
-
-
-(./02-elementos-textuais/introducao.tex [1
-
-
-
-
-] [2]
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
-File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-)) [3]
-\openout2 = `./02-elementos-textuais/fund-teorica.aux'.
-
-
-(./02-elementos-textuais/fund-teorica.tex
-(./02-elementos-textuais/fund-teorica-sistemas-controle.tex
-<./04-figuras/fund_teorica/process.png, id=385, 827.09pt x 88.33pt>
-File: ./04-figuras/fund_teorica/process.png Graphic file (type png)
-
-<use ./04-figuras/fund_teorica/process.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/process.png used on input li
-ne 7.
-(pdftex.def)             Requested size: 318.49861pt x 34.01456pt.
-
-<./04-figuras/fund_teorica/open_loop_control_system.png, id=391, 1776.6375pt x 
-126.4725pt>
-File: ./04-figuras/fund_teorica/open_loop_control_system.png Graphic file (type
- png)
- <use ./04-figuras/fund_teorica/open_loop_control_system.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/open_loop_control_system.png
- used on input line 17.
-(pdftex.def)             Requested size: 432.24861pt x 30.76892pt.
-
-<./04-figuras/fund_teorica/closed_loop_control_system.png, id=397, 1140.26pt x 
-256.96pt>
-File: ./04-figuras/fund_teorica/closed_loop_control_system.png Graphic file (ty
-pe png)
- <use ./04-figuras/fund_teorica/closed_loop_control_system.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/closed_loop_control_system.p
-ng used on input line 27.
-(pdftex.def)             Requested size: 432.24861pt x 97.40663pt.
-
-[4
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.2.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \end{figure}
-                  <./04-figuras/fund_teorica/process.png (PNG copy)> <./04-figu
-ras/fund_teorica/open_loop_control_system.png (PNG copy)>]
-(./02-elementos-textuais/fund-teorica-sistemas-controle-ss.tex
-<./04-figuras/fund_teorica/ss_diagram.png, id=406, 625.33624pt x 255.95625pt>
-File: ./04-figuras/fund_teorica/ss_diagram.png Graphic file (type png)
-
-<use ./04-figuras/fund_teorica/ss_diagram.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/ss_diagram.png used on input
- line 12.
-(pdftex.def)             Requested size: 409.49722pt x 167.61546pt.
-))
-(./02-elementos-textuais/fund-teorica-rna.tex [5pdfTeX warning (ext4): destinat
-ion with the same identifier (name{figure.2.3}) has been already used, duplicat
-e ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.6 
-     <./04-figuras/fund_teorica/closed_loop_control_system.png (PNG copy)>]
-<./04-figuras/brain_sistem_block_diagram.png, id=422, 2875.74374pt x 401.5pt>
-File: ./04-figuras/brain_sistem_block_diagram.png Graphic file (type png)
-
-<use ./04-figuras/brain_sistem_block_diagram.png>
-Package pdftex.def Info: ./04-figuras/brain_sistem_block_diagram.png used on in
-put line 10.
-(pdftex.def)             Requested size: 409.49722pt x 57.17145pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.17 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.2
-.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.17 
-      <./04-figuras/fund_teorica/ss_diagram.png> <./04-figuras/brain_sistem_blo
-ck_diagram.png (PNG copy)>]
-<./04-figuras/neuron-diagram-gray_traduzido.jpg, id=435, 574.145pt x 349.305pt>
-File: ./04-figuras/neuron-diagram-gray_traduzido.jpg Graphic file (type jpg)
-<use ./04-figuras/neuron-diagram-gray_traduzido.jpg>
-Package pdftex.def Info: ./04-figuras/neuron-diagram-gray_traduzido.jpg used on
- input line 23.
-(pdftex.def)             Requested size: 364.00139pt x 221.45975pt.
-
-<./04-figuras/fund_teorica/rna_traduzido.jpg, id=440, 411.5375pt x 260.975pt>
-File: ./04-figuras/fund_teorica/rna_traduzido.jpg Graphic file (type jpg)
-
-<use ./04-figuras/fund_teorica/rna_traduzido.jpg>
-Package pdftex.def Info: ./04-figuras/fund_teorica/rna_traduzido.jpg used on in
-put line 33.
-(pdftex.def)             Requested size: 273.00278pt x 173.12408pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6
-}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.40 
-      <./04-figuras/neuron-diagram-gray_traduzido.jpg>])
-(./02-elementos-textuais/fund-teorica-fuzzy.tex [8pdfTeX warning (ext4): destin
-ation with the same identifier (name{figure.2.7}) has been already used, duplic
-ate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.3 
-     <./04-figuras/fund_teorica/rna_traduzido.jpg>]
-<./04-figuras/fund_teorica/fuzzy_sets_jang.png, id=469, 538.01pt x 209.78375pt>
-File: ./04-figuras/fund_teorica/fuzzy_sets_jang.png Graphic file (type png)
-<use ./04-figuras/fund_teorica/fuzzy_sets_jang.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_sets_jang.png used on 
-input line 27.
-(pdftex.def)             Requested size: 364.00139pt x 141.934pt.
- [9] [10pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.52 \end{align*}
-                  <./04-figuras/fund_teorica/fuzzy_sets_jang.png>]
-<./04-figuras/fund_teorica/fuzzy_rules_jang.png, id=489, 713.66624pt x 260.975p
-t>
-File: ./04-figuras/fund_teorica/fuzzy_rules_jang.png Graphic file (type png)
- <use ./04-figuras/fund_teorica/fuzzy_rules_jang.png>
-Package pdftex.def Info: ./04-figuras/fund_teorica/fuzzy_rules_jang.png used on
- input line 59.
-(pdftex.def)             Requested size: 364.00139pt x 133.10744pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
-9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.76 
-      <./04-figuras/fund_teorica/fuzzy_rules_jang.png>] [12] [13])
-(./02-elementos-textuais/fund-teorica-anfis.tex
-<./04-figuras/fund_teorica/anfis_traduzido.jpg, id=528, 739.76375pt x 508.90125
-pt>
-File: ./04-figuras/fund_teorica/anfis_traduzido.jpg Graphic file (type jpg)
- <use ./04-figuras/fund_teorica/anfis_traduzido.jpg>
-Package pdftex.def Info: ./04-figuras/fund_teorica/anfis_traduzido.jpg used on 
-input line 18.
-(pdftex.def)             Requested size: 364.00139pt x 250.40433pt.
- [14] [15pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.2.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.40 \end{align*}
-                  <./04-figuras/fund_teorica/anfis_traduzido.jpg>] [16]))
-[17]
-\openout2 = `./02-elementos-textuais/sistemas-nao-lineares.aux'.
-
- (./02-elementos-textuais/sistemas-nao-lineares.tex
-(./02-elementos-textuais/sistemas-nao-lineares-quadrotor.tex
-<./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png, id=580, 259
-.7203pt x 188.20313pt>
-File: ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png Graphic
- file (type png)
-
-<use ./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>
-Package pdftex.def Info: ./04-figuras/drone_diagram/drone_gray_separate1_white_
-adapted.png used on input line 15.
-(pdftex.def)             Requested size: 318.49861pt x 230.79636pt.
-
-[18
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.23 
-      <./04-figuras/drone_diagram/drone_gray_separate1_white_adapted.png>]
-<./04-figuras/sistemas-nao-lineares/diagrama-quadrotor_traduzido.jpg, id=598, 7
-19.68875pt x 152.57pt>
-File: ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor_traduzido.jpg Graph
-ic file (type jpg)
-
-<use ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor_traduzido.jpg>
-Package pdftex.def Info: ./04-figuras/sistemas-nao-lineares/diagrama-quadrotor_
-traduzido.jpg used on input line 29.
-(pdftex.def)             Requested size: 455.0pt x 96.45949pt.
-
-(./02-elementos-textuais/sistemas-nao-lineares-quadrotor-modelagem.tex [19pdfTe
-X warning (ext4): destination with the same identifier (name{figure.3.12}) has 
-been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.17 
-      <./04-figuras/sistemas-nao-lineares/diagrama-quadrotor_traduzido.jpg>]
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 50.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 52.
-
-) (./02-elementos-textuais/sistemas-nao-lineares-quadrotor-desacoplamento.tex
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 6.
-
-[20]
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 9.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 32.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 33.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 34.
-
-) (./02-elementos-textuais/sistemas-nao-lineares-quadrotor-ss.tex
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 20.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 21.
-
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 22.
-
-[21] [22]))) [23]
-\openout2 = `./02-elementos-textuais/trab-relacionados.aux'.
-
- (./02-elementos-textuais/trab-relacionados.tex
-(./02-elementos-textuais/trab-relacionados-quadrotor-tradicional.tex [24
-
-
-
-])
-(./02-elementos-textuais/trab-relacionados-quadrotor-inteligente.tex [25]
-<./04-figuras/Maj2013_fuzzy_sets.png, id=692, 872.25874pt x 603.25375pt>
-File: ./04-figuras/Maj2013_fuzzy_sets.png Graphic file (type png)
-
-<use ./04-figuras/Maj2013_fuzzy_sets.png>
-Package pdftex.def Info: ./04-figuras/Maj2013_fuzzy_sets.png used on input line
- 18.
-(pdftex.def)             Requested size: 273.00278pt x 188.80168pt.
-
-(./06-quadros/Maj2013_table_rules_for_inference.tex) [26] [27pdfTeX warning (ex
-t4): destination with the same identifier (name{figure.4.13}) has been already 
-used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.43 A
-       abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
-pdfTeX warning (ext4): destination with the same identifier (name{quadro.4.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.43 A
-       abordagem utilizada em \cite{Coza2006} se baseia na ideia de que dife...
- <./04-figuras/Maj2013_fuzzy_sets.png>] [28] [29])) [30]
-\openout2 = `./02-elementos-textuais/metodologia_revisto.aux'.
-
-
-(./02-elementos-textuais/metodologia_revisto.tex) [31
-
-
-
-]
-\openout2 = `./02-elementos-textuais/desenvolvimento.aux'.
-
-
-(./02-elementos-textuais/desenvolvimento.tex
-(./02-elementos-textuais/desenvolvimento-desacoplamento.tex
-<./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_block.
-png, id=783, 147.55125pt x 229.60782pt>
-File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_b
-lock.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_bl
-ock.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplame
-nto/diagram_drone_block.png used on input line 6.
-(pdftex.def)             Requested size: 136.50139pt x 212.41544pt.
-
-<./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u1.jpg, 
-id=788, 562.1pt x 421.575pt>
-File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u1.
-jpg Graphic file (type jpg)
-
-<use ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u1.j
-pg>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplame
-nto/graphs_step_u1.jpg used on input line 16.
-(pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-
-<./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u2.jpg, 
-id=789, 562.1pt x 421.575pt>
-File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u2.
-jpg Graphic file (type jpg)
-
-<use ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u2.j
-pg>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplame
-nto/graphs_step_u2.jpg used on input line 23.
-(pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-
-<./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3.jpg, 
-id=790, 562.1pt x 421.575pt>
-File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3.
-jpg Graphic file (type jpg)
-
-<use ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3.j
-pg>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplame
-nto/graphs_step_u3.jpg used on input line 30.
-(pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-
-<./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4.jpg, 
-id=791, 562.1pt x 421.575pt>
-File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4.
-jpg Graphic file (type jpg)
-
-<use ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4.j
-pg>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplame
-nto/graphs_step_u4.jpg used on input line 37.
-(pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-) [32
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.10 
-      <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_
-block.png>] (./02-elementos-textuais/desenvolvimento-controlador-fuzzy.tex
-<./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_sistema_
-controlado.png, id=799, 530.73282pt x 313.9228pt>
-File: ./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_sis
-tema_controlado.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_sist
-ema_controlado.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/2-sistema_completo_cont
-rolado/diagrama_sistema_controlado.png used on input line 6.
-(pdftex.def)             Requested size: 364.00139pt x 215.30406pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-15}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.8 \end{figure}
-                pdfTeX warning (ext4): destination with the same identifier (na
-me{figure.6.16}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.8 \end{figure}
-                 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/gra
-phs_step_u1.jpg> <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/gra
-phs_step_u2.jpg>]
-Package microtype Info: Loading generic settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-17}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.11 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.18}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.11 
-      <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3
-.jpg> <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4
-.jpg>] (./06-quadros/regras_fuzzy_u1_mamdani.tex)
-<./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitude.pn
-g, id=814, 421.575pt x 316.18124pt>
-File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitu
-de.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitud
-e.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/9-refinando-grids/edita
-dos/grid_fis_altitude.png used on input line 22.
-(pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-19}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.27 
-     pdfTeX warning (ext4): destination with the same identifier (name{quadro.6
-.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.27 
-      <./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_si
-stema_controlado.png>] (./06-quadros/regras_fuzzy_u2_u3_mamdani.tex)
-<./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitude.png
-, id=822, 417.05812pt x 311.66437pt>
-File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitud
-e.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitude
-.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/9-refinando-grids/edita
-dos/grid_fis_atitude.png used on input line 42.
-(pdftex.def)             Requested size: 364.00139pt x 272.03035pt.
-) (./02-elementos-textuais/desenvolvimento-controlador-neuro-fuzzy.tex
-[36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2
-0}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.4 
-    pdfTeX warning (ext4): destination with the same identifier (name{quadro.6.
-3}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.4 
-     <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitu
-de.png>] [37pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.6.21}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.6 
-     <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitud
-e.png>]
-<./04-figuras/anfisedit/anfisedit_screen.png, id=840, 420.06938pt x 313.9228pt>
-File: ./04-figuras/anfisedit/anfisedit_screen.png Graphic file (type png)
-<use ./04-figuras/anfisedit/anfisedit_screen.png>
-Package pdftex.def Info: ./04-figuras/anfisedit/anfisedit_screen.png used on in
-put line 10.
-(pdftex.def)             Requested size: 364.00139pt x 272.02328pt.
-
-<./04-figuras/anfisedit/rna_anfis_altitude_gray.png, id=841, 414.04688pt x 264.
-23718pt>
-File: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png Graphic file (type png
-)
- <use ./04-figuras/anfisedit/rna_anfis_altitude_gray.png>
-Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png use
-d on input line 17.
-(pdftex.def)             Requested size: 273.00278pt x 174.22772pt.
-
-<./04-figuras/anfisedit/rna_anfis_train_result_altitude.png, id=843, 436.63126p
-t x 207.77625pt>
-File: ./04-figuras/anfisedit/rna_anfis_train_result_altitude.png Graphic file (
-type png)
-
-<use ./04-figuras/anfisedit/rna_anfis_train_result_altitude.png>
-Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_train_result_altitude
-.png used on input line 28.
-(pdftex.def)             Requested size: 273.00278pt x 129.91055pt.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-22}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.6.23}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.30 \end{figure}
-                  <./04-figuras/anfisedit/anfisedit_screen.png> <./04-figuras/a
-nfisedit/rna_anfis_altitude_gray.png>]
-<./04-figuras/anfisedit/rna_anfis_atitude_gray.png, id=853, 417.81094pt x 263.4
-8438pt>
-File: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png Graphic file (type png)
-
- <use ./04-figuras/anfisedit/rna_anfis_atitude_gray.png>
-Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png used
- on input line 39.
-(pdftex.def)             Requested size: 273.00278pt x 172.17545pt.
-
-<./04-figuras/anfisedit/rna_anfis_train_result_atitude.png, id=854, 438.63875pt
- x 208.78pt>
-File: ./04-figuras/anfisedit/rna_anfis_train_result_atitude.png Graphic file (t
-ype png)
- <use ./04-figuras/anfisedit/rna_anfis_train_result_atitude.png>
-Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_train_result_atitude.
-png used on input line 46.
-(pdftex.def)             Requested size: 273.00278pt x 129.9424pt.
-
-<./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_altitude.
-png, id=857, 421.575pt x 316.18124pt>
-File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_alti
-tude.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_altit
-ude.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/9-refinando-grids/edita
-dos/grid_anfis_altitude.png used on input line 56.
-(pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
-24}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.6.25}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 \end{figure}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{figure.6.26}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.58 \end{figure}
-                  <./04-figuras/anfisedit/rna_anfis_train_result_altitude.png> 
-<./04-figuras/anfisedit/rna_anfis_atitude_gray.png> <./04-figuras/anfisedit/rna
-_anfis_train_result_atitude.png>]
-<./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atitude.p
-ng, id=864, 421.575pt x 316.18124pt>
-File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atit
-ude.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atitu
-de.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/9-refinando-grids/edita
-dos/grid_anfis_atitude.png used on input line 63.
-(pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
-) [40pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.27}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.26 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.28}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.26 
-      <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_alt
-itude.png> <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfi
-s_atitude.png>]
-<./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_ruido.
-png, id=872, 465.99094pt x 315.42844pt>
-File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_r
-uido.png Graphic file (type png)
-
-<use ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_ru
-ido.png>
-Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/dia
-grama_sistema_com_ruido.png used on input line 34.
-(pdftex.def)             Requested size: 364.00139pt x 246.39897pt.
-) [41pdfTeX warning (ext4): destination with the same identifier (name{figure.6
-.29}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.109 ...{./02-elementos-textuais/desenvolvimento}
-                                                             % Metodologia <./0
-4-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_ruido.png>
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `./02-elementos-textuais/resultados.aux'.
 
- (./02-elementos-textuais/resultados.tex
+
+(./02-elementos-textuais/resultados.tex
 (./02-elementos-textuais/resultados-2kg.tex
-<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg, id=880, 562
-.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg, id=33, 562.
+1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg Graphic
  file (type jpg)
 
@@ -2140,7 +1357,7 @@ dot_2kg.jpg used on input line 7.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jpg, id=
-881, 562.1pt x 421.575pt>
+34, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jpg
  Graphic file (type jpg)
 
@@ -2149,8 +1366,8 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_z
 dot_2kg_details.jpg used on input line 15.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
-<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg, id=883, 562.
-1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg, id=36, 562.1
+pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg Graphic 
 file (type jpg)
 
@@ -2158,19 +1375,20 @@ file (type jpg)
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_con
 trol_z.jpg used on input line 24.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
- [42
+ [1
 
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7.30})
- has been already used, duplicate ignored
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.31 
       <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=891, 421.575p
-t x 316.18124pt>
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=51, 421.575pt
+ x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png Graphic file
  (type png)
 
@@ -2179,8 +1397,8 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_4
 0s.png used on input line 37.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=892, 421.
-575pt x 316.18124pt>
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=52, 421.5
+75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png Graphic 
 file (type png)
 
@@ -2188,28 +1406,28 @@ file (type png)
 Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_2
 kg_40s.png used on input line 45.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-31}) has been already used, duplicate ignored
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.50 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.32}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.50 
       <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jp
-g> <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg>] [44pdfTe
-X warning (ext4): destination with the same identifier (name{figure.7.33}) has 
-been already used, duplicate ignored
+g> <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg>] [3pdfTeX
+ warning (ext4): destination with the same identifier (name{figure.1.4}) has be
+en already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.50 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.34}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2217,8 +1435,8 @@ l.50
       <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png (PNG copy)>
  <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png (PNG copy)>]
 
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=905, 421.575p
-t x 316.18124pt>
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=67, 421.575pt
+ x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png Graphic file
  (type png)
 
@@ -2227,8 +1445,8 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_1
 0s.png used on input line 54.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=906, 421.
-575pt x 316.18124pt>
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=68, 421.5
+75pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png Graphic 
 file (type png)
 
@@ -2237,8 +1455,8 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_2
 kg_10s.png used on input line 62.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg, id=909,
- 562.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg, id=71, 
+562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg Gra
 phic file (type jpg)
 
@@ -2247,8 +1465,8 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contol
 ler_phi_2kg.jpg used on input line 71.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 
-<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg, id=91
-0, 562.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg, id=72
+, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg G
 raphic file (type jpg)
 
@@ -2257,17 +1475,17 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contol
 ler_theta_2kg.jpg used on input line 78.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 )
-(./02-elementos-textuais/resultados-5kg.tex [45pdfTeX warning (ext4): destinati
-on with the same identifier (name{figure.7.35}) has been already used, duplicat
-e ignored
+(./02-elementos-textuais/resultados-5kg.tex [4pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.1.6}) has been already used, duplicate 
+ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.4 
      <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png (PNG copy)>]
 
-<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=917, 562
-.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=83, 562.
+1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg Graphic
  file (type jpg)
 
@@ -2277,7 +1495,7 @@ dot_5kg.jpg used on input line 9.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg, id=
-918, 562.1pt x 421.575pt>
+84, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg
  Graphic file (type jpg)
 
@@ -2285,22 +1503,22 @@ File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_z
 dot_5kg_details.jpg used on input line 17.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
-[46pdfTeX warning (ext4): destination with the same identifier (name{figure.7.3
-6}) has been already used, duplicate ignored
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.22 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.37}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.22 
       <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png (PNG co
 py)> <./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg>]
-<./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg, id=924, 562.1
-pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg, id=90, 562.1p
+t x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg Graphic f
 ile (type jpg)
 
@@ -2308,35 +1526,35 @@ ile (type jpg)
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/6-altitude5kg/grap_cont
 rol_z.jpg used on input line 26.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
- [47pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-38}) has been already used, duplicate ignored
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1.9
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.34 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.39}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.34 
       <./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg>
- <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg>] [48pdfTeX
- warning (ext4): destination with the same identifier (name{figure.7.40}) has b
-een already used, duplicate ignored
+ <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg>] [7pdfTeX 
+warning (ext4): destination with the same identifier (name{figure.1.11}) has be
+en already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.36 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.41}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.12}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.36 
       <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jp
 g> <./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=939, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=111, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png Graphic file
  (type png)
@@ -2346,7 +1564,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_4
 0s.png used on input line 41.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=940, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=112, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png Graphic 
 file (type png)
@@ -2356,7 +1574,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_40s.png used on input line 49.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=941, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=113, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png Graphic file
  (type png)
@@ -2366,7 +1584,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_1
 0s.png used on input line 56.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=942, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=114, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png Graphic 
 file (type png)
@@ -2376,7 +1594,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_10s.png used on input line 64.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg, id=945,
+<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg, id=117,
  562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg Gra
 phic file (type jpg)
@@ -2386,8 +1604,8 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contol
 ler_phi_5kg.jpg used on input line 73.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 
-<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg, id=94
-6, 562.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg, id=11
+8, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg G
 raphic file (type jpg)
 
@@ -2398,7 +1616,7 @@ ler_theta_5kg.jpg used on input line 80.
 )
 (./02-elementos-textuais/resultados-2kg_ruidos.tex
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos.jpg
-, id=950, 562.1pt x 421.575pt>
+, id=122, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruido
 s.jpg Graphic file (type jpg)
 
@@ -2409,7 +1627,7 @@ ph_z_zdot_2kg_ruidos.jpg used on input line 8.
 (pdftex.def)             Requested size: 455.0pt x 341.24872pt.
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg, id=
-951, 562.1pt x 421.575pt>
+123, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
  Graphic file (type jpg)
 
@@ -2419,7 +1637,7 @@ ph_sinal_ruidos.jpg used on input line 15.
 (pdftex.def)             Requested size: 318.49861pt x 238.87218pt.
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_ru
-idos.jpg, id=952, 562.1pt x 421.575pt>
+idos.jpg, id=124, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_detai
 ls_ruidos.jpg Graphic file (type jpg)
 
@@ -2428,21 +1646,21 @@ s_ruidos.jpg>
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
 ph_z_zdot_2kg_details_ruidos.jpg used on input line 22.
 (pdftex.def)             Requested size: 455.0pt x 341.24872pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-42}) has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
+3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.27 
       <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png (PNG copy)>
-] [50pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.43}) has been already used, duplicate ignored
+] [9pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+14}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.27 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.7
-.44}) has been already used, duplicate ignored
+     pdfTeX warning (ext4): destination with the same identifier (name{figure.1
+.15}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2451,7 +1669,7 @@ l.27
 py)> <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)>]
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.jpg,
- id=963, 562.1pt x 421.575pt>
+ id=140, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
 .jpg Graphic file (type jpg)
 
@@ -2460,29 +1678,29 @@ jpg>
 Package pdftex.def Info: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/gra
 ph_control_z_ruidos.jpg used on input line 31.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
-) (./02-elementos-textuais/resultados-interpretacao.tex [51pdfTeX warning (ext4
-): destination with the same identifier (name{figure.7.45}) has been already us
+) (./02-elementos-textuais/resultados-interpretacao.tex [10pdfTeX warning (ext4
+): destination with the same identifier (name{figure.1.16}) has been already us
 ed, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
-    pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-46}) has been already used, duplicate ignored
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
      <./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png (PNG cop
 y)> <./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg>]
-[52pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4
-7}) has been already used, duplicate ignored
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
+8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
-    pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-48}) has been already used, duplicate ignored
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -2491,42 +1709,56 @@ l.2
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos.jpg
 >]
 
-LaTeX Warning: Text page 53 contains only floats.
+LaTeX Warning: Text page 12 contains only floats.
 
 
 Overfull \vbox (0.24078pt too high) has occurred while \output is active []
 
 
-[53pdfTeX warning (ext4): destination with the same identifier (name{figure.7.4
-9}) has been already used, duplicate ignored
+[12pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2
+0}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
-    pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
-50}) has been already used, duplicate ignored
+    pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+21}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 
      <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
 > <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_
-ruidos.jpg>])) [54pdfTeX warning (ext4): destination with the same identifier (
-name{figure.7.51}) has been already used, duplicate ignored
+ruidos.jpg>] [13pdfTeX warning (ext4): destination with the same identifier (na
+me{figure.1.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.8 
+     <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
+.jpg>] (./06-quadros/resultados_altitude_2kg.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/it' in size <12> not available
+(Font)              Font shape `T1/ppl/b/it' tried instead on input line 8.
+))) [14pdfTeX warning (ext4): destination with the same identifier (name{quadro
+.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.110 ...clude{./02-elementos-textuais/resultados}
-                                                              % Resultados <./0
-4-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.jpg>]
-[55]
+                                                              % Resultados]
 \openout2 = `./02-elementos-textuais/conclusao.aux'.
 
- (./02-elementos-textuais/conclusao.tex [56
+
+(./02-elementos-textuais/conclusao.tex [15
 
 
 
-]) [57]
+]
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
+)) [16]
 \openout2 = `./03-elementos-pos-textuais/referencias.aux'.
 
 
@@ -2536,20 +1768,28 @@ l.110 ...clude{./02-elementos-textuais/resultados}
 
 
 bibitemlist
-[58
+
+LaTeX Warning: Empty `thebibliography' environment on input line 8.
+
+)) [17
 
 
 
-] [59])) [60]
+]
 \openout2 = `./03-elementos-pos-textuais/apendices.aux'.
 
- (./03-elementos-pos-textuais/apendices.tex [61
+ (./03-elementos-pos-textuais/apendices.tex [18
 
 
 
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-altitude.tex
+Package microtype Info: Loading generic settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
 )
@@ -2562,88 +1802,51 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `pcr' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) [62
+) [19
 
 ]
 (./03-elementos-pos-textuais/apendices-train-anfis-atitude.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2008/03/30 v1.1d Input encoding file
-))) [63
+))) [20
 
 ] (./main.ind)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
-\tf@loq=\write7
-\openout7 = `main.loq'.
-
-\tf@toc=\write8
-\openout8 = `main.toc'.
+\tf@toc=\write6
+\openout6 = `main.toc'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
-(./main.aux (./01-elementos-pre-textuais/capa.aux)
-(./01-elementos-pre-textuais/folha-rosto.aux)
-(./01-elementos-pre-textuais/folha-aprovacao-nova.aux)
-(./01-elementos-pre-textuais/dedicatoria.aux)
-(./01-elementos-pre-textuais/agradecimentos.aux)
-(./01-elementos-pre-textuais/epigrafe.aux)
-(./01-elementos-pre-textuais/resumo-pt.aux)
-(./01-elementos-pre-textuais/resumo-en.aux)
-(./01-elementos-pre-textuais/lista-figuras.aux)
-(./01-elementos-pre-textuais/lista-quadros.aux)
-(./01-elementos-pre-textuais/lista-siglas.aux)
-(./01-elementos-pre-textuais/lista-simbolos.aux)
-(./01-elementos-pre-textuais/sumario.aux)
-(./02-elementos-textuais/introducao.aux)
-(./02-elementos-textuais/fund-teorica.aux)
-(./02-elementos-textuais/sistemas-nao-lineares.aux)
-(./02-elementos-textuais/trab-relacionados.aux)
-(./02-elementos-textuais/metodologia_revisto.aux)
-(./02-elementos-textuais/desenvolvimento.aux)
+(./main.aux (./01-elementos-pre-textuais/sumario.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
 ) (./03-elementos-pos-textuais/referencias.aux)
 (./03-elementos-pos-textuais/apendices.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `main.brf' has not changed.
-(rerunfilecheck)             Checksum: C39DC94F3DF076F9DC02646B1BA5F2B0;4071.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 19281 strings out of 493304
- 297891 string characters out of 6139871
- 575657 words of memory out of 5000000
- 21520 multiletter control sequences out of 15000+600000
- 62353 words of font info for 292 fonts, out of 8000000 for 9000
+ 18156 strings out of 493304
+ 267511 string characters out of 6139871
+ 523296 words of memory out of 5000000
+ 20936 multiletter control sequences out of 15000+600000
+ 41678 words of font info for 203 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,16n,42p,1665b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,42p,1456b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palati
-no/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.p
-fb>
-Output written on main.pdf (80 pages, 1748998 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pal
+atino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplbi8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on main.pdf (21 pages, 662836 bytes).
 PDF statistics:
- 1417 PDF objects out of 1440 (max. 8388607)
- 1235 compressed objects within 13 object streams
- 329 named destinations out of 1000 (max. 500000)
- 46725 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 290 compressed objects within 3 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 25783 words of extra memory for PDF output out of 29859 (max. 10000000)
 
