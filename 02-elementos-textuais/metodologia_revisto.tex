@@ -3,9 +3,7 @@
 
 Todo o trabalho foi desenvolvido em ambiente simulado, utilizando o \textit{software} Matlab\textsuperscript{\textregistered}. Primeiramente, foram representados no Simulink\textsuperscript{\textregistered} dois sistemas de quadricóptero seguindo a modelagem proposta por \citeonline{Balas2007}: ambos submetidos a uma gravidade $g = 9,8$ m/s\textsuperscript{2} e com comprimento de cada haste $l = 0,5$ m. Os dois sistemas diferem entretanto na massa do quadricóptero modelado em cada caso: $m = 2,3$ kg e $m = 5$ kg.
 
-O sistema com massa $m = 2,3$ kg foi então utilizado para mostrar o desacoplamento das entradas e a instabilidade do sistema. Para tanto, o modelo foi submetido sinais em pulso em cada uma de suas entradas.
-
-Então, a partir da resposta do sistema ao pulso em cada uma de suas entradas, foram modelados dois controladores \textit{fuzzy} para estabilizar a atitude e altitude do quadricóptero. Para tanto, foi utilizada a ferramenta \textit{Fuzzy Logic Toolbox} do Matlab\textsuperscript{\textregistered}.
+O sistema com massa $m = 2,3$ kg foi então utilizado para mostrar o desacoplamento das entradas e a instabilidade do sistema. Para tanto, o modelo foi submetido a sinais em pulso em cada uma de suas entradas. Então, a partir da resposta do sistema a essas entradas, foram modelados dois controladores \textit{fuzzy} para estabilizar a atitude e altitude do quadricóptero. Para tanto, foi utilizada a ferramenta \textit{Fuzzy Logic Toolbox} do Matlab\textsuperscript{\textregistered}.
 
 A partir dos controladores \textit{fuzzy} desenvolvidos e utilizando a ferramenta \textit{Neuro-Fuzzy Designer} também do Matlab\textsuperscript{\textregistered} foram modelados dois controladores neuro-\textit{fuzzy} para controlar a atitude e altitude do \textit{drone}.
 
