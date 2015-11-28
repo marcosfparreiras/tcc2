@@ -10,9 +10,9 @@
 \contentsline {section}{\numberline {3.1}An\IeC {\'a}lise Consolidada dos Resultados}{24}{section.3.1}
 \contentsline {chapter}{\chapternumberline {4}Conclus\IeC {\~a}o}{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Trabalhos futuros}{27}{section.4.1}
-\contentsline {chapter}{Refer\^encias}{28}{section*.3}
+\contentsline {chapter}{Refer\^encias}{28}{section*.5}
 \vspace {\cftbeforepartskip }
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
-\contentsline {part}{Ap\^endices}{29}{section*.4}
+\contentsline {part}{Ap\^endices}{29}{section*.6}
 \contentsline {appendix}{\chapternumberline {A}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Altitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{30}{appendix.A}
 \contentsline {appendix}{\chapternumberline {B}C\IeC {\'o}digo para Cria\IeC {\c c}\IeC {\~a}o de Modelo Neuro-Fuzzy para Atitude e Defini\IeC {\c c}\IeC {\~a}o de Dados para Treinamento}{31}{appendix.B}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 17:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.27)  28 NOV 2015 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1210,7 +1210,9 @@ Package hyperref Info: Option `breaklinks' set `true' on input line 69.
 
 
 Writing index file main.idx 
-(./main.aux (./01-elementos-pre-textuais/sumario.aux)
+(./main.aux (./01-elementos-pre-textuais/resumo-pt.aux)
+(./01-elementos-pre-textuais/resumo-en.aux)
+(./01-elementos-pre-textuais/sumario.aux)
 (./02-elementos-textuais/metodologia_revisto.aux)
 (./02-elementos-textuais/desenvolvimento.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
@@ -1306,15 +1308,31 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 \c@lstlisting=\count203
+\openout2 = `./01-elementos-pre-textuais/resumo-pt.aux'.
+
+
+(./01-elementos-pre-textuais/resumo-pt.tex
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 5.
+ [1
+
+
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\openout2 = `./01-elementos-pre-textuais/resumo-en.aux'.
+
+ (./01-elementos-pre-textuais/resumo-en.tex [2
+
+
+
+])
 \openout2 = `./01-elementos-pre-textuais/sumario.aux'.
 
 
-(./01-elementos-pre-textuais/sumario.tex
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
- (./main.toc
+(./01-elementos-pre-textuais/sumario.tex (./main.toc
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -1337,12 +1355,11 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 16.
-) [1
+) [3
 
 
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+])
 \openout2 = `./02-elementos-textuais/metodologia_revisto.aux'.
 
 
@@ -1363,7 +1380,7 @@ File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 (./02-elementos-textuais/desenvolvimento.tex
 (./02-elementos-textuais/desenvolvimento-desacoplamento.tex
 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_block.
-png, id=59, 147.55125pt x 229.60782pt>
+png, id=71, 147.55125pt x 229.60782pt>
 File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_b
 lock.png Graphic file (type png)
 
@@ -1374,7 +1391,7 @@ nto/diagram_drone_block.png used on input line 6.
 (pdftex.def)             Requested size: 136.50139pt x 212.41544pt.
 
 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u1.jpg, 
-id=64, 562.1pt x 421.575pt>
+id=76, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u1.
 jpg Graphic file (type jpg)
 
@@ -1385,7 +1402,7 @@ nto/graphs_step_u1.jpg used on input line 16.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u2.jpg, 
-id=65, 562.1pt x 421.575pt>
+id=77, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u2.
 jpg Graphic file (type jpg)
 
@@ -1396,7 +1413,7 @@ nto/graphs_step_u2.jpg used on input line 23.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3.jpg, 
-id=66, 562.1pt x 421.575pt>
+id=78, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u3.
 jpg Graphic file (type jpg)
 
@@ -1407,7 +1424,7 @@ nto/graphs_step_u3.jpg used on input line 30.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4.jpg, 
-id=67, 562.1pt x 421.575pt>
+id=79, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4.
 jpg Graphic file (type jpg)
 
@@ -1429,7 +1446,7 @@ l.10
       <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/diagram_drone_
 block.png>] (./02-elementos-textuais/desenvolvimento-controlador-fuzzy.tex
 <./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_sistema_
-controlado.png, id=78, 530.73282pt x 313.9228pt>
+controlado.png, id=90, 530.73282pt x 313.9228pt>
 File: ./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_sis
 tema_controlado.png Graphic file (type png)
 
@@ -1473,7 +1490,7 @@ l.11
 .jpg> <./04-figuras/figuras_pos_banca/1-mostrando_desacoplamento/graphs_step_u4
 .jpg>] (./06-quadros/regras_fuzzy_u1_mamdani.tex)
 <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitude.pn
-g, id=94, 421.575pt x 316.18124pt>
+g, id=107, 421.575pt x 316.18124pt>
 File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_altitu
 de.png Graphic file (type png)
 
@@ -1497,7 +1514,7 @@ l.27
       <./04-figuras/figuras_pos_banca/2-sistema_completo_controlado/diagrama_si
 stema_controlado.png>] (./06-quadros/regras_fuzzy_u2_u3_mamdani.tex)
 <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitude.png
-, id=108, 417.05812pt x 311.66437pt>
+, id=121, 417.05812pt x 311.66437pt>
 File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitud
 e.png Graphic file (type png)
 
@@ -1528,14 +1545,14 @@ gure.2.8}) has been already used, duplicate ignored
 l.6 
      <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_fis_atitud
 e.png>]
-<./04-figuras/anfisedit/anfisedit_screen.png, id=131, 420.06938pt x 313.9228pt>
+<./04-figuras/anfisedit/anfisedit_screen.png, id=143, 420.06938pt x 313.9228pt>
 File: ./04-figuras/anfisedit/anfisedit_screen.png Graphic file (type png)
 <use ./04-figuras/anfisedit/anfisedit_screen.png>
 Package pdftex.def Info: ./04-figuras/anfisedit/anfisedit_screen.png used on in
 put line 10.
 (pdftex.def)             Requested size: 364.00139pt x 272.02328pt.
 
-<./04-figuras/anfisedit/rna_anfis_altitude_gray.png, id=132, 414.04688pt x 264.
+<./04-figuras/anfisedit/rna_anfis_altitude_gray.png, id=144, 414.04688pt x 264.
 23718pt>
 File: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png Graphic file (type png
 )
@@ -1544,7 +1561,7 @@ Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_altitude_gray.png use
 d on input line 17.
 (pdftex.def)             Requested size: 273.00278pt x 174.22772pt.
 
-<./04-figuras/anfisedit/rna_anfis_train_result_altitude.png, id=134, 436.63126p
+<./04-figuras/anfisedit/rna_anfis_train_result_altitude.png, id=146, 436.63126p
 t x 207.77625pt>
 File: ./04-figuras/anfisedit/rna_anfis_train_result_altitude.png Graphic file (
 type png)
@@ -1567,7 +1584,7 @@ ame{figure.2.10}) has been already used, duplicate ignored
 l.30 \end{figure}
                   <./04-figuras/anfisedit/anfisedit_screen.png> <./04-figuras/a
 nfisedit/rna_anfis_altitude_gray.png>]
-<./04-figuras/anfisedit/rna_anfis_atitude_gray.png, id=143, 417.81094pt x 263.4
+<./04-figuras/anfisedit/rna_anfis_atitude_gray.png, id=156, 417.81094pt x 263.4
 8438pt>
 File: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png Graphic file (type png)
 
@@ -1576,7 +1593,7 @@ Package pdftex.def Info: ./04-figuras/anfisedit/rna_anfis_atitude_gray.png used
  on input line 39.
 (pdftex.def)             Requested size: 273.00278pt x 172.17545pt.
 
-<./04-figuras/anfisedit/rna_anfis_train_result_atitude.png, id=144, 438.63875pt
+<./04-figuras/anfisedit/rna_anfis_train_result_atitude.png, id=157, 438.63875pt
  x 208.78pt>
 File: ./04-figuras/anfisedit/rna_anfis_train_result_atitude.png Graphic file (t
 ype png)
@@ -1586,7 +1603,7 @@ png used on input line 46.
 (pdftex.def)             Requested size: 273.00278pt x 129.9424pt.
 
 <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_altitude.
-png, id=147, 421.575pt x 316.18124pt>
+png, id=160, 421.575pt x 316.18124pt>
 File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_alti
 tude.png Graphic file (type png)
 
@@ -1617,7 +1634,7 @@ l.58 \end{figure}
 <./04-figuras/anfisedit/rna_anfis_atitude_gray.png> <./04-figuras/anfisedit/rna
 _anfis_train_result_atitude.png>]
 <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atitude.p
-ng, id=158, 421.575pt x 316.18124pt>
+ng, id=170, 421.575pt x 316.18124pt>
 File: ./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfis_atit
 ude.png Graphic file (type png)
 
@@ -1642,7 +1659,7 @@ l.26
 itude.png> <./04-figuras/figuras_pos_banca/9-refinando-grids/editados/grid_anfi
 s_atitude.png>]
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_ruido.
-png, id=168, 465.99094pt x 315.42844pt>
+png, id=181, 465.99094pt x 315.42844pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_r
 uido.png Graphic file (type png)
 
@@ -1664,7 +1681,7 @@ l.109 ...{./02-elementos-textuais/desenvolvimento}
 
  (./02-elementos-textuais/resultados.tex
 (./02-elementos-textuais/resultados-2kg.tex
-<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg, id=177, 562
+<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg, id=190, 562
 .1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg Graphic
  file (type jpg)
@@ -1675,7 +1692,7 @@ dot_2kg.jpg used on input line 7.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jpg, id=
-178, 562.1pt x 421.575pt>
+191, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg_details.jpg
  Graphic file (type jpg)
 
@@ -1684,7 +1701,7 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_z
 dot_2kg_details.jpg used on input line 15.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
-<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg, id=180, 562.
+<./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg, id=193, 562.
 1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/5-altitude2kg/graph_control_z.jpg Graphic 
 file (type jpg)
@@ -1704,7 +1721,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.17})
                                                   \fi \fi 
 l.31 
       <./04-figuras/figuras_pos_banca/5-altitude2kg/graph_z_zdot_2kg.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=193, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png, id=205, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png Graphic file
  (type png)
@@ -1714,7 +1731,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_4
 0s.png used on input line 37.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=194, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png, id=206, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png Graphic 
 file (type png)
@@ -1752,7 +1769,7 @@ l.50
       <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_40s.png (PNG copy)>
  <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_40s.png (PNG copy)>]
 
-<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=209, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png, id=221, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png Graphic file
  (type png)
@@ -1762,7 +1779,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_2kg_1
 0s.png used on input line 54.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=210, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png, id=222, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png Graphic 
 file (type png)
@@ -1772,7 +1789,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_2
 kg_10s.png used on input line 62.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg, id=213,
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg, id=225,
  562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg Gra
 phic file (type jpg)
@@ -1782,8 +1799,8 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contol
 ler_phi_2kg.jpg used on input line 71.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 
-<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg, id=21
-4, 562.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg, id=22
+6, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_theta_2kg.jpg G
 raphic file (type jpg)
 
@@ -1801,7 +1818,7 @@ e ignored
 l.4 
      <./04-figuras/resultados/novos/atitude_phi_phidot_2kg_10s.png (PNG copy)>]
 
-<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=225, 562
+<./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg, id=237, 562
 .1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg.jpg Graphic
  file (type jpg)
@@ -1812,7 +1829,7 @@ dot_5kg.jpg used on input line 9.
 (pdftex.def)             Requested size: 364.00139pt x 272.9977pt.
 
 <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg, id=
-226, 562.1pt x 421.575pt>
+238, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jpg
  Graphic file (type jpg)
 
@@ -1834,7 +1851,7 @@ l.22
 l.22 
       <./04-figuras/resultados/novos/atitude_theta_thetadot_2kg_10s.png (PNG co
 py)> <./04-figuras/figuras_pos_banca/3-atitude2kg/fig_contoller_phi_2kg.jpg>]
-<./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg, id=232, 562.1
+<./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg, id=245, 562.1
 pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg Graphic f
 ile (type jpg)
@@ -1871,7 +1888,7 @@ l.36
 l.36 
       <./04-figuras/figuras_pos_banca/6-altitude5kg/graph_z_zdot_5kg_details.jp
 g> <./04-figuras/figuras_pos_banca/6-altitude5kg/grap_control_z.jpg>]
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=253, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png, id=265, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_40s.png Graphic file
  (type png)
@@ -1881,7 +1898,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_4
 0s.png used on input line 41.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=254, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png, id=266, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_40s.png Graphic 
 file (type png)
@@ -1891,7 +1908,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_40s.png used on input line 49.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=255, 421.575p
+<./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png, id=267, 421.575p
 t x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png Graphic file
  (type png)
@@ -1901,7 +1918,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_phi_phidot_5kg_1
 0s.png used on input line 56.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=256, 421.
+<./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png, id=268, 421.
 575pt x 316.18124pt>
 File: ./04-figuras/resultados/novos/atitude_theta_thetadot_5kg_10s.png Graphic 
 file (type png)
@@ -1911,7 +1928,7 @@ Package pdftex.def Info: ./04-figuras/resultados/novos/atitude_theta_thetadot_5
 kg_10s.png used on input line 64.
 (pdftex.def)             Requested size: 364.00139pt x 273.00574pt.
 
-<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg, id=259,
+<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg, id=271,
  562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_phi_5kg.jpg Gra
 phic file (type jpg)
@@ -1921,8 +1938,8 @@ Package pdftex.def Info: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contol
 ler_phi_5kg.jpg used on input line 73.
 (pdftex.def)             Requested size: 273.00278pt x 204.7531pt.
 
-<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg, id=26
-0, 562.1pt x 421.575pt>
+<./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg, id=27
+2, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/4-atitude5kg/fig_contoller_theta_5kg.jpg G
 raphic file (type jpg)
 
@@ -1933,7 +1950,7 @@ ler_theta_5kg.jpg used on input line 80.
 )
 (./02-elementos-textuais/resultados-2kg_ruidos.tex
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruidos.jpg
-, id=264, 562.1pt x 421.575pt>
+, id=276, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_ruido
 s.jpg Graphic file (type jpg)
 
@@ -1944,7 +1961,7 @@ ph_z_zdot_2kg_ruidos.jpg used on input line 8.
 (pdftex.def)             Requested size: 455.0pt x 341.24872pt.
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg, id=
-265, 562.1pt x 421.575pt>
+277, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_sinal_ruidos.jpg
  Graphic file (type jpg)
 
@@ -1954,7 +1971,7 @@ ph_sinal_ruidos.jpg used on input line 15.
 (pdftex.def)             Requested size: 318.49861pt x 238.87218pt.
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_details_ru
-idos.jpg, id=266, 562.1pt x 421.575pt>
+idos.jpg, id=278, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_z_zdot_2kg_detai
 ls_ruidos.jpg Graphic file (type jpg)
 
@@ -1986,7 +2003,7 @@ l.27
 py)> <./04-figuras/resultados/novos/atitude_phi_phidot_5kg_10s.png (PNG copy)>]
 
 <./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos.jpg,
- id=282, 562.1pt x 421.575pt>
+ id=294, 562.1pt x 421.575pt>
 File: ./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/graph_control_z_ruidos
 .jpg Graphic file (type jpg)
 
@@ -2112,7 +2129,9 @@ File: latin1.def 2008/03/30 v1.1d Input encoding file
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 
-(./main.aux (./01-elementos-pre-textuais/sumario.aux)
+(./main.aux (./01-elementos-pre-textuais/resumo-pt.aux)
+(./01-elementos-pre-textuais/resumo-en.aux)
+(./01-elementos-pre-textuais/sumario.aux)
 (./02-elementos-textuais/metodologia_revisto.aux)
 (./02-elementos-textuais/desenvolvimento.aux)
 (./02-elementos-textuais/resultados.aux) (./02-elementos-textuais/conclusao.aux
@@ -2129,13 +2148,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 18409 strings out of 493304
- 276664 string characters out of 6139871
- 531130 words of memory out of 5000000
- 21075 multiletter control sequences out of 15000+600000
- 43440 words of font info for 225 fonts, out of 8000000 for 9000
+ 18442 strings out of 493304
+ 277560 string characters out of 6139871
+ 533634 words of memory out of 5000000
+ 21085 multiletter control sequences out of 15000+600000
+ 43595 words of font info for 227 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 45i,12n,42p,1469b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,42p,1665b,1897s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/
@@ -2144,10 +2163,10 @@ pe1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/up
 lb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (32 pages, 1235345 bytes).
+Output written on main.pdf (34 pages, 1238765 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 423 compressed objects within 5 object streams
- 164 named destinations out of 1000 (max. 500000)
- 26423 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 534 PDF objects out of 1000 (max. 8388607)
+ 440 compressed objects within 5 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 26439 words of extra memory for PDF output out of 29859 (max. 10000000)
 
