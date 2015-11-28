@@ -26,4 +26,13 @@ Uma vez projetados os controladores \textit{fuzzy} e neuro-\textit{fuzzy}, o sis
 
 Em seguida, para testar a robustez de cada controlador, foi feita uma simulação em que eles atuam sobre um sistema cuja massa do quadricóptero é $m=5$ kg, valor este que foi escolhido por variar o parâmetro massa em mais de 100 \%.
 
-Por fim, foi testado o funcionamento do sistema quando um ruído de medição passa a fazer parte dele. Os resultados obtidos são mostrados no capítulo seguinte.
+Por fim, foi testado o funcionamento do sistema quando um ruído de medição passa a fazer parte dele. Para tanto, um sinal aleatório de ruído foi somado ao valor real obtido de $z$, como mostrado na Figura \ref{fig:diagrama_sistema_com_ruido}.
+
+\begin{figure}[!htb]
+    \centering
+    \caption{Representação do quadricóptero no \textit{Simulink} na simulação envolvendo ruído de medição de $z$}
+    \includegraphics[width=1\textwidth]{./04-figuras/figuras_pos_banca/7-altitude2kg_ruido/diagrama_sistema_com_ruido}
+    \label{fig:diagrama_sistema_com_ruido}
+\end{figure}
+
+Os resultados obtidos são mostrados no capítulo seguinte.
